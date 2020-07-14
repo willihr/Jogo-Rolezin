@@ -12,7 +12,9 @@
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -49,6 +51,11 @@
         </object-type>
         <object-type name="figurinhaLucaoSeloSatisfação" sid="108433150788806">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="580286422774592">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391929840727816" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\figurinhaLucaoSeloSatisfação.png">
@@ -72,7 +79,7 @@
         <layout>Intro.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Intro.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />

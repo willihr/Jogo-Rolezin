@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Intro</name>
+    <events>
+        <event-block sid="387793940633507">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="393425278835157" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="238033167892400" type="figurinhaLucaoSeloSatisfação">
+                    <param id="0" name="X">Self.X</param>
+                    <param id="1" name="Y">Self.Y-1000</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="723772422058432" type="figurinhaLucaoSeloSatisfação">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.X</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="940766875815288" type="figurinhaLucaoSeloSatisfação">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.Y+1000</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="634431450796156" type="figurinhaLucaoSeloSatisfação">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
