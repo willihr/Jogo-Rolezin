@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Intro</name>
-    <sid>8873350371196689</sid>
-    <event-sheet>Intro</event-sheet>
+    <name>Intro2</name>
+    <sid>837979359404026</sid>
+    <event-sheet>Intro2</event-sheet>
     <size>
         <width>1440</width>
         <height>2560</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Fundo" sid="8722530541249526">
+        <layer name="Fundo" sid="801728643374306">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -28,33 +28,10 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Sprite" uid="0">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>366</x>
-                        <y>647.5</y>
-                        <z>0</z>
-                        <width>792</width>
-                        <height>1355</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
-        <layer name="Logo" sid="849976801228015">
+        <layer name="Logo" sid="953704980871899">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -70,7 +47,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="figurinhaLucaoSeloSatisfação" uid="1">
+                <instance type="figurinhaLucaoSeloSatisfação" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -82,10 +59,10 @@
                             <properties>
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
-                                <function>EaseOutBack</function>
+                                <function>EaseOutBounce</function>
                                 <target>0,0</target>
                                 <target-mode>Absolute</target-mode>
-                                <duration>3</duration>
+                                <duration>1</duration>
                                 <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>

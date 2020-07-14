@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Jogo Rolezin</name>
-    <description></description>
+    <description>Jogo do Rolezin feito pelo Rolezin</description>
     <version>1.0.0.0</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>com.rolezin.jogo</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
@@ -25,7 +26,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Intro</first-layout>
+    <first-layout>Intro1</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -41,14 +42,6 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Sprite" sid="565900019235475">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="768410755767917" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="figurinhaLucaoSeloSatisfação" sid="108433150788806">
             <plugin id="Sprite" />
             <behaviors>
@@ -73,16 +66,67 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Bg" sid="543762972737231">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236589627965174" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logoPubgRolezin" sid="925454076733395">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609756773394557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\logoPubgRolezin2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="358451976089856">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="773081364518367">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843514548056718" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="957359193976661">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Intro.xml</layout>
+        <layout>Intro1.xml</layout>
+        <layout>Intro2.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Intro.xml</event-sheet>
+        <event-sheet>Intro2.xml</event-sheet>
+        <event-sheet>Intro1.xml</event-sheet>
     </event-folder>
-    <global-instances />
-    <sounds-folder />
+    <global-instances>
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="basketball-bounce_fkVYKj4u_NWM.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
