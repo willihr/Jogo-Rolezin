@@ -21516,5 +21516,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.lunarray_LiteTween.prototype.acts.Start,
 	cr.system_object.prototype.acts.Wait,
 	cr.behaviors.lunarray_LiteTween.prototype.acts.SetEasing,
-	cr.system_object.prototype.acts.GoToLayout
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Audio.prototype.acts.Play
 ];};
