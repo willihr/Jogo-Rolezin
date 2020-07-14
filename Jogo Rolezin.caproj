@@ -12,6 +12,8 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
@@ -98,15 +100,23 @@
         <object-type name="Audio" sid="957359193976661">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="TextBox" sid="766210116460919">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text" sid="794883441810032">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Intro1.xml</layout>
         <layout>Intro2.xml</layout>
+        <layout>TelaPlay.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
