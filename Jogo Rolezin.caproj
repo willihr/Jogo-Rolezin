@@ -11,6 +11,7 @@
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
@@ -44,7 +45,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="figurinhaLucaoSeloSatisfação" sid="108433150788806">
+        <object-type name="FigurinhaLucaoSeloSatisfação" sid="108433150788806">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="LiteTween" sid="580286422774592">
@@ -68,7 +69,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Bg" sid="543762972737231">
+        <object-type name="BlackBackground" sid="543762972737231">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236589627965174" speed="5">
@@ -76,7 +77,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="logoPubgRolezin" sid="925454076733395">
+        <object-type name="LogoPubgRolezin" sid="925454076733395">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609756773394557" speed="5">
@@ -84,7 +85,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="358451976089856">
+        <object-type name="WhiteFade" sid="358451976089856">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="LiteTween" sid="773081364518367">
@@ -106,6 +107,28 @@
         <object-type name="Text" sid="794883441810032">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Button" sid="431866999600672">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="BotãoStart" sid="670561243107232">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="225215026749436" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\botãoStart.png">
+                        <collision-poly>
+                            <point x="0.103093" y="0.27027" />
+                            <point x="0.5" y="0.243243" />
+                            <point x="0.865979" y="0.351351" />
+                            <point x="0.876289" y="0.5" />
+                            <point x="0.876289" y="0.675676" />
+                            <point x="0.5" y="0.837838" />
+                            <point x="0.0824742" y="0.783784" />
+                            <point x="0.0824742" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -116,7 +139,7 @@
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>TelaPlay.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
@@ -135,9 +158,11 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
-        <file name="basketball-bounce_fkVYKj4u_NWM.ogg" />
+        <file name="BallBounce.ogg" />
     </sounds-folder>
-    <music-folder />
+    <music-folder>
+        <file name="PubgRemix.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

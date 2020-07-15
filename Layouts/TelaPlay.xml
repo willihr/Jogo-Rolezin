@@ -2,7 +2,7 @@
 <c2layout>
     <name>TelaPlay</name>
     <sid>206890035680227</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>TelaPlay</event-sheet>
     <size>
         <width>720</width>
         <height>1280</height>
@@ -31,7 +31,7 @@
             <instances>
                 <instance type="Text" uid="5">
                     <properties>
-                        <text>Tela de PLAY</text>
+                        <text>Tela de PLAY Clique na tela para permitir musica</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-96,400,0</font>
                         <color>0,0,0</color>
@@ -44,14 +44,36 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>56</x>
-                        <y>540</y>
+                        <x>40</x>
+                        <y>280</y>
                         <z>0</z>
                         <width>676</width>
-                        <height>186</height>
+                        <height>529</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BotãoStart" uid="7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>1040</y>
+                        <z>0</z>
+                        <width>536.578979492</width>
+                        <height>204.674453735</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

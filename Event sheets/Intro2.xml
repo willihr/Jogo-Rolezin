@@ -9,54 +9,57 @@
             </conditions>
             <actions>
                 <action id="4" name="Preload" sid="839598306475779" type="Audio">
-                    <param id="0" name="Audio file">basketball-bounce_fkVYKj4u_NWM</param>
+                    <param id="0" name="Audio file">BallBounce</param>
                 </action>
-                <action id="-3" name="Set position" sid="238033167892400" type="figurinhaLucaoSeloSatisfação">
+                <action id="-3" name="Set position" sid="238033167892400" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="X">Self.X</param>
                     <param id="1" name="Y">Self.Y-1000</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="723772422058432" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="3" name="Set target" sid="723772422058432" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Target is">0</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">Self.X</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="940766875815288" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="3" name="Set target" sid="940766875815288" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Target is">1</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">Self.Y+1000</param>
                 </action>
-                <action behavior="LiteTween" id="1" name="Set duration" sid="883044744170748" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="1" name="Set duration" sid="883044744170748" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Duration">2</param>
                 </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="634431450796156" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="10" name="Start" sid="634431450796156" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="343798724702459" type="System">
                     <param id="0" name="Seconds">4</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="472680145753250" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="3" name="Set target" sid="472680145753250" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Target is">0</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">Self.X</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="554386396114886" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="3" name="Set target" sid="554386396114886" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Target is">1</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">Self.Y-1000</param>
                 </action>
-                <action behavior="LiteTween" id="1" name="Set duration" sid="250729211816259" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="1" name="Set duration" sid="250729211816259" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Duration">1</param>
                 </action>
-                <action behavior="LiteTween" id="5" name="Set easing" sid="832791852520627" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="5" name="Set easing" sid="832791852520627" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Function">9</param>
                 </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="641951321661753" type="figurinhaLucaoSeloSatisfação">
+                <action behavior="LiteTween" id="10" name="Start" sid="641951321661753" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="670871590776704" type="System">
                     <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="251920364980196" type="System">
+                    <param id="0" name="Layout">TelaPlay</param>
                 </action>
             </actions>
         </event-block>

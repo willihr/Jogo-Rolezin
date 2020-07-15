@@ -15,6 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout active="1" order="5">TelaPlay</layout>
         <event-sheet order="2">Intro1</event-sheet>
         <event-sheet order="4">Intro2</event-sheet>
+        <event-sheet order="6">TelaPlay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,9 +32,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/figurinhaLucaoSeloSatisfação/" />
-        <folder expanded="1" path="animation-folder/Bg/" />
-        <folder expanded="1" path="animation-folder/logoPubgRolezin/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
+        <folder expanded="1" path="animation-folder/BlackBackground/" />
+        <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
+        <folder expanded="1" path="animation-folder/WhiteFade/" />
+        <folder expanded="1" path="animation-folder/BotãoStart/" />
     </folders-expanded>
 </c2uistate>

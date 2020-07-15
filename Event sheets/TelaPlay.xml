@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>TelaPlay</name>
+    <events>
+        <event-block sid="547898131648077">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="602305815390555" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="769323755429203" type="Audio">
+                    <param id="0" name="Audio file">PubgRemix</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
