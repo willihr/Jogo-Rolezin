@@ -8,30 +8,30 @@
                 <condition id="-2" name="On start of layout" sid="293007395405847" type="System" />
             </conditions>
             <actions>
-                <action behavior="LiteTween" id="3" name="Set target" sid="308143973438964" type="WhiteFade">
+                <action behavior="LiteTween" id="3" name="Set target" sid="308143973438964" type="EfeitoFade">
                     <param id="0" name="Target is">3</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">0</param>
                 </action>
-                <action behavior="LiteTween" id="1" name="Set duration" sid="647927857724303" type="WhiteFade">
+                <action behavior="LiteTween" id="1" name="Set duration" sid="647927857724303" type="EfeitoFade">
                     <param id="0" name="Duration">2</param>
                 </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="458818856642892" type="WhiteFade">
+                <action behavior="LiteTween" id="10" name="Start" sid="458818856642892" type="EfeitoFade">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="670968890714462" type="System">
                     <param id="0" name="Seconds">4</param>
                 </action>
-                <action behavior="LiteTween" id="3" name="Set target" sid="672725778181816" type="WhiteFade">
+                <action behavior="LiteTween" id="3" name="Set target" sid="672725778181816" type="EfeitoFade">
                     <param id="0" name="Target is">3</param>
                     <param id="1" name="Relativity">0</param>
                     <param id="2" name="Value">100</param>
                 </action>
-                <action behavior="LiteTween" id="1" name="Set duration" sid="563504143973228" type="WhiteFade">
+                <action behavior="LiteTween" id="1" name="Set duration" sid="563504143973228" type="EfeitoFade">
                     <param id="0" name="Duration">1</param>
                 </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="301172254506299" type="WhiteFade">
+                <action behavior="LiteTween" id="10" name="Start" sid="301172254506299" type="EfeitoFade">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">0</param>
                 </action>

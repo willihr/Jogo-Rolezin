@@ -69,7 +69,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="BlackBackground" sid="543762972737231">
+        <object-type name="FundoPreto" sid="543762972737231">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236589627965174" speed="5">
@@ -85,7 +85,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="WhiteFade" sid="358451976089856">
+        <object-type name="EfeitoFade" sid="358451976089856">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="LiteTween" sid="773081364518367">

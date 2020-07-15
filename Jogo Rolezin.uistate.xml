@@ -10,14 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Intro1</layout>
-        <layout order="2">Intro2</layout>
-        <layout order="4">TelaPlay</layout>
-        <layout order="6">TabuleiroPORRA</layout>
-        <event-sheet order="1">Intro1</event-sheet>
-        <event-sheet order="3">Intro2</event-sheet>
-        <event-sheet order="5">TelaPlay</event-sheet>
-        <event-sheet active="1" order="7">TabuleiroPORRA</event-sheet>
+        <layout order="1">Intro1</layout>
+        <layout order="3">Intro2</layout>
+        <layout order="5">TelaPlay</layout>
+        <layout active="1" order="7">TabuleiroPORRA</layout>
+        <event-sheet order="2">Intro1</event-sheet>
+        <event-sheet order="4">Intro2</event-sheet>
+        <event-sheet order="6">TelaPlay</event-sheet>
+        <event-sheet order="8">TabuleiroPORRA</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -35,9 +35,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
-        <folder expanded="1" path="animation-folder/BlackBackground/" />
+        <folder expanded="1" path="animation-folder/FundoPreto/" />
         <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
-        <folder expanded="1" path="animation-folder/WhiteFade/" />
+        <folder expanded="1" path="animation-folder/EfeitoFade/" />
         <folder expanded="1" path="animation-folder/BotãoStart/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Maycon/" />
