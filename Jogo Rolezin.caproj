@@ -150,6 +150,12 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="botaoStart2" sid="560622934055554">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="REINICIARMAYCON" sid="306235702347294">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -163,6 +169,7 @@
         <event-sheet>Intro1.xml</event-sheet>
         <event-sheet>TelaPlay.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>TabuleiroPORRA.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

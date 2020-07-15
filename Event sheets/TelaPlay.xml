@@ -16,5 +16,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="707943290129731">
+            <conditions>
+                <condition id="0" name="On clicked" sid="252328439042416" type="botaoStart2" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="245183070010758" type="System">
+                    <param id="0" name="Layout">TabuleiroPORRA</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
