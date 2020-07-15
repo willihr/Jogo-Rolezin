@@ -12,12 +12,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="1">Intro1</layout>
         <layout order="3">Intro2</layout>
-        <layout active="1" order="5">TelaPlay</layout>
-        <layout order="7">Tabuleiro</layout>
+        <layout order="5">TelaPlay</layout>
+        <layout active="1" order="7">Tabuleiro</layout>
+        <layout order="9">AnimaçãoDado</layout>
         <event-sheet order="2">Intro1</event-sheet>
         <event-sheet order="4">Intro2</event-sheet>
         <event-sheet order="6">TelaPlay</event-sheet>
         <event-sheet order="8">Tabuleiro</event-sheet>
+        <event-sheet order="10">AnimaçãoDado</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -40,5 +42,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/EfeitoFade/" />
         <folder expanded="1" path="animation-folder/BotãoStart/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/LanceOdado/" />
     </folders-expanded>
 </c2uistate>

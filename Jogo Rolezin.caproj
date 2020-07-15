@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
@@ -140,6 +141,27 @@
         <object-type name="botaoStart2" sid="560622934055554">
             <plugin id="Button" />
         </object-type>
+        <object-type name="LanceOdado" sid="322366858120141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292086402845635" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500688" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\LanceOdado.png">
+                        <collision-poly>
+                            <point x="0.0408497" y="0.0343879" />
+                            <point x="0.955882" y="0.0371389" />
+                            <point x="0.918301" y="0.499312" />
+                            <point x="0.823529" y="0.851444" />
+                            <point x="0.5" y="0.971114" />
+                            <point x="0.178105" y="0.850069" />
+                            <point x="0.0800654" y="0.499312" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="369245816834525">
+            <plugin id="Touch" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -147,13 +169,14 @@
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
         <layout>Tabuleiro.xml</layout>
+        <layout>AnimaçãoDado.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
         <event-sheet>TelaPlay.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Tabuleiro.xml</event-sheet>
+        <event-sheet>AnimaçãoDado.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
@@ -168,6 +191,11 @@
                 <reference-distance>600</reference-distance>
                 <maximum-distance>10000</maximum-distance>
                 <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="8">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
     </global-instances>
