@@ -4,8 +4,8 @@
     <sid>206890035680227</sid>
     <event-sheet>TelaPlay</event-sheet>
     <size>
-        <width>720</width>
-        <height>1280</height>
+        <width>1280</width>
+        <height>720</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -44,11 +44,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>80</x>
-                        <y>400</y>
+                        <x>360</x>
+                        <y>160</y>
                         <z>0</z>
                         <width>676</width>
-                        <height>529</height>
+                        <height>160</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -66,8 +66,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>320</x>
-                        <y>680</y>
+                        <x>640</x>
+                        <y>560</y>
                         <z>0</z>
                         <width>536.578979492</width>
                         <height>204.674453735</height>
@@ -92,11 +92,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>120</x>
-                        <y>960</y>
+                        <x>360</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>536.656311035</width>
-                        <height>178.885437012</height>
+                        <width>537</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

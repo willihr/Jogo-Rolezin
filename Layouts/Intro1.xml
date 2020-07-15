@@ -4,8 +4,8 @@
     <sid>8873350371196689</sid>
     <event-sheet>Intro1</event-sheet>
     <size>
-        <width>720</width>
-        <height>1280</height>
+        <width>1280</width>
+        <height>720</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>355</x>
-                        <y>631</y>
+                        <x>640</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>748</width>
-                        <height>1325</height>
+                        <width>1280</width>
+                        <height>720</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -80,11 +80,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>360</x>
-                        <y>640</y>
+                        <x>640</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>740.536804199</width>
-                        <height>909.151367188</height>
+                        <width>540.305297852</width>
+                        <height>663.328674316</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -134,11 +134,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>365</x>
-                        <y>645</y>
+                        <x>640</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>800</width>
-                        <height>1360</height>
+                        <width>1280</width>
+                        <height>720</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

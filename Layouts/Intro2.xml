@@ -4,8 +4,8 @@
     <sid>837979359404026</sid>
     <event-sheet>Intro2</event-sheet>
     <size>
-        <width>720</width>
-        <height>1280</height>
+        <width>1280</width>
+        <height>720</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -70,11 +70,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>360</x>
-                        <y>640</y>
+                        <x>640</x>
+                        <y>360</y>
                         <z>0</z>
-                        <width>409.070404053</width>
-                        <height>590.362976074</height>
+                        <width>339.559692383</width>
+                        <height>490.046386719</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

@@ -24,8 +24,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>720</width>
-        <height>1280</height>
+        <width>1280</width>
+        <height>720</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -163,6 +163,7 @@
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
         <layout>TabuleiroPORRA.xml</layout>
+        <layout>Pergunta.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
@@ -170,6 +171,7 @@
         <event-sheet>TelaPlay.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>TabuleiroPORRA.xml</event-sheet>
+        <event-sheet>Pergunta.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

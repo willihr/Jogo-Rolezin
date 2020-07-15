@@ -14,16 +14,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">Intro2</layout>
         <layout order="5">TelaPlay</layout>
         <layout active="1" order="7">TabuleiroPORRA</layout>
+        <layout order="9">Pergunta</layout>
         <event-sheet order="2">Intro1</event-sheet>
         <event-sheet order="4">Intro2</event-sheet>
         <event-sheet order="6">TelaPlay</event-sheet>
         <event-sheet order="8">TabuleiroPORRA</event-sheet>
+        <event-sheet order="10">Pergunta</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
-        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Project settings" />
         <property expanded="0" name="Window Size" />
-        <property expanded="1" name="Configuration Settings" />
+        <property expanded="0" name="Configuration Settings" />
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
