@@ -15,5 +15,135 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="690207675585632">
+            <conditions>
+                <condition id="-18" name="On created" sid="509394997260660" type="DeusTalles1" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="422770961256993" type="DeusTalles1">
+                    <param id="0" name="Instance variable">startX</param>
+                    <param id="1" name="Value">self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="676420112501047" type="DeusTalles1">
+                    <param id="0" name="Instance variable">startY</param>
+                    <param id="1" name="Value">self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="524436210085771" type="DeusTalles1">
+                    <param id="0" name="Instance variable">wander</param>
+                    <param id="1" name="Value">15</param>
+                </action>
+                <action id="-10" name="Set value" sid="899344910594129" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Value">round(random(self.startX-self.wander, self.startX+self.wander))</param>
+                </action>
+                <action id="-10" name="Set value" sid="986702768472342" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Value">round(random(self.startY-self.wander, self.startY+self.wander))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="350585735198843">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="519275772204376" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="276176556879539" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">round(self.X)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="314974319843503" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">round(self.Y)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="592432461029322" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Value">round(random(self.startX-self.wander, self.startX+self.wander))</param>
+                </action>
+                <action id="-10" name="Set value" sid="980922494181788" type="DeusTalles1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Value">round(random(self.startY-self.wander, self.startY+self.wander))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="547020415402669">
+            <conditions />
+            <actions>
+                <action id="-10" name="Set value" sid="153606030029234" type="DeusTalles1">
+                    <param id="0" name="Instance variable">moveAngle</param>
+                    <param id="1" name="Value">angle(self.X, self.Y, self.targetX, self.targetY)</param>
+                </action>
+                <action id="-23" name="Move at angle" sid="869836936882557" type="DeusTalles1">
+                    <param id="0" name="Angle">self.moveAngle</param>
+                    <param id="1" name="Distance">self.wander*dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="466747514473120">
+            <conditions>
+                <condition id="-18" name="On created" sid="422859767918541" type="Belquior1" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="194136642156008" type="Belquior1">
+                    <param id="0" name="Instance variable">startX</param>
+                    <param id="1" name="Value">self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="338084453555607" type="Belquior1">
+                    <param id="0" name="Instance variable">startY</param>
+                    <param id="1" name="Value">self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="888832711269769" type="Belquior1">
+                    <param id="0" name="Instance variable">wander</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-10" name="Set value" sid="729272249146533" type="Belquior1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Value">round(random(self.startX-self.wander, self.startX+self.wander))</param>
+                </action>
+                <action id="-10" name="Set value" sid="375746115560637" type="Belquior1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Value">round(random(self.startY-self.wander, self.startY+self.wander))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="635725966420288">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="707955504482790" type="System" />
+                <condition id="-7" name="Compare instance variable" sid="799886876360610" type="Belquior1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">round(self.X)</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="723870364509883" type="Belquior1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">round(self.Y)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="636252071380435" type="Belquior1">
+                    <param id="0" name="Instance variable">targetX</param>
+                    <param id="1" name="Value">round(random(self.startX-self.wander, self.startX+self.wander))</param>
+                </action>
+                <action id="-10" name="Set value" sid="131673622889447" type="Belquior1">
+                    <param id="0" name="Instance variable">targetY</param>
+                    <param id="1" name="Value">round(random(self.startY-self.wander, self.startY+self.wander))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="159859692975667">
+            <conditions />
+            <actions>
+                <action id="-10" name="Set value" sid="749696421256103" type="Belquior1">
+                    <param id="0" name="Instance variable">moveAngle</param>
+                    <param id="1" name="Value">angle(self.X, self.Y, self.targetX, self.targetY)</param>
+                </action>
+                <action id="-23" name="Move at angle" sid="846115921298552" type="Belquior1">
+                    <param id="0" name="Angle">self.moveAngle</param>
+                    <param id="1" name="Distance">self.wander*dt</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

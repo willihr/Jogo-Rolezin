@@ -173,10 +173,14 @@
         </object-type>
         <object-type name="DeusTalles1" sid="104057406877947">
             <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="DeusTalles2" sid="551676282126362">
-            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="startX" sid="342278407800867" type="number" />
+                <instance-variable name="startY" sid="540823591191153" type="number" />
+                <instance-variable name="wander" sid="406505789182186" type="number" />
+                <instance-variable name="targetX" sid="313311910913791" type="number" />
+                <instance-variable name="targetY" sid="801032188249178" type="number" />
+                <instance-variable name="moveAngle" sid="301525222716638" type="number" />
+            </instance-variables>
             <texture />
         </object-type>
         <object-type name="INICIO_0" sid="512229727243075">
@@ -284,10 +288,14 @@
         </object-type>
         <object-type name="Belquior1" sid="238876053564355">
             <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="Belquior2" sid="671944031525878">
-            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="startX" sid="887648962824112" type="number" />
+                <instance-variable name="startY" sid="574470317480754" type="number" />
+                <instance-variable name="wander" sid="518337364097400" type="number" />
+                <instance-variable name="targetX" sid="469156214546038" type="number" />
+                <instance-variable name="targetY" sid="760321842905105" type="number" />
+                <instance-variable name="moveAngle" sid="674319426697758" type="number" />
+            </instance-variables>
             <texture />
         </object-type>
     </object-folder>
