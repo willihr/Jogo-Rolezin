@@ -229,26 +229,16 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="DeusTalles" sid="395118464774903">
+        <object-type name="TiledBackground15" sid="395118464774903">
             <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="535508182603672">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
             <texture />
         </object-type>
         <object-type name="TiledBackground16" sid="406967607967700">
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="AnjoTalles1" sid="214078650968589">
+        <object-type name="TiledBackground17" sid="214078650968589">
             <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="804913389301507">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
             <texture />
         </object-type>
         <object-type name="TiledBackground18" sid="713253778772976">
@@ -259,67 +249,8 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="Belquior" sid="616437109859861">
+        <object-type name="TiledBackground20" sid="616437109859861">
             <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="980167176395540">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles2" sid="166307504596471">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="812064859595031">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles3" sid="618594600081173">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="520535491226441">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles4" sid="164916751876825">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="624908875332261">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles5" sid="569748065731592">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="874706034246491">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles6" sid="635259663945642">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="313266288536724">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-        </object-type>
-        <object-type name="AnjoTalles7" sid="784032170169279">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="946314054625077">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
             <texture />
         </object-type>
     </object-folder>
