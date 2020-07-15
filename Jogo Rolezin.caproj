@@ -129,17 +129,40 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite" sid="422537522671667">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="439748592106748" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Maycon" sid="551514819914787">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="710160128671478">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565862608846227" speed="5">
+                    <frame duration="1" hotspotX="0.3675" hotspotY="0.44" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Intro1.xml</layout>
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
+        <layout>TabuleiroPORRA.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
         <event-sheet>TelaPlay.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
