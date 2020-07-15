@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Tabuleiro</name>
     <events>
+        <include>BotoesSelecionaveis</include>
         <event-block sid="690207675585632">
             <conditions>
                 <condition id="-18" name="On created" sid="509394997260660" type="DeusTalles1" />
@@ -133,60 +134,17 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="937348144424387">
-            <conditions>
-                <condition id="-18" name="On created" sid="371596271266943" type="Selecionaveis" />
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="308569921639314" type="Selecionaveis">
-                    <param id="0" name="Instance variable">originalWidth</param>
-                    <param id="1" name="Value">self.Width</param>
-                </action>
-                <action id="-10" name="Set value" sid="291283689093694" type="Selecionaveis">
-                    <param id="0" name="Instance variable">originalHeight</param>
-                    <param id="1" name="Value">self.Height</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="983255001099997">
             <conditions>
                 <condition id="6" name="On object clicked" sid="438530110310585" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Selecionaveis</param>
+                    <param id="2" name="Object clicked">LanceOdado</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="401717011759983" type="System">
                     <param id="0" name="Layout">AnimaçãoDado</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="682417519248758">
-            <conditions>
-                <condition id="7" name="Cursor is over object" sid="991039915614728" type="Mouse">
-                    <param id="0" name="Object">Selecionaveis</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="971200845636486" type="System" />
-            </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="100764699304571" type="Selecionaveis">
-                    <param id="0" name="Width">self.originalWidth*1.1</param>
-                    <param id="1" name="Height">self.originalHeight*1.1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="854218966606793">
-            <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="518254625191195" type="Mouse">
-                    <param id="0" name="Object">Selecionaveis</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="374081210591550" type="System" />
-            </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="624307825546946" type="Selecionaveis">
-                    <param id="0" name="Width">self.originalWidth</param>
-                    <param id="1" name="Height">self.originalHeight</param>
                 </action>
             </actions>
         </event-block>

@@ -314,6 +314,7 @@
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
             <members>
+                <member>BotãoStart</member>
                 <member>Diogo_5</member>
                 <member>LanceOdado</member>
                 <member>Lucao_2</member>
@@ -342,6 +343,7 @@
         <event-sheet>TelaPlay.xml</event-sheet>
         <event-sheet>Tabuleiro.xml</event-sheet>
         <event-sheet>AnimaçãoDado.xml</event-sheet>
+        <event-sheet>BotoesSelecionaveis.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>TelaPlay</name>
     <events>
+        <include>BotoesSelecionaveis</include>
         <event-block sid="547898131648077">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="602305815390555" type="System" />
@@ -16,12 +17,16 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="707943290129731">
+        <event-block sid="798329945651535">
             <conditions>
-                <condition id="0" name="On clicked" sid="252328439042416" type="botaoStart2" />
+                <condition id="6" name="On object clicked" sid="995872400517854" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">BotãoStart</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="245183070010758" type="System">
+                <action id="-2" name="Go to layout" sid="624080472569819" type="System">
                     <param id="0" name="Layout">Tabuleiro</param>
                 </action>
             </actions>
