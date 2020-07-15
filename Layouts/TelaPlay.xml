@@ -31,7 +31,7 @@
             <instances>
                 <instance type="Text" uid="5">
                     <properties>
-                        <text>Tela de PLAY Clique na tela para permitir musica</text>
+                        <text>Teodoro Gay</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-96,400,0</font>
                         <color>0,0,0</color>
@@ -44,8 +44,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>40</x>
-                        <y>280</y>
+                        <x>80</x>
+                        <y>400</y>
                         <z>0</z>
                         <width>676</width>
                         <height>529</height>
