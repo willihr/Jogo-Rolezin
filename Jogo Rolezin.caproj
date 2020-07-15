@@ -104,7 +104,7 @@
         <object-type name="TextBox" sid="766210116460919">
             <plugin id="TextBox" />
         </object-type>
-        <object-type name="Text" sid="794883441810032">
+        <object-type name="Titulo" sid="794883441810032">
             <plugin id="Text" />
         </object-type>
         <object-type name="Button" sid="431866999600672">
@@ -137,23 +137,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Maycon" sid="551514819914787">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="710160128671478">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565862608846227" speed="5">
-                    <frame duration="1" hotspotX="0.3675" hotspotY="0.44" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="botaoStart2" sid="560622934055554">
-            <plugin id="Button" />
-        </object-type>
-        <object-type name="REINICIARMAYCON" sid="306235702347294">
             <plugin id="Button" />
         </object-type>
     </object-folder>
@@ -162,16 +146,14 @@
         <layout>Intro1.xml</layout>
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
-        <layout>TabuleiroPORRA.xml</layout>
-        <layout>Pergunta.xml</layout>
+        <layout>Tabuleiro.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
         <event-sheet>TelaPlay.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>TabuleiroPORRA.xml</event-sheet>
-        <event-sheet>Pergunta.xml</event-sheet>
+        <event-sheet>Tabuleiro.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

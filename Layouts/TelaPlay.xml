@@ -29,9 +29,9 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Text" uid="5">
+                <instance type="Titulo" uid="5">
                     <properties>
-                        <text>Rolezins Gay</text>
+                        <text>Jogo do Rolezin</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-96,400,0</font>
                         <color>0,0,0</color>
@@ -44,10 +44,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>360</x>
+                        <x>280</x>
                         <y>160</y>
                         <z>0</z>
-                        <width>676</width>
+                        <width>720</width>
                         <height>160</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -66,7 +66,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
+                        <x>680</x>
                         <y>560</y>
                         <z>0</z>
                         <width>536.578979492</width>
@@ -92,7 +92,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>360</x>
+                        <x>400</x>
                         <y>360</y>
                         <z>0</z>
                         <width>537</width>

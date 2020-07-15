@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Pergunta</name>
-    <sid>951525453431143</sid>
-    <event-sheet>Pergunta</event-sheet>
+    <name>Tabuleiro</name>
+    <sid>599294292725211</sid>
+    <event-sheet>Tabuleiro</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>1280</width>
+        <height>720</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="623369581155505">
+        <layer name="Layer 0" sid="997841902301710">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
