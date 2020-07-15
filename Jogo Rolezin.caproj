@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Jogo Rolezin</name>
+    <description>Jogo do Rolezin feito pelo Rolezin</description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.rolezin.jogo</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>27700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="video" version="1">Video</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Intro1</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="FigurinhaLucaoSeloSatisfação" sid="108433150788806">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="580286422774592">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391929840727816" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\figurinhaLucaoSeloSatisfação.png">
+                        <collision-poly>
+                            <point x="0.178977" y="0.124016" />
+                            <point x="0.5" y="0" />
+                            <point x="0.821023" y="0.124016" />
+                            <point x="0.920455" y="0.5" />
+                            <point x="0.886364" y="0.92126" />
+                            <point x="0.5" y="0.797244" />
+                            <point x="0.298295" y="0.793307" />
+                            <point x="0.0767045" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FundoPreto" sid="543762972737231">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236589627965174" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LogoPubgRolezin" sid="925454076733395">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609756773394557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\logoPubgRolezin2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EfeitoFade" sid="358451976089856">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="773081364518367">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843514548056718" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="957359193976661">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="TextBox" sid="766210116460919">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Titulo" sid="794883441810032">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button" sid="431866999600672">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="BotãoStart" sid="670561243107232">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="225215026749436" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\botãoStart.png">
+                        <collision-poly>
+                            <point x="0.103093" y="0.27027" />
+                            <point x="0.5" y="0.243243" />
+                            <point x="0.865979" y="0.351351" />
+                            <point x="0.876289" y="0.5" />
+                            <point x="0.876289" y="0.675676" />
+                            <point x="0.5" y="0.837838" />
+                            <point x="0.0824742" y="0.783784" />
+                            <point x="0.0824742" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="422537522671667">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="439748592106748" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botaoStart2" sid="560622934055554">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="LanceOdado" sid="322366858120141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292086402845635" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500688" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\LanceOdado.png">
+                        <collision-poly>
+                            <point x="0.0408497" y="0.0343879" />
+                            <point x="0.955882" y="0.0371389" />
+                            <point x="0.918301" y="0.499312" />
+                            <point x="0.823529" y="0.851444" />
+                            <point x="0.5" y="0.971114" />
+                            <point x="0.178105" y="0.850069" />
+                            <point x="0.0800654" y="0.499312" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="597291821579601">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="452614520006802">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="DeusTalles1" sid="104057406877947">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="startX" sid="342278407800867" type="number" />
+                <instance-variable name="startY" sid="540823591191153" type="number" />
+                <instance-variable name="wander" sid="406505789182186" type="number" />
+                <instance-variable name="targetX" sid="313311910913791" type="number" />
+                <instance-variable name="targetY" sid="801032188249178" type="number" />
+                <instance-variable name="moveAngle" sid="301525222716638" type="number" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="INICIO_0" sid="512229727243075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509225289687660" speed="5">
+                    <frame duration="1" hotspotX="0.500552" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="INICIO" sid="176334679284400">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Maycon_1" sid="310045089055382">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445225289266575" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lucao_2" sid="698957954896751">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="207339314669900" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.500705" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Matheus_3" sid="656861681216409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232166548639847" speed="5">
+                    <frame duration="1" hotspotX="0.501608" hotspotY="0.500705" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Teodoro_4" sid="586481654679066">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707938869588191" speed="5">
+                    <frame duration="1" hotspotX="0.501044" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Diogo_5" sid="920498123726834">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686874427754651" speed="5">
+                    <frame duration="1" hotspotX="0.500971" hotspotY="0.500766" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pedro_6" sid="197649254112672">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="598082168695655" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Willian_7" sid="948135015787150">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777469648838099" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501193" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="849127919861584">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="313136164079015" speed="5">
+                    <frame duration="1" hotspotX="0.500813" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="872191314232570">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="150028733126342" speed="5">
+                    <frame duration="1" hotspotX="0.500813" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="645557715965351">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112614403253980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="539559634059120">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite5" sid="402625598891752">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="580559652191873" speed="5">
+                    <frame duration="1" hotspotX="0.500864" hotspotY="0.501326" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Belquior1" sid="238876053564355">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="startX" sid="887648962824112" type="number" />
+                <instance-variable name="startY" sid="574470317480754" type="number" />
+                <instance-variable name="wander" sid="518337364097400" type="number" />
+                <instance-variable name="targetX" sid="469156214546038" type="number" />
+                <instance-variable name="targetY" sid="760321842905105" type="number" />
+                <instance-variable name="moveAngle" sid="674319426697758" type="number" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="Video" sid="154023845573689">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="Fundo" sid="668048306941945">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="574820851524430" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="210770645985683">
+            <plugin id="Mouse" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
+            <members>
+                <member>Diogo_5</member>
+                <member>LanceOdado</member>
+                <member>Lucao_2</member>
+                <member>Matheus_3</member>
+                <member>Maycon_1</member>
+                <member>Pedro_6</member>
+                <member>Teodoro_4</member>
+                <member>Willian_7</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="originalWidth" sid="331038975663222" type="number" />
+                <instance-variable name="originalHeight" sid="298529056608376" type="number" />
+            </instance-variables>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Intro1.xml</layout>
+        <layout>Intro2.xml</layout>
+        <layout>TelaPlay.xml</layout>
+        <layout>Tabuleiro.xml</layout>
+        <layout>AnimaçãoDado.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Intro2.xml</event-sheet>
+        <event-sheet>Intro1.xml</event-sheet>
+        <event-sheet>TelaPlay.xml</event-sheet>
+        <event-sheet>Tabuleiro.xml</event-sheet>
+        <event-sheet>AnimaçãoDado.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="70" />
+    </global-instances>
+    <sounds-folder>
+        <file name="BallBounce.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="PubgRemix.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="AnimacaoDado.mp4" />
+    </files-folder>
+</c2project>

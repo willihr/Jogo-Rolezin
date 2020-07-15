@@ -11,31 +11,29 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Intro1</layout>
-        <layout order="2">Intro2</layout>
-        <layout order="4">TelaPlay</layout>
-        <layout active="1" order="6">Tabuleiro</layout>
-        <layout order="8">AnimaçãoDado</layout>
-        <event-sheet order="1">Intro1</event-sheet>
-        <event-sheet order="3">Intro2</event-sheet>
-        <event-sheet order="5">TelaPlay</event-sheet>
-        <event-sheet order="7">Tabuleiro</event-sheet>
-        <event-sheet order="9">AnimaçãoDado</event-sheet>
+        <layout order="1">Intro2</layout>
+        <layout active="1" order="2">Tabuleiro</layout>
+        <layout order="4">AnimaçãoDado</layout>
+        <layout order="5">TelaPlay</layout>
+        <event-sheet order="3">Tabuleiro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
-        <property expanded="0" name="Project settings" />
+        <property expanded="1" name="Project settings" />
         <property expanded="0" name="Window Size" />
-        <property expanded="0" name="Configuration Settings" />
+        <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1" />
+    <families-expanded root="1">
+        <family expanded="0" name="Selecionaveis" />
+    </families-expanded>
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
         <folder expanded="1" path="animation-folder/FundoPreto/" />
         <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
@@ -55,5 +53,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Fundo/" />
     </folders-expanded>
 </c2uistate>
