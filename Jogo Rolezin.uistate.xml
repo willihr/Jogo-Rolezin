@@ -10,16 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">Intro1</layout>
-        <layout order="3">Intro2</layout>
-        <layout order="5">TelaPlay</layout>
-        <layout active="1" order="7">Tabuleiro</layout>
-        <layout order="9">AnimaçãoDado</layout>
-        <event-sheet order="2">Intro1</event-sheet>
-        <event-sheet order="4">Intro2</event-sheet>
-        <event-sheet order="6">TelaPlay</event-sheet>
-        <event-sheet order="8">Tabuleiro</event-sheet>
-        <event-sheet order="10">AnimaçãoDado</event-sheet>
+        <layout order="0">Intro1</layout>
+        <layout order="2">Intro2</layout>
+        <layout order="4">TelaPlay</layout>
+        <layout active="1" order="6">Tabuleiro</layout>
+        <layout order="8">AnimaçãoDado</layout>
+        <event-sheet order="1">Intro1</event-sheet>
+        <event-sheet order="3">Intro2</event-sheet>
+        <event-sheet order="5">TelaPlay</event-sheet>
+        <event-sheet order="7">Tabuleiro</event-sheet>
+        <event-sheet order="9">AnimaçãoDado</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -43,5 +43,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BotãoStart/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/LanceOdado/" />
+        <folder expanded="1" path="animation-folder/INICIO_0/" />
+        <folder expanded="1" path="animation-folder/Maycon_1/" />
+        <folder expanded="1" path="animation-folder/Lucao_2/" />
+        <folder expanded="1" path="animation-folder/Matheus_3/" />
+        <folder expanded="1" path="animation-folder/Teodoro_4/" />
+        <folder expanded="1" path="animation-folder/Diogo_5/" />
+        <folder expanded="1" path="animation-folder/Pedro_6/" />
+        <folder expanded="1" path="animation-folder/Willian_7/" />
     </folders-expanded>
 </c2uistate>

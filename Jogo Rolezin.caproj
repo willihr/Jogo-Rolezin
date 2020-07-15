@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
@@ -161,6 +162,97 @@
         </object-type>
         <object-type name="Touch" sid="369245816834525">
             <plugin id="Touch" />
+        </object-type>
+        <object-type name="TiledBackground" sid="597291821579601">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="452614520006802">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="DeusTalles1" sid="104057406877947">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Belquior1" sid="726751327670783">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Belquior2" sid="363631887474830">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="DeusTalles2" sid="551676282126362">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="INICIO_0" sid="512229727243075">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509225289687660" speed="5">
+                    <frame duration="1" hotspotX="0.500552" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="INICIO" sid="176334679284400">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Maycon_1" sid="310045089055382">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445225289266575" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lucao_2" sid="698957954896751">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="207339314669900" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.500705" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Matheus_3" sid="656861681216409">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232166548639847" speed="5">
+                    <frame duration="1" hotspotX="0.501608" hotspotY="0.500705" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Teodoro_4" sid="586481654679066">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707938869588191" speed="5">
+                    <frame duration="1" hotspotX="0.501044" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Diogo_5" sid="920498123726834">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686874427754651" speed="5">
+                    <frame duration="1" hotspotX="0.500971" hotspotY="0.500766" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pedro_6" sid="197649254112672">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="598082168695655" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Willian_7" sid="948135015787150">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777469648838099" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501193" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
