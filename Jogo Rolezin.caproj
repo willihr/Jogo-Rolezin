@@ -15,7 +15,6 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
@@ -70,7 +69,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="PretoFundo" sid="543762972737231">
+        <object-type name="BlackBackground" sid="543762972737231">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236589627965174" speed="5">
@@ -156,102 +155,6 @@
         </object-type>
         <object-type name="REINICIARMAYCON" sid="306235702347294">
             <plugin id="Button" />
-        </object-type>
-        <object-type name="Sprite2" sid="727686396355649">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="796153220845711" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.496479" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="TiledBackground" sid="390853407255736">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground2" sid="994379730281500">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground3" sid="513035698237835">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground4" sid="969278855989691">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground5" sid="647726383687136">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground6" sid="174108027960623">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="Talles" sid="252943014150235">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground8" sid="292018215677472">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="Coroa" sid="643640735877801">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground7" sid="849714870976277">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground9" sid="131239728456324">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground10" sid="757558171123341">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground11" sid="484320825300586">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground12" sid="316203707803494">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground13" sid="633420488451649">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground14" sid="531889420121687">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground15" sid="395118464774903">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground16" sid="406967607967700">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground17" sid="214078650968589">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground18" sid="713253778772976">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground19" sid="302761677920164">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="TiledBackground20" sid="616437109859861">
-            <plugin id="TiledBg" />
-            <texture />
         </object-type>
     </object-folder>
     <families />
