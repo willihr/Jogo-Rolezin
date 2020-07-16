@@ -11,6 +11,7 @@
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -346,19 +347,28 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Larissa_Player" sid="724886348019082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="543782906454164">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="696313577826046" speed="5">
+                    <frame duration="1" hotspotX="0.500858" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Proximo" sid="970455126240066">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
             <members>
                 <member>BotãoStart</member>
-                <member>Diogo_5</member>
                 <member>LanceOdado</member>
-                <member>Lucao_2</member>
-                <member>Matheus_3</member>
-                <member>Maycon_1</member>
-                <member>Pedro_6</member>
-                <member>Teodoro_4</member>
-                <member>Willian_7</member>
             </members>
             <instance-variables>
                 <instance-variable name="originalWidth" sid="331038975663222" type="number" />
@@ -371,17 +381,47 @@
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
         <layout>Tabuleiro.xml</layout>
+        <layout>Tabuleiro2.xml</layout>
+        <layout>Tabuleiro3.xml</layout>
+        <layout>Tabuleiro4.xml</layout>
+        <layout>Tabuleiro5.xml</layout>
+        <layout>Tabuleiro6.xml</layout>
+        <layout>Tabuleiro7.xml</layout>
+        <layout>Tabuleiro8.xml</layout>
         <layout>AnimaçãoDado.xml</layout>
-        <layout>Pergunta.xml</layout>
+        <layout>Pergunta1.xml</layout>
+        <layout>Pergunta7.xml</layout>
+        <layout>Pergunta6.xml</layout>
+        <layout>Pergunta5.xml</layout>
+        <layout>Pergunta4.xml</layout>
+        <layout>Pergunta3.xml</layout>
+        <layout>Pergunta2.xml</layout>
     </layout-folder>
     <event-folder>
+        <event-folder name="Tabuleiros">
+            <event-sheet>Tabuleiro.xml</event-sheet>
+            <event-sheet>Tabuleiro2.xml</event-sheet>
+            <event-sheet>Tabuleiro3.xml</event-sheet>
+            <event-sheet>Tabuleiro4.xml</event-sheet>
+            <event-sheet>Tabuleiro5.xml</event-sheet>
+            <event-sheet>Tabuleiro6.xml</event-sheet>
+            <event-sheet>Tabuleiro7.xml</event-sheet>
+            <event-sheet>Tabuleiro8.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Perguntas">
+            <event-sheet>Pergunta2.xml</event-sheet>
+            <event-sheet>Pergunta1.xml</event-sheet>
+            <event-sheet>Pergunta3.xml</event-sheet>
+            <event-sheet>Pergunta4.xml</event-sheet>
+            <event-sheet>Pergunta5.xml</event-sheet>
+            <event-sheet>Pergunta6.xml</event-sheet>
+            <event-sheet>Pergunta7.xml</event-sheet>
+        </event-folder>
         <event-sheet>Intro2.xml</event-sheet>
         <event-sheet>Intro1.xml</event-sheet>
         <event-sheet>TelaPlay.xml</event-sheet>
-        <event-sheet>Tabuleiro.xml</event-sheet>
         <event-sheet>AnimaçãoDado.xml</event-sheet>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
-        <event-sheet>Pergunta.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

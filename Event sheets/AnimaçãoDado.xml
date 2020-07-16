@@ -40,11 +40,7 @@
                     <param id="0" name="Object">botaoHitbox</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="603032800773557" type="System">
-                    <param id="0" name="Layout">Pergunta</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

@@ -67,8 +67,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>295</x>
-                        <y>341</y>
+                        <x>280</x>
+                        <y>326</y>
                         <z>0</z>
                         <width>591</width>
                         <height>685</height>
@@ -437,15 +437,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>219.968383789</x>
-                        <y>102.641235352</y>
+                        <x>934</x>
+                        <y>337</y>
                         <z>0</z>
                         <width>142</width>
                         <height>145</height>
@@ -1299,10 +1295,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1325,15 +1317,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>605.732177734</x>
-                        <y>208.761871338</y>
+                        <x>375</x>
+                        <y>451</y>
                         <z>0</z>
                         <width>103.719169617</width>
                         <height>142.613861084</height>
@@ -1351,15 +1339,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>364.583343506</x>
-                        <y>446.48147583</y>
+                        <x>212</x>
+                        <y>99</y>
                         <z>0</z>
                         <width>72.03868866</width>
                         <height>164.229675293</height>
@@ -1377,15 +1361,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>941.694641113</x>
-                        <y>339.951690674</y>
+                        <x>635</x>
+                        <y>586</y>
                         <z>0</z>
                         <width>132.493240356</width>
                         <height>146.947052002</height>
@@ -1403,15 +1383,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>630.266784668</x>
-                        <y>582.289855957</y>
+                        <x>568</x>
+                        <y>202</y>
                         <z>0</z>
                         <width>119.023254395</width>
                         <height>150.083602905</height>
@@ -1429,10 +1405,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1444,6 +1416,41 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.501193345</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Larissa_Player" uid="74">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInOutBack</function>
+                                <target>130, 395</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>7</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>73</x>
+                        <y>625</y>
+                        <z>0</z>
+                        <width>91.820892334</width>
+                        <height>126.94278717</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500857651</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

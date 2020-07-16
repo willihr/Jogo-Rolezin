@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Pergunta5</name>
+    <events>
+        <event-block sid="393480642663535">
+            <conditions>
+                <condition id="0" name="On clicked" sid="900235679090152" type="Proximo" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="881599079293566" type="System">
+                    <param id="0" name="Layout">Tabuleiro6</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
