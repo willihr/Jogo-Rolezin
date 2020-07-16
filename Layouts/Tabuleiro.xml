@@ -1435,7 +1435,7 @@
                                 <function>EaseInOutBack</function>
                                 <target>130, 395</target>
                                 <target-mode>Absolute</target-mode>
-                                <duration>7</duration>
+                                <duration>5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
                             </properties>
                         </behavior-instance>

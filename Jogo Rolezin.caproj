@@ -381,6 +381,7 @@
         <layout>Intro2.xml</layout>
         <layout>TelaPlay.xml</layout>
         <layout>Tabuleiro.xml</layout>
+        <layout>InicioTabuleiro.xml</layout>
         <layout>Tabuleiro2.xml</layout>
         <layout>Tabuleiro3.xml</layout>
         <layout>Tabuleiro4.xml</layout>
@@ -407,6 +408,7 @@
             <event-sheet>Tabuleiro6.xml</event-sheet>
             <event-sheet>Tabuleiro7.xml</event-sheet>
             <event-sheet>Tabuleiro8.xml</event-sheet>
+            <event-sheet>InicioTabuleiro.xml</event-sheet>
         </event-folder>
         <event-folder name="Perguntas">
             <event-sheet>Pergunta2.xml</event-sheet>

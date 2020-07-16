@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>InicioTabuleiro</name>
+    <events>
+        <include>Tabuleiro</include>
+        <event-block sid="140206835947397">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="860234892048948" type="Larissa_Player">
+                    <param id="0" name="Object">Maycon_1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="200993894210796" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="915093789581973" type="System">
+                    <param id="0" name="Layout">Pergunta1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

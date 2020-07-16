@@ -27,7 +27,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="624080472569819" type="System">
-                    <param id="0" name="Layout">Tabuleiro</param>
+                    <param id="0" name="Layout">InicioTabuleiro</param>
                 </action>
             </actions>
         </event-block>
@@ -39,7 +39,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="261874188789557" type="System">
-                    <param id="0" name="Layout">Tabuleiro</param>
+                    <param id="0" name="Layout">InicioTabuleiro</param>
                 </action>
             </actions>
         </event-block>
