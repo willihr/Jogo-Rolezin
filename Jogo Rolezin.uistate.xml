@@ -10,17 +10,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Intro1</layout>
+        <layout order="0">Intro1</layout>
         <layout order="1">Intro2</layout>
-        <layout order="3">Tabuleiro</layout>
         <layout order="2">TelaPlay</layout>
-        <layout order="5">AnimaçãoDado</layout>
-        <layout order="4">Pergunta1</layout>
-        <layout order="10">InicioTabuleiro</layout>
-        <event-sheet order="8">Tabuleiro</event-sheet>
+        <layout order="3">Tabuleiro</layout>
+        <layout active="1" order="5">Pergunta1</layout>
+        <layout order="9">AnimaçãoDado</layout>
+        <layout order="4">InicioTabuleiro</layout>
         <event-sheet order="6">AnimaçãoDado</event-sheet>
-        <event-sheet order="7">Pergunta1</event-sheet>
-        <event-sheet order="9">InicioTabuleiro</event-sheet>
+        <event-sheet order="7">Tabuleiro</event-sheet>
+        <event-sheet order="8">InicioTabuleiro</event-sheet>
+        <event-sheet order="10">TelaPlay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -34,9 +34,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="1" path="layout-folder/Perguntas/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/Tabuleiros/" />
-        <folder expanded="1" path="event-folder/Perguntas/" />
+        <folder expanded="0" path="event-folder/Perguntas/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
@@ -64,5 +66,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/popupDado/" />
         <folder expanded="1" path="animation-folder/botaoHitbox/" />
         <folder expanded="1" path="animation-folder/Larissa_Player/" />
+        <folder expanded="1" path="animation-folder/Rolezin/" />
+        <folder expanded="1" path="animation-folder/FundoResposta/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite13/" />
+        <folder expanded="1" path="animation-folder/Resposta1/" />
+        <folder expanded="1" path="animation-folder/Resposta2/" />
+        <folder expanded="1" path="animation-folder/Resposta3/" />
+        <folder expanded="1" path="animation-folder/Resposta4/" />
+        <folder expanded="1" path="animation-folder/Sprite17/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/Sprite19/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>

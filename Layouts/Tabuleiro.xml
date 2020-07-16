@@ -2,7 +2,7 @@
 <c2layout>
     <name>Tabuleiro</name>
     <sid>599294292725211</sid>
-    <event-sheet>Tabuleiro</event-sheet>
+    <event-sheet>InicioTabuleiro</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>

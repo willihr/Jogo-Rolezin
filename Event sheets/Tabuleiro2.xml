@@ -14,7 +14,7 @@
                 <action id="-16" name="Wait" sid="503145731696470" type="System">
                     <param id="0" name="Seconds">3</param>
                 </action>
-                <action id="-2" name="Go to layout" sid="549782328332689" type="System">
+                <action id="-2" name="Go to layout" sid="806674053260834" type="System">
                     <param id="0" name="Layout">Pergunta2</param>
                 </action>
             </actions>
