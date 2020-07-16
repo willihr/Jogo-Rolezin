@@ -13,11 +13,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Intro1</layout>
         <layout order="1">Intro2</layout>
         <layout order="2">Tabuleiro</layout>
-        <layout order="3">AnimaçãoDado</layout>
-        <layout order="4">TelaPlay</layout>
-        <event-sheet order="6">Tabuleiro</event-sheet>
-        <event-sheet order="5">TelaPlay</event-sheet>
-        <event-sheet active="1" order="7">BotoesSelecionaveis</event-sheet>
+        <layout active="1" order="6">AnimaçãoDado</layout>
+        <layout order="3">TelaPlay</layout>
+        <event-sheet order="4">TelaPlay</event-sheet>
+        <event-sheet order="5">Tabuleiro</event-sheet>
+        <event-sheet order="7">AnimaçãoDado</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,7 +29,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Selecionaveis" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -56,5 +56,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Fundo/" />
+        <folder expanded="1" path="animation-folder/popupDado/" />
+        <folder expanded="1" path="animation-folder/botaoHitbox/" />
     </folders-expanded>
 </c2uistate>

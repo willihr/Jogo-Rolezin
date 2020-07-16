@@ -11,12 +11,12 @@
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="video" version="1">Video</plugin>
     </used-plugins>
     <used-behaviors>
@@ -110,9 +110,6 @@
         <object-type name="Titulo" sid="794883441810032">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Button" sid="431866999600672">
-            <plugin id="Button" />
-        </object-type>
         <object-type name="BotãoStart" sid="670561243107232">
             <plugin id="Sprite" />
             <animation-folder>
@@ -139,9 +136,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="botaoStart2" sid="560622934055554">
-            <plugin id="Button" />
         </object-type>
         <object-type name="LanceOdado" sid="322366858120141">
             <plugin id="Sprite" />
@@ -310,6 +304,48 @@
         <object-type name="Mouse" sid="210770645985683">
             <plugin id="Mouse" />
         </object-type>
+        <object-type name="Touch" sid="715060027835956">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="popupDado" sid="496931096407414">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="150602991755695">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+                <behavior-type name="LiteTween2" sid="578473517525453">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996760656425558" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDado.png">
+                        <image-point name="numeroCentro" x="0.5" y="0.657848" />
+                        <image-point name="botaoOk" x="0.628755" y="0.837743" />
+                        <collision-poly>
+                            <point x="0.197425" y="0.162257" />
+                            <point x="0.5" y="0.121693" />
+                            <point x="0.796137" y="0.167549" />
+                            <point x="0.965665" y="0.499118" />
+                            <point x="0.954936" y="0.962963" />
+                            <point x="0.0450644" y="0.962963" />
+                            <point x="0.0343348" y="0.499118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="numeroSorteado" sid="875481236900728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="botaoHitbox" sid="222894916740755">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="784130526328037" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -336,6 +372,7 @@
         <layout>TelaPlay.xml</layout>
         <layout>Tabuleiro.xml</layout>
         <layout>AnimaçãoDado.xml</layout>
+        <layout>Pergunta.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Intro2.xml</event-sheet>
@@ -344,6 +381,7 @@
         <event-sheet>Tabuleiro.xml</event-sheet>
         <event-sheet>AnimaçãoDado.xml</event-sheet>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
+        <event-sheet>Pergunta.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
@@ -361,6 +399,11 @@
             </properties>
         </global-instance>
         <global-instance type="Mouse" uid="70" />
+        <global-instance type="Touch" uid="8">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <file name="BallBounce.ogg" />

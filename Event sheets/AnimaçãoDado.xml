@@ -6,10 +6,43 @@
         <event-block sid="937020835304941">
             <conditions>
                 <condition id="2" name="Has ended" sid="593006367131751" type="Video" />
+                <condition id="-4" name="Trigger once while true" sid="132234565586868" type="System" />
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="288933264621997" type="System">
-                    <param id="0" name="Layout">Tabuleiro</param>
+                <action behavior="LiteTween" id="10" name="Start" sid="306548756167696" type="popupDado">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="0" name="Set text" sid="898562929934375" type="numeroSorteado">
+                    <param id="0" name="Text">round(random(5)+1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="424104427629731">
+            <conditions>
+                <condition behavior="LiteTween" id="0" name="Is active" sid="100058726275431" type="popupDado" />
+                <condition behavior="LiteTween2" id="0" name="Is active" sid="728334264586179" type="popupDado" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="993455169452335" type="numeroSorteado">
+                    <param id="0" name="Object">popupDado</param>
+                    <param id="1" name="Image point (optional)">&quot;numeroCentro&quot;</param>
+                </action>
+                <action id="-4" name="Set position to another object" sid="115916134542919" type="botaoHitbox">
+                    <param id="0" name="Object">popupDado</param>
+                    <param id="1" name="Image point (optional)">&quot;botaoOk&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="651147416347021">
+            <conditions>
+                <condition id="17" name="On tap object" sid="294407887552780" type="Touch">
+                    <param id="0" name="Object">botaoHitbox</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="603032800773557" type="System">
+                    <param id="0" name="Layout">Pergunta</param>
                 </action>
             </actions>
         </event-block>
