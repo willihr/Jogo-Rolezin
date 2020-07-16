@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Tabuleiro3</name>
     <events>
-        <include>Tabuleiro</include>
+        <include>TabuleiroTodos</include>
         <event-block sid="711045977392475">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="484620415219298" type="Larissa_Player">

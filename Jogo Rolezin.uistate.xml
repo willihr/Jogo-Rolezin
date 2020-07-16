@@ -10,13 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">AnimaçãoDado</layout>
-        <layout order="3">Pergunta1</layout>
-        <event-sheet order="0">Pergunta1</event-sheet>
-        <event-sheet active="1" order="2">AnimaçãoDado</event-sheet>
-        <event-sheet order="4">TelaPlay</event-sheet>
-        <event-sheet order="5">Intro1</event-sheet>
-        <event-sheet order="6">Intro2</event-sheet>
+        <layout active="1" order="0">Pergunta1</layout>
+        <layout order="1">Pergunta4</layout>
+        <layout order="2">Tabuleiro1</layout>
+        <layout order="3">TelaPlay</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,16 +22,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="0" name="Selecionaveis" />
+        <family expanded="1" name="Selecionaveis" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Perguntas/" />
-        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="1" path="layout-folder/Tabuleiros/" />
         <folder expanded="1" path="layout-folder/TelaDePlay/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Tabuleiros/" />
+        <folder expanded="1" path="event-folder/Tabuleiros/" />
         <folder expanded="1" path="event-folder/Perguntas/" />
         <folder expanded="1" path="event-folder/TelaDePlay/" />
         <folder expanded="1" path="file-folder/" />
@@ -46,7 +43,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
         <folder expanded="1" path="animation-folder/EfeitoFade/" />
         <folder expanded="1" path="animation-folder/BotãoStart/" />
-        <folder expanded="1" path="animation-folder/LanceOdado/" />
         <folder expanded="1" path="animation-folder/INICIO_0/" />
         <folder expanded="1" path="animation-folder/Maycon_1/" />
         <folder expanded="1" path="animation-folder/Lucao_2/" />
@@ -70,5 +66,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Resposta4/" />
         <folder expanded="1" path="animation-folder/Sprite17/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/PedirAjuda/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At2/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At3/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At4/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At5/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At6/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At7/" />
+        <folder expanded="1" path="animation-folder/WhatsAppImage20200716At8/" />
     </folders-expanded>
 </c2uistate>

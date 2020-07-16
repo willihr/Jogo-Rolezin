@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Tabuleiro</name>
+    <name>TabuleiroTodos</name>
     <events>
         <include>BotoesSelecionaveis</include>
         <event-block sid="690207675585632">
@@ -131,32 +131,6 @@
                 <action id="-23" name="Move at angle" sid="846115921298552" type="Belquior1">
                     <param id="0" name="Angle">self.moveAngle</param>
                     <param id="1" name="Distance">self.wander*dt</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="983255001099997">
-            <conditions>
-                <condition id="6" name="On object clicked" sid="438530110310585" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">LanceOdado</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="401717011759983" type="System">
-                    <param id="0" name="Layout">AnimaçãoDado</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="879956897864035">
-            <conditions>
-                <condition id="17" name="On tap object" sid="926617867110004" type="Touch">
-                    <param id="0" name="Object">LanceOdado</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="469758126309484" type="System">
-                    <param id="0" name="Layout">AnimaçãoDado</param>
                 </action>
             </actions>
         </event-block>

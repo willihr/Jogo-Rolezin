@@ -130,24 +130,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="LanceOdado" sid="322366858120141">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="292086402845635" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500688" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\LanceOdado.png">
-                        <collision-poly>
-                            <point x="0.0408497" y="0.0343879" />
-                            <point x="0.955882" y="0.0371389" />
-                            <point x="0.918301" y="0.499312" />
-                            <point x="0.823529" y="0.851444" />
-                            <point x="0.5" y="0.971114" />
-                            <point x="0.178105" y="0.850069" />
-                            <point x="0.0800654" y="0.499312" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TiledBackground" sid="597291821579601">
             <plugin id="TiledBg" />
             <texture />
@@ -380,7 +362,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745997763458219" speed="5">
-                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.529412" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -388,7 +370,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274694263693815" speed="5">
-                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.499287" hotspotY="0.529412" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -396,7 +378,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316956529822563" speed="5">
-                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -404,7 +386,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618507711042131" speed="5">
-                    <frame duration="1" hotspotX="0.500713" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.529412" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -427,13 +409,96 @@
         <object-type name="TextBox2" sid="705737259340167">
             <plugin id="TextBox" />
         </object-type>
+        <object-type name="PedirAjuda" sid="598453463496273">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="467964102431211" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500688" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\LanceOdado.png">
+                        <collision-poly>
+                            <point x="0.0931373" y="0.0784044" />
+                            <point x="0.5" y="0.0302613" />
+                            <point x="0.903595" y="0.0811554" />
+                            <point x="0.918301" y="0.499312" />
+                            <point x="0.823529" y="0.851444" />
+                            <point x="0.5" y="0.971114" />
+                            <point x="0.178105" y="0.850069" />
+                            <point x="0.0800654" y="0.499312" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At" sid="950801787677973">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565548263750665" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.53.07.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At2" sid="660380270722212">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="233931434669797" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.56.34.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At3" sid="293701311900755">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="789498679054149" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Downloads\WhatsApp Image 2020-07-16 at 16.46.07.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At4" sid="133604999062425">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449841992247932" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.57.21.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At5" sid="875927426941297">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="205250806907777" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.57.44.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At6" sid="424431451381784">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745903378681917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.58.14.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At7" sid="293720589574428">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="324929591357125" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 16.59.01.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20200716At8" sid="876431903175219">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998140203711095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500763" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Fotos Rolezin\WhatsApp Image 2020-07-16 at 17.03.17.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
             <members>
                 <member>BotãoStart</member>
                 <member>FigurinhaLucaoSeloSatisfação</member>
-                <member>LanceOdado</member>
+                <member>PedirAjuda</member>
                 <member>Resposta1</member>
                 <member>Resposta2</member>
                 <member>Resposta3</member>
@@ -458,8 +523,7 @@
             <layout>PerguntaExtra.xml</layout>
         </layout-folder>
         <layout-folder name="Tabuleiros">
-            <layout>Tabuleiro.xml</layout>
-            <layout>InicioTabuleiro.xml</layout>
+            <layout>Tabuleiro1.xml</layout>
             <layout>Tabuleiro2.xml</layout>
             <layout>Tabuleiro3.xml</layout>
             <layout>Tabuleiro4.xml</layout>
@@ -476,7 +540,7 @@
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
-            <event-sheet>Tabuleiro.xml</event-sheet>
+            <event-sheet>TabuleiroTodos.xml</event-sheet>
             <event-sheet>Tabuleiro2.xml</event-sheet>
             <event-sheet>Tabuleiro3.xml</event-sheet>
             <event-sheet>Tabuleiro4.xml</event-sheet>
@@ -484,7 +548,7 @@
             <event-sheet>Tabuleiro6.xml</event-sheet>
             <event-sheet>Tabuleiro7.xml</event-sheet>
             <event-sheet>Tabuleiro8.xml</event-sheet>
-            <event-sheet>InicioTabuleiro.xml</event-sheet>
+            <event-sheet>Tabuleiro1.xml</event-sheet>
         </event-folder>
         <event-folder name="Perguntas">
             <event-sheet>Pergunta2.xml</event-sheet>
@@ -495,6 +559,7 @@
             <event-sheet>Pergunta6.xml</event-sheet>
             <event-sheet>Pergunta7.xml</event-sheet>
             <event-sheet>AnimaçãoDado.xml</event-sheet>
+            <event-sheet>PerguntaTodos.xml</event-sheet>
         </event-folder>
         <event-folder name="TelaDePlay">
             <event-sheet>Intro1.xml</event-sheet>

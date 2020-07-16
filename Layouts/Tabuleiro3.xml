@@ -404,32 +404,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LanceOdado" uid="157">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1145.477661133</x>
-                        <y>572.331359863</y>
-                        <z>0</z>
-                        <width>225.166671753</width>
-                        <height>267.477416992</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500687778</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0.899999976</opacity>
-                    </world>
-                </instance>
                 <instance type="Lucao_2" uid="158">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

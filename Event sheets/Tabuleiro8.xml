@@ -3,6 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Tabuleiro8</name>
     <events>
-        <include>Tabuleiro</include>
+        <include>TabuleiroTodos</include>
     </events>
 </c2eventsheet>

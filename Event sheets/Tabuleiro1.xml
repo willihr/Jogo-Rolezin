@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>InicioTabuleiro</name>
+    <name>Tabuleiro1</name>
     <events>
-        <include>Tabuleiro</include>
+        <include>TabuleiroTodos</include>
         <event-block sid="140206835947397">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="860234892048948" type="Larissa_Player">

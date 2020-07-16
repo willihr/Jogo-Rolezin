@@ -41,13 +41,22 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="651147416347021">
+        <event-block any="1" sid="651147416347021">
             <conditions>
                 <condition id="17" name="On tap object" sid="294407887552780" type="Touch">
                     <param id="0" name="Object">botaoHitbox</param>
                 </condition>
+                <condition id="6" name="On object clicked" sid="257550398918014" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">botaoHitbox</param>
+                </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="498014115610937" type="System">
+                    <param id="0" name="Layout">&quot;Pergunta&quot; &amp; perguntaAtual</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

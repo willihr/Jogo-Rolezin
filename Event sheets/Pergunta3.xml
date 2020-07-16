@@ -3,6 +3,18 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Pergunta3</name>
     <events>
+        <include>PerguntaTodos</include>
+        <event-block sid="639719719179440">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="214738528873618" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="706249429854657" type="System">
+                    <param id="0" name="Variable">perguntaAtual</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="597439073846426">
             <conditions>
                 <condition id="0" name="On clicked" sid="764115198046633" type="Proximo" />

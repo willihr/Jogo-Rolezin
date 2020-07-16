@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Tabuleiro</name>
-    <sid>599294292725211</sid>
-    <event-sheet>InicioTabuleiro</event-sheet>
+    <name>Tabuleiro1</name>
+    <sid>753324756129106</sid>
+    <event-sheet>Tabuleiro1</event-sheet>
     <size>
         <width>1280</width>
         <height>720</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Fundo" sid="997841902301710">
+        <layer name="Fundo" sid="966415700634084">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="FundoPreto" uid="9">
+                <instance type="FundoPreto" uid="509">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DeusTalles1" uid="10">
+                <instance type="DeusTalles1" uid="510">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Center</hotspot>
@@ -79,7 +79,7 @@
                         <opacity>0.25</opacity>
                     </world>
                 </instance>
-                <instance type="Belquior1" uid="69">
+                <instance type="Belquior1" uid="511">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -107,7 +107,7 @@
                         <opacity>0.200000003</opacity>
                     </world>
                 </instance>
-                <instance type="DeusTalles1" uid="13">
+                <instance type="DeusTalles1" uid="512">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Center</hotspot>
@@ -135,7 +135,7 @@
                         <opacity>0.25</opacity>
                     </world>
                 </instance>
-                <instance type="Belquior1" uid="14">
+                <instance type="Belquior1" uid="513">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -166,7 +166,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Nuvens" sid="727199447766894">
+        <layer name="Nuvens" sid="248149089796423">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -182,7 +182,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3" uid="24">
+                <instance type="Sprite3" uid="514">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -204,7 +204,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="25">
+                <instance type="Sprite3" uid="515">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -226,7 +226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="26">
+                <instance type="Sprite3" uid="516">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -248,7 +248,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="27">
+                <instance type="Sprite3" uid="517">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -270,7 +270,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="28">
+                <instance type="Sprite3" uid="518">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -292,7 +292,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="29">
+                <instance type="Sprite3" uid="519">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -314,7 +314,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="30">
+                <instance type="Sprite3" uid="520">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -339,7 +339,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Interface" sid="553988663921104">
+        <layer name="Interface" sid="505983197337514">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -355,7 +355,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="INICIO_0" uid="15">
+                <instance type="INICIO_0" uid="521">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -377,7 +377,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="INICIO" uid="16">
+                <instance type="INICIO" uid="522">
                     <properties>
                         <text>INICIO</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -404,33 +404,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LanceOdado" uid="6">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1145.477661133</x>
-                        <y>572.331359863</y>
-                        <z>0</z>
-                        <width>225.166671753</width>
-                        <height>267.477416992</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.500687778</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0.899999976</opacity>
-                    </world>
-                </instance>
-                <instance type="Lucao_2" uid="18">
+                <instance type="Lucao_2" uid="524">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -452,7 +426,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="31">
+                <instance type="Sprite4" uid="525">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -474,7 +448,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="32">
+                <instance type="Sprite4" uid="526">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -496,7 +470,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="33">
+                <instance type="Sprite4" uid="527">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -518,7 +492,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="34">
+                <instance type="Sprite4" uid="528">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -540,7 +514,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="35">
+                <instance type="Sprite4" uid="529">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -562,7 +536,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="36">
+                <instance type="Sprite4" uid="530">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -584,7 +558,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="37">
+                <instance type="Sprite4" uid="531">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -606,7 +580,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="38">
+                <instance type="Sprite4" uid="532">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -628,7 +602,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="39">
+                <instance type="Sprite4" uid="533">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -650,7 +624,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="40">
+                <instance type="Sprite4" uid="534">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -672,7 +646,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="41">
+                <instance type="Sprite4" uid="535">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -694,7 +668,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="42">
+                <instance type="Sprite4" uid="536">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -716,7 +690,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="43">
+                <instance type="Sprite4" uid="537">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -738,7 +712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="44">
+                <instance type="Sprite4" uid="538">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -760,7 +734,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="45">
+                <instance type="Sprite4" uid="539">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -782,7 +756,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="46">
+                <instance type="Sprite4" uid="540">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -804,7 +778,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="47">
+                <instance type="Sprite4" uid="541">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -826,7 +800,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="48">
+                <instance type="Sprite4" uid="542">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -848,7 +822,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="49">
+                <instance type="Sprite4" uid="543">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -870,7 +844,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="50">
+                <instance type="Sprite4" uid="544">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -892,7 +866,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="51">
+                <instance type="Sprite4" uid="545">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -914,7 +888,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="52">
+                <instance type="Sprite4" uid="546">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -936,7 +910,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="53">
+                <instance type="Sprite4" uid="547">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -958,7 +932,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="54">
+                <instance type="Sprite4" uid="548">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -980,7 +954,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="55">
+                <instance type="Sprite4" uid="549">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1002,7 +976,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="56">
+                <instance type="Sprite4" uid="550">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1024,7 +998,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="57">
+                <instance type="Sprite4" uid="551">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1046,7 +1020,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="58">
+                <instance type="Sprite4" uid="552">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1068,7 +1042,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="59">
+                <instance type="Sprite4" uid="553">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1090,7 +1064,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="60">
+                <instance type="Sprite4" uid="554">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1112,7 +1086,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="61">
+                <instance type="Sprite4" uid="555">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1134,7 +1108,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="62">
+                <instance type="Sprite4" uid="556">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1156,7 +1130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="63">
+                <instance type="Sprite4" uid="557">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1178,7 +1152,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="64">
+                <instance type="Sprite4" uid="558">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1200,7 +1174,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="65">
+                <instance type="Sprite4" uid="559">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1222,7 +1196,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="66">
+                <instance type="Sprite4" uid="560">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1244,7 +1218,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="67">
+                <instance type="Sprite4" uid="561">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1266,7 +1240,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite4" uid="68">
+                <instance type="Sprite4" uid="562">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1288,7 +1262,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Maycon_1" uid="17">
+                <instance type="Maycon_1" uid="563">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1310,7 +1284,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Diogo_5" uid="21">
+                <instance type="Diogo_5" uid="564">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1332,7 +1306,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Matheus_3" uid="19">
+                <instance type="Matheus_3" uid="565">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1354,7 +1328,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Pedro_6" uid="22">
+                <instance type="Pedro_6" uid="566">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1376,7 +1350,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Teodoro_4" uid="20">
+                <instance type="Teodoro_4" uid="567">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1398,7 +1372,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Willian_7" uid="23">
+                <instance type="Willian_7" uid="568">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1420,7 +1394,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Larissa_Player" uid="74">
+                <instance type="Larissa_Player" uid="569">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

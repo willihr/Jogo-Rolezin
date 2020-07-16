@@ -13,10 +13,51 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
+        <layer name="Rolezin" sid="274645932849241">
+            <initially-visible>1</initially-visible>
+            <background-color>0,0,0</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="WhatsAppImage20200716At4" uid="18">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>369</x>
+                        <y>282</y>
+                        <z>0</z>
+                        <width>1185.160522461</width>
+                        <height>888.870361328</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
         <layer name="FundoPergunta" sid="165182832290787">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
-            <transparent>0</transparent>
+            <transparent>1</transparent>
             <parallax>
                 <x>1</x>
                 <y>1</y>
@@ -43,7 +84,7 @@
                         <y>362</y>
                         <z>0</z>
                         <width>485</width>
-                        <height>720</height>
+                        <height>742.268066406</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -69,28 +110,6 @@
                         <depth>0</depth>
                         <hotspotX>0.500601709</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite7" uid="137">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>397.515899658</x>
-                        <y>361.662109375</y>
-                        <z>0</z>
-                        <width>794</width>
-                        <height>719</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501858711</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -174,11 +193,11 @@
                         <x>1080.94140625</x>
                         <y>250</y>
                         <z>0</z>
-                        <width>475</width>
-                        <height>140</height>
+                        <width>476.355194092</width>
+                        <height>95.199996948</height>
                         <depth>0</depth>
-                        <hotspotX>0.500713289</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500711262</hotspotX>
+                        <hotspotY>0.529411793</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -201,10 +220,10 @@
                         <y>365</y>
                         <z>0</z>
                         <width>478</width>
-                        <height>137</height>
+                        <height>93.160003662</height>
                         <depth>0</depth>
-                        <hotspotX>0.500713289</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.499286741</hotspotX>
+                        <hotspotY>0.529411793</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -226,10 +245,10 @@
                         <x>1081.494506836</x>
                         <y>479.894134521</y>
                         <z>0</z>
-                        <width>474</width>
-                        <height>137</height>
+                        <width>475.352355957</width>
+                        <height>93.160003662</height>
                         <depth>0</depth>
-                        <hotspotX>0.500713289</hotspotX>
+                        <hotspotX>0.500711262</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -252,11 +271,11 @@
                         <x>1082.522460938</x>
                         <y>599.943725586</y>
                         <z>0</z>
-                        <width>472</width>
-                        <height>135</height>
+                        <width>473.34664917</width>
+                        <height>91.800003052</height>
                         <depth>0</depth>
-                        <hotspotX>0.500713289</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.500711262</hotspotX>
+                        <hotspotY>0.529411793</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -279,7 +298,34 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="PedirAjuda" uid="6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <originalWidth>0</originalWidth>
+                        <originalHeight>0</originalHeight>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>716</x>
+                        <y>617</y>
+                        <z>0</z>
+                        <width>150.011383057</width>
+                        <height>178.199798584</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500687778</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
