@@ -10,17 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Intro1</layout>
-        <layout order="1">Intro2</layout>
-        <layout order="2">TelaPlay</layout>
-        <layout order="3">Tabuleiro</layout>
-        <layout order="5">Pergunta1</layout>
-        <layout order="9">AnimaçãoDado</layout>
-        <layout order="4">InicioTabuleiro</layout>
-        <event-sheet order="6">AnimaçãoDado</event-sheet>
-        <event-sheet order="7">Tabuleiro</event-sheet>
-        <event-sheet order="8">InicioTabuleiro</event-sheet>
-        <event-sheet order="10">TelaPlay</event-sheet>
+        <layout order="1">AnimaçãoDado</layout>
+        <layout order="3">Pergunta1</layout>
+        <event-sheet order="0">Pergunta1</event-sheet>
+        <event-sheet active="1" order="2">AnimaçãoDado</event-sheet>
+        <event-sheet order="4">TelaPlay</event-sheet>
+        <event-sheet order="5">Intro1</event-sheet>
+        <event-sheet order="6">Intro2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,16 +25,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="1" name="Selecionaveis" />
+        <family expanded="0" name="Selecionaveis" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Tabuleiros/" />
         <folder expanded="1" path="layout-folder/Perguntas/" />
+        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="1" path="layout-folder/TelaDePlay/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="event-folder/Tabuleiros/" />
-        <folder expanded="0" path="event-folder/Perguntas/" />
+        <folder expanded="0" path="event-folder/Tabuleiros/" />
+        <folder expanded="1" path="event-folder/Perguntas/" />
+        <folder expanded="1" path="event-folder/TelaDePlay/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />

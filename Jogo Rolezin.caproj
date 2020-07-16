@@ -303,9 +303,22 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="996760656425558" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDado.png">
-                        <image-point name="numeroCentro" x="0.5" y="0.657848" />
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="996760656425558" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoBaixo.png">
+                        <image-point name="numeroCentro" x="0.51073" y="0.582011" />
+                        <image-point name="botaoOk" x="0.628755" y="0.837743" />
+                        <collision-poly>
+                            <point x="0.197425" y="0.162257" />
+                            <point x="0.5" y="0.121693" />
+                            <point x="0.796137" y="0.167549" />
+                            <point x="0.965665" y="0.499118" />
+                            <point x="0.954936" y="0.962963" />
+                            <point x="0.0450644" y="0.962963" />
+                            <point x="0.0343348" y="0.499118" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoAlto.png">
+                        <image-point name="numeroCentro" x="0.51073" y="0.582011" />
                         <image-point name="botaoOk" x="0.628755" y="0.837743" />
                         <collision-poly>
                             <point x="0.197425" y="0.162257" />
@@ -433,6 +446,17 @@
         </family>
     </families>
     <layout-folder>
+        <layout-folder name="Perguntas">
+            <layout>AnimaçãoDado.xml</layout>
+            <layout>Pergunta1.xml</layout>
+            <layout>Pergunta2.xml</layout>
+            <layout>Pergunta3.xml</layout>
+            <layout>Pergunta4.xml</layout>
+            <layout>Pergunta5.xml</layout>
+            <layout>Pergunta6.xml</layout>
+            <layout>Pergunta7.xml</layout>
+            <layout>PerguntaExtra.xml</layout>
+        </layout-folder>
         <layout-folder name="Tabuleiros">
             <layout>Tabuleiro.xml</layout>
             <layout>InicioTabuleiro.xml</layout>
@@ -444,20 +468,11 @@
             <layout>Tabuleiro7.xml</layout>
             <layout>Tabuleiro8.xml</layout>
         </layout-folder>
-        <layout-folder name="Perguntas">
-            <layout>Pergunta1.xml</layout>
-            <layout>Pergunta2.xml</layout>
-            <layout>Pergunta3.xml</layout>
-            <layout>Pergunta4.xml</layout>
-            <layout>Pergunta5.xml</layout>
-            <layout>Pergunta6.xml</layout>
-            <layout>Pergunta7.xml</layout>
-            <layout>PerguntaExtra.xml</layout>
+        <layout-folder name="TelaDePlay">
+            <layout>Intro1.xml</layout>
+            <layout>Intro2.xml</layout>
+            <layout>TelaPlay.xml</layout>
         </layout-folder>
-        <layout>Intro1.xml</layout>
-        <layout>Intro2.xml</layout>
-        <layout>TelaPlay.xml</layout>
-        <layout>AnimaçãoDado.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
@@ -479,11 +494,13 @@
             <event-sheet>Pergunta5.xml</event-sheet>
             <event-sheet>Pergunta6.xml</event-sheet>
             <event-sheet>Pergunta7.xml</event-sheet>
+            <event-sheet>AnimaçãoDado.xml</event-sheet>
         </event-folder>
-        <event-sheet>Intro2.xml</event-sheet>
-        <event-sheet>Intro1.xml</event-sheet>
-        <event-sheet>TelaPlay.xml</event-sheet>
-        <event-sheet>AnimaçãoDado.xml</event-sheet>
+        <event-folder name="TelaDePlay">
+            <event-sheet>Intro1.xml</event-sheet>
+            <event-sheet>Intro2.xml</event-sheet>
+            <event-sheet>TelaPlay.xml</event-sheet>
+        </event-folder>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
     </event-folder>
     <global-instances>

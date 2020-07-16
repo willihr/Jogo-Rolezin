@@ -159,7 +159,7 @@
                 </instance>
                 <instance type="numeroSorteado" uid="72">
                     <properties>
-                        <text>4</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Narrow,-128,400,0</font>
                         <color>0,0,0</color>
@@ -173,7 +173,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>1120</y>
+                        <y>1090</y>
                         <z>0</z>
                         <width>160</width>
                         <height>200</height>
