@@ -10,11 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Intro1</layout>
+        <layout active="1" order="0">Intro1</layout>
         <layout order="1">Intro2</layout>
         <layout order="2">TelaPlay</layout>
         <layout order="3">Tabuleiro</layout>
-        <layout active="1" order="5">Pergunta1</layout>
+        <layout order="5">Pergunta1</layout>
         <layout order="9">AnimaçãoDado</layout>
         <layout order="4">InicioTabuleiro</layout>
         <event-sheet order="6">AnimaçãoDado</event-sheet>
@@ -48,7 +48,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
         <folder expanded="1" path="animation-folder/EfeitoFade/" />
         <folder expanded="1" path="animation-folder/BotãoStart/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/LanceOdado/" />
         <folder expanded="1" path="animation-folder/INICIO_0/" />
         <folder expanded="1" path="animation-folder/Maycon_1/" />
@@ -58,7 +57,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Diogo_5/" />
         <folder expanded="1" path="animation-folder/Pedro_6/" />
         <folder expanded="1" path="animation-folder/Willian_7/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
@@ -68,20 +66,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Larissa_Player/" />
         <folder expanded="1" path="animation-folder/Rolezin/" />
         <folder expanded="1" path="animation-folder/FundoResposta/" />
-        <folder expanded="1" path="animation-folder/Sprite8/" />
-        <folder expanded="1" path="animation-folder/Sprite9/" />
-        <folder expanded="1" path="animation-folder/Sprite10/" />
-        <folder expanded="1" path="animation-folder/Sprite11/" />
-        <folder expanded="1" path="animation-folder/Sprite13/" />
         <folder expanded="1" path="animation-folder/Resposta1/" />
         <folder expanded="1" path="animation-folder/Resposta2/" />
         <folder expanded="1" path="animation-folder/Resposta3/" />
         <folder expanded="1" path="animation-folder/Resposta4/" />
         <folder expanded="1" path="animation-folder/Sprite17/" />
-        <folder expanded="1" path="animation-folder/Sprite18/" />
-        <folder expanded="1" path="animation-folder/Sprite19/" />
-        <folder expanded="1" path="animation-folder/Sprite20/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>
