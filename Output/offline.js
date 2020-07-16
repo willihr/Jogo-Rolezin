@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1594849131,
+	"version": 1594857810,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -28,6 +28,8 @@
 		"images/tiledbackground3.png",
 		"images/sprite5-sheet0.png",
 		"images/belquior1.png",
+		"images/popupdado-sheet0.png",
+		"images/botaohitbox-sheet0.png",
 		"media/ballbounce.ogg",
 		"media/pubgremix.ogg",
 		"icon-16.png",
