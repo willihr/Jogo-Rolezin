@@ -17,10 +17,8 @@
         </event-block>
         <event-block sid="937592046002131">
             <conditions>
-                <condition id="6" name="On object clicked" sid="905793772034623" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta3</param>
+                <condition id="3" name="On touched object" sid="905793772034623" type="Touch">
+                    <param id="0" name="Object">Resposta3</param>
                 </condition>
             </conditions>
             <actions>
@@ -85,10 +83,8 @@
         </event-block>
         <event-block sid="780232617113115">
             <conditions>
-                <condition id="6" name="On object clicked" sid="367421203416615" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta1</param>
+                <condition id="3" name="On touched object" sid="367421203416615" type="Touch">
+                    <param id="0" name="Object">Resposta1</param>
                 </condition>
             </conditions>
             <actions>
@@ -112,10 +108,8 @@
         </event-block>
         <event-block sid="452945164384179">
             <conditions>
-                <condition id="6" name="On object clicked" sid="938190251633638" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta2</param>
+                <condition id="3" name="On touched object" sid="938190251633638" type="Touch">
+                    <param id="0" name="Object">Resposta2</param>
                 </condition>
             </conditions>
             <actions>
@@ -139,10 +133,8 @@
         </event-block>
         <event-block sid="313276280306554">
             <conditions>
-                <condition id="6" name="On object clicked" sid="686356951797116" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta4</param>
+                <condition id="3" name="On touched object" sid="686356951797116" type="Touch">
+                    <param id="0" name="Object">Resposta4</param>
                 </condition>
             </conditions>
             <actions>
@@ -166,10 +158,8 @@
         </event-block>
         <event-block sid="675593338523087">
             <conditions>
-                <condition id="6" name="On object clicked" sid="942309877738631" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta5</param>
+                <condition id="3" name="On touched object" sid="942309877738631" type="Touch">
+                    <param id="0" name="Object">Resposta5</param>
                 </condition>
             </conditions>
             <actions>

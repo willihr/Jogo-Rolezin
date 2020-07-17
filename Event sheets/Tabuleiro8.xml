@@ -6,10 +6,8 @@
         <include>TabuleiroTodos</include>
         <event-block sid="321228286247820">
             <conditions>
-                <condition id="6" name="On object clicked" sid="222586274460958" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">AVANÇAR</param>
+                <condition id="3" name="On touched object" sid="222586274460958" type="Touch">
+                    <param id="0" name="Object">AVANÇAR</param>
                 </condition>
             </conditions>
             <actions>
