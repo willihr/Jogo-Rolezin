@@ -108,23 +108,20 @@
         <object-type name="TextBox" sid="766210116460919">
             <plugin id="TextBox" />
         </object-type>
-        <object-type name="Titulo" sid="794883441810032">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="BotãoStart" sid="670561243107232">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="225215026749436" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\botãoStart.png">
+                    <frame duration="1" hotspotX="0.519182" hotspotY="0.568493" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\botãoStart.png">
                         <collision-poly>
-                            <point x="0.103093" y="0.27027" />
-                            <point x="0.5" y="0.243243" />
-                            <point x="0.865979" y="0.351351" />
-                            <point x="0.876289" y="0.5" />
-                            <point x="0.876289" y="0.675676" />
-                            <point x="0.5" y="0.837838" />
-                            <point x="0.0824742" y="0.783784" />
-                            <point x="0.0824742" y="0.5" />
+                            <point x="0.0268545" y="0.277397" />
+                            <point x="0.519182" y="0.24315" />
+                            <point x="0.973145" y="0.380137" />
+                            <point x="0.985934" y="0.568493" />
+                            <point x="0.985934" y="0.791096" />
+                            <point x="0.519182" y="0.996576" />
+                            <point x="0.00127874" y="0.928082" />
+                            <point x="0.00127874" y="0.568493" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -492,6 +489,34 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="oldgrungecementwallbackgrounds_" sid="351070707987429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="892549672063976" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501199" original-source="D:\Windows 2020\Downloads\old-grunge-cement-wall-backgrounds_34552-195.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TelaStart" sid="665908777649660">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="logoJogoRolezin" sid="288627775207867">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190176657571536" speed="5">
+                    <frame duration="1" hotspotX="0.500574" hotspotY="0.504274" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\logoJogoRolezin.png">
+                        <collision-poly>
+                            <point x="0.00918484" y="0.0683761" />
+                            <point x="0.969001" y="0.230769" />
+                            <point x="0.993111" y="0.495726" />
+                            <point x="0.95752" y="0.683761" />
+                            <point x="0.0516648" y="0.615385" />
+                            <point x="0.00918484" y="0.495726" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -606,5 +631,6 @@
             <file name="loading-logo.png" />
         </file-folder>
         <file name="AnimacaoDado.mp4" />
+        <file name="TelaStart.mp4" />
     </files-folder>
 </c2project>

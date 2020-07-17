@@ -10,10 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Pergunta1</layout>
-        <layout order="1">Pergunta4</layout>
-        <layout order="2">Tabuleiro1</layout>
-        <layout order="3">TelaPlay</layout>
+        <layout order="0">Tabuleiro1</layout>
+        <layout order="1">Intro1</layout>
+        <layout order="2">Pergunta1</layout>
+        <layout order="3">Pergunta2</layout>
+        <layout order="4">Pergunta3</layout>
+        <layout order="5">Pergunta4</layout>
+        <layout order="6">AnimaçãoDado</layout>
+        <layout active="1" order="8">TelaPlay</layout>
+        <event-sheet order="7">AnimaçãoDado</event-sheet>
+        <event-sheet order="9">TelaPlay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="1" name="Selecionaveis" />
     </families-expanded>
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Perguntas/" />
         <folder expanded="1" path="layout-folder/Tabuleiros/" />
@@ -75,5 +81,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/WhatsAppImage20200716At6/" />
         <folder expanded="1" path="animation-folder/WhatsAppImage20200716At7/" />
         <folder expanded="1" path="animation-folder/WhatsAppImage20200716At8/" />
+        <folder expanded="1" path="animation-folder/oldgrungecementwallbackgrounds_/" />
+        <folder expanded="1" path="animation-folder/logoJogoRolezin/" />
     </folders-expanded>
 </c2uistate>
