@@ -15,15 +15,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="597439073846426">
-            <conditions>
-                <condition id="0" name="On clicked" sid="764115198046633" type="Proximo" />
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="224423182098921" type="System">
-                    <param id="0" name="Layout">Tabuleiro4</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

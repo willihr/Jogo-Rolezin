@@ -11,6 +11,9 @@
                 <condition id="-2" name="On start of layout" sid="602305815390555" type="System" />
             </conditions>
             <actions>
+                <action id="2" name="Set looping" sid="829870586750256" type="TelaStart">
+                    <param id="0" name="Mode">1</param>
+                </action>
                 <action id="0" name="Play" sid="769323755429203" type="Audio">
                     <param id="0" name="Audio file">PubgRemix</param>
                     <param id="2" name="Loop">1</param>

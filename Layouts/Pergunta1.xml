@@ -114,6 +114,33 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Text" uid="24">
+                    <properties>
+                        <text>Escolha a alternativa correta:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-34.4,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>798</x>
+                        <y>201</y>
+                        <z>0</z>
+                        <width>482</width>
+                        <height>52</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -132,32 +159,7 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Proximo" uid="136">
-                    <properties>
-                        <type>Button</type>
-                        <text>Proximo</text>
-                        <tooltip></tooltip>
-                        <initial-visibility>Visible</initial-visibility>
-                        <enabled>Yes</enabled>
-                        <auto-font-size>Yes</auto-font-size>
-                        <id-optional></id-optional>
-                        <checked>No</checked>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>964</x>
-                        <y>666</y>
-                        <z>0</z>
-                        <width>202</width>
-                        <height>34</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                    </world>
-                </instance>
-            </instances>
+            <instances />
             <effects />
         </layer>
         <layer name="Respostas" sid="970026903236127">
@@ -190,11 +192,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1080.94140625</x>
-                        <y>250</y>
+                        <x>1044</x>
+                        <y>290</y>
                         <z>0</z>
-                        <width>476.355194092</width>
-                        <height>95.199996948</height>
+                        <width>346</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.500711262</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
@@ -202,7 +204,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Resposta2" uid="574">
+                <instance type="Resposta2" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -216,11 +218,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1080.513549805</x>
-                        <y>365</y>
+                        <x>1044</x>
+                        <y>384</y>
                         <z>0</z>
-                        <width>478</width>
-                        <height>93.160003662</height>
+                        <width>346</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.499286741</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
@@ -228,7 +230,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Resposta3" uid="575">
+                <instance type="Resposta3" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -242,11 +244,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1081.494506836</x>
-                        <y>479.894134521</y>
+                        <x>1044</x>
+                        <y>478</y>
                         <z>0</z>
-                        <width>475.352355957</width>
-                        <height>93.160003662</height>
+                        <width>346</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.500711262</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -254,7 +256,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Resposta4" uid="576">
+                <instance type="Resposta4" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -268,14 +270,175 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1082.522460938</x>
-                        <y>599.943725586</y>
+                        <x>1044</x>
+                        <y>572</y>
                         <z>0</z>
-                        <width>473.34664917</width>
-                        <height>91.800003052</height>
+                        <width>346</width>
+                        <height>61</height>
                         <depth>0</depth>
                         <hotspotX>0.500711262</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Resposta5" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <originalWidth>0</originalWidth>
+                        <originalHeight>0</originalHeight>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1044</x>
+                        <y>666</y>
+                        <z>0</z>
+                        <width>346</width>
+                        <height>61</height>
+                        <depth>0</depth>
+                        <hotspotX>0.500711262</hotspotX>
+                        <hotspotY>0.529411793</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TextoAlternativas" uid="23">
+                    <properties>
+                        <text>Alternativa A</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-45.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>910</x>
+                        <y>264</y>
+                        <z>0</z>
+                        <width>280</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TextoAlternativas" uid="25">
+                    <properties>
+                        <text>Alternativa B</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-45.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>910</x>
+                        <y>358</y>
+                        <z>0</z>
+                        <width>280</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TextoAlternativas" uid="26">
+                    <properties>
+                        <text>Alternativa C</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-45.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>910</x>
+                        <y>452</y>
+                        <z>0</z>
+                        <width>280</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="27">
+                    <properties>
+                        <text>Alternativa D</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-45.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>910</x>
+                        <y>546</y>
+                        <z>0</z>
+                        <width>280</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="28">
+                    <properties>
+                        <text>Alternativa E</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-45.6,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>910</x>
+                        <y>640</y>
+                        <z>0</z>
+                        <width>280</width>
+                        <height>72</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

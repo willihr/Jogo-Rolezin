@@ -11,7 +11,6 @@
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -336,9 +335,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Proximo" sid="970455126240066">
-            <plugin id="Button" />
-        </object-type>
         <object-type name="Rolezin" sid="878834373081506">
             <plugin id="Sprite" />
             <animation-folder>
@@ -517,6 +513,26 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Resposta5" sid="812625141323146">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="241828528874403" speed="5">
+                    <frame duration="1" hotspotX="0.500711" hotspotY="0.529412" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox3" sid="338976173329853">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text" sid="743749017375214">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextoAlternativas" sid="339043563495644">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text2" sid="924132979837992">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -528,6 +544,7 @@
                 <member>Resposta2</member>
                 <member>Resposta3</member>
                 <member>Resposta4</member>
+                <member>Resposta5</member>
             </members>
             <instance-variables>
                 <instance-variable name="originalWidth" sid="331038975663222" type="number" />
@@ -538,6 +555,7 @@
     <layout-folder>
         <layout-folder name="Perguntas">
             <layout>AnimaçãoDado.xml</layout>
+            <layout>PerguntaTodos.xml</layout>
             <layout>Pergunta1.xml</layout>
             <layout>Pergunta2.xml</layout>
             <layout>Pergunta3.xml</layout>

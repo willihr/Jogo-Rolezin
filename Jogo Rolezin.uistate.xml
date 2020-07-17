@@ -18,8 +18,26 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="5">Pergunta4</layout>
         <layout order="6">AnimaçãoDado</layout>
         <layout active="1" order="8">TelaPlay</layout>
+        <layout order="11">Pergunta6</layout>
+        <layout order="12">Pergunta5</layout>
+        <layout order="20">PerguntaTodos</layout>
+        <layout order="21">Tabuleiro2</layout>
+        <layout order="22">Tabuleiro3</layout>
+        <layout order="23">Tabuleiro4</layout>
+        <layout order="24">Tabuleiro5</layout>
+        <layout order="25">Tabuleiro6</layout>
+        <layout order="26">Tabuleiro7</layout>
+        <layout order="27">Tabuleiro8</layout>
         <event-sheet order="7">AnimaçãoDado</event-sheet>
         <event-sheet order="9">TelaPlay</event-sheet>
+        <event-sheet order="10">Pergunta1</event-sheet>
+        <event-sheet order="13">Pergunta2</event-sheet>
+        <event-sheet order="14">Pergunta3</event-sheet>
+        <event-sheet order="15">Pergunta4</event-sheet>
+        <event-sheet order="16">Pergunta5</event-sheet>
+        <event-sheet order="17">Pergunta6</event-sheet>
+        <event-sheet order="18">Pergunta7</event-sheet>
+        <event-sheet order="19">PerguntaTodos</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -33,7 +51,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Perguntas/" />
+        <folder expanded="0" path="layout-folder/Perguntas/" />
         <folder expanded="1" path="layout-folder/Tabuleiros/" />
         <folder expanded="1" path="layout-folder/TelaDePlay/" />
         <folder expanded="1" path="event-folder/" />
@@ -83,5 +101,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/WhatsAppImage20200716At8/" />
         <folder expanded="1" path="animation-folder/oldgrungecementwallbackgrounds_/" />
         <folder expanded="1" path="animation-folder/logoJogoRolezin/" />
+        <folder expanded="1" path="animation-folder/Resposta5/" />
     </folders-expanded>
 </c2uistate>
