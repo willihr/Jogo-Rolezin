@@ -15,5 +15,48 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="544866087258299">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="329249982466236" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="878986821034562">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="881858415705240" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="516619499643644" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="154022787536310" type="Nepussivel2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="681586177296738" type="NePussivel">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="846991906699789" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="776953149605175">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="719426963813566" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="199783381953146" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="562991200373845" type="Nepussivel2">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="527177558184500" type="NePussivel">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

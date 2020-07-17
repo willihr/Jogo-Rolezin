@@ -31,14 +31,58 @@
         </event-block>
         <event-block sid="170664693576446">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="277390041502798" type="System">
-                    <param id="0" name="Interval (seconds)">3</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="277390041502798" type="System" />
             </conditions>
             <actions>
+                <action id="-16" name="Wait" sid="850392410737744" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="503121203189924" type="Pergunta_3">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="243847309295988">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="503763385118216" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="622489099664136" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="665315366399678" type="ManoTue">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="389785046576117" type="Manotue2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="140048135917184" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="0" name="Play" sid="789793330777270" type="Audio">
+                    <param id="0" name="Audio file">ManoTue</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">100</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="301835875536285">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="800782103726396" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="926890382777954" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="333043395641584" type="ManoTue">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="969717840209515" type="Manotue2">
+                    <param id="0" name="Reverse mode">0</param>
                 </action>
             </actions>
         </event-block>

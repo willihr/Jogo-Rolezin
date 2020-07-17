@@ -354,6 +354,76 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="VouFazeroKarai" uid="49">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInOutQuint</function>
+                                <target>-2, 490</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>3</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-308</x>
+                        <y>456</y>
+                        <z>0</z>
+                        <width>97.630020142</width>
+                        <height>221.857971191</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.500705242</hotspotY>
+                        <angle>1.559943438</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Voufazerocarai" uid="50">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Position</tweened-property>
+                                <function>EaseInOutQuint</function>
+                                <target>82, 613</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>3</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-220</x>
+                        <y>600</y>
+                        <z>0</z>
+                        <width>214.913970947</width>
+                        <height>214.057739258</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501992047</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.575327754</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

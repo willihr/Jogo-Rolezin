@@ -31,14 +31,58 @@
         </event-block>
         <event-block sid="574518747853262">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="532479177405325" type="System">
-                    <param id="0" name="Interval (seconds)">4</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="101318582260294" type="System" />
             </conditions>
             <actions>
+                <action id="-16" name="Wait" sid="216399563750958" type="System">
+                    <param id="0" name="Seconds">4</param>
+                </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="220393721761915" type="Pergunta_2">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="841031222778343">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="336271638865541" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="929528599233851" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="434987522351511" type="VouFazeroKarai">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="367739962220032" type="Voufazerocarai">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="457397052782156" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="0" name="Play" sid="771098321644178" type="Audio">
+                    <param id="0" name="Audio file">Fazerocarai</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">100</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="582761124600848">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="348911640575838" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="596465244850721" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="382562454102815" type="VouFazeroKarai">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="978465485525111" type="Voufazerocarai">
+                    <param id="0" name="Reverse mode">0</param>
                 </action>
             </actions>
         </event-block>

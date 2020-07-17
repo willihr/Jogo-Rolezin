@@ -31,9 +31,7 @@
         </event-block>
         <event-block sid="529044895936798">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="285873996375833" type="System">
-                    <param id="0" name="Interval (seconds)">4</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="285873996375833" type="System" />
             </conditions>
             <actions>
                 <action behavior="LiteTween" id="10" name="Start" sid="431975417332454" type="Pergunta_1">
@@ -42,38 +40,46 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="768152229343403">
+        <event-block sid="699716508573262">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="437045739085462" type="System">
-                    <param id="0" name="Interval (seconds)">10</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="372692780684296" type="System" />
             </conditions>
             <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="462420374238220" type="Vagabundo">
+                <action id="-16" name="Wait" sid="860370969138596" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="807857469499331" type="Vagabundo">
                     <param id="0" name="Start Mode">0</param>
                     <param id="1" name="Force use current">1</param>
                 </action>
-                <action id="-16" name="Wait" sid="856014995314825" type="System">
-                    <param id="0" name="Seconds">1</param>
+                <action behavior="LiteTween" id="10" name="Start" sid="496060107978910" type="Vagabundoefoda">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
                 </action>
-                <action id="0" name="Play" sid="694081447787523" type="Audio">
+                <action id="-16" name="Wait" sid="489361764463540" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="0" name="Play" sid="201829026606683" type="Audio">
                     <param id="0" name="Audio file">vagabundoefoda</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="625373269256869">
+        <event-block sid="437396904129509">
             <conditions>
-                <condition id="-6" name="Every X seconds" sid="520567167321253" type="System">
-                    <param id="0" name="Interval (seconds)">10</param>
-                </condition>
+                <condition id="-2" name="On start of layout" sid="137003824481107" type="System" />
             </conditions>
             <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="728061998693858" type="Sprite13">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
+                <action id="-16" name="Wait" sid="393707379811998" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="287877213502741" type="Vagabundo">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="945370603132663" type="Vagabundoefoda">
+                    <param id="0" name="Reverse mode">0</param>
                 </action>
             </actions>
         </event-block>
