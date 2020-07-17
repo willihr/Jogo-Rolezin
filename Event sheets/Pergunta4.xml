@@ -15,5 +15,54 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="960797879659270">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="194134254738007" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="873673243477336">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="709311987040676" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="710584206874152" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="972463282681918" type="VacaiaNao">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="880544898874407" type="VacaiaNao2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="266112150663374" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="0" name="Play" sid="651887053749527" type="Audio">
+                    <param id="0" name="Audio file">VacaiNao</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="923012298164991">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="111627944822110" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="515256594845691" type="System">
+                    <param id="0" name="Seconds">15</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="351927306582987" type="VacaiaNao">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+                <action behavior="LiteTween" id="11" name="Reverse" sid="273825613824675" type="VacaiaNao2">
+                    <param id="0" name="Reverse mode">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

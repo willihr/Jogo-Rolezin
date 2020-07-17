@@ -83,5 +83,113 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="780232617113115">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="367421203416615" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resposta1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="785652122260147" type="ERROU">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="0" name="Play" sid="985020009762904" type="Audio">
+                    <param id="0" name="Audio file">SeTolo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="946244313168754" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="743321814061376" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="452945164384179">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="938190251633638" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resposta2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="958495487068944" type="ERROU">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="0" name="Play" sid="714275585831969" type="Audio">
+                    <param id="0" name="Audio file">SeTolo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="240287064829847" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="727922905405292" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="313276280306554">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="686356951797116" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resposta4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="624908063727373" type="ERROU">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="0" name="Play" sid="801380012064174" type="Audio">
+                    <param id="0" name="Audio file">SeTolo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="229861584672734" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="169427138285104" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="675593338523087">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="942309877738631" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resposta5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="694691593180885" type="ERROU">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action id="0" name="Play" sid="572650442133802" type="Audio">
+                    <param id="0" name="Audio file">SeTolo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="183576853675365" type="System">
+                    <param id="0" name="Seconds">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="878302650925284" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
