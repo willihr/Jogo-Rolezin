@@ -20,12 +20,60 @@
                 <condition id="6" name="On object clicked" sid="905793772034623" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">Resposta1</param>
+                    <param id="2" name="Object clicked">Resposta3</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="364932832314210" type="System">
                     <param id="0" name="Layout">Tabuleiro2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="529044895936798">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="285873996375833" type="System">
+                    <param id="0" name="Interval (seconds)">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="431975417332454" type="Pergunta_1">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="768152229343403">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="437045739085462" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="462420374238220" type="Vagabundo">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="856014995314825" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="0" name="Play" sid="694081447787523" type="Audio">
+                    <param id="0" name="Audio file">vagabundoefoda</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-5</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="625373269256869">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="520567167321253" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="728061998693858" type="Sprite13">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
                 </action>
             </actions>
         </event-block>

@@ -15,5 +15,32 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="907147212899408">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="759414354625245" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Resposta4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="390026419068375" type="System">
+                    <param id="0" name="Layout">Tabuleiro3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="574518747853262">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="532479177405325" type="System">
+                    <param id="0" name="Interval (seconds)">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="220393721761915" type="Pergunta_2">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
