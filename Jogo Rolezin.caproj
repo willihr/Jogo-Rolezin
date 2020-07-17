@@ -845,10 +845,45 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="AVANÇAR" sid="770964669385917">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802633642991379" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Talarico" sid="425734322854743">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="412964843567329">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="176440579856980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Talarico2" sid="152621477939383">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="996300286773084">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451177712112947" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
             <members>
+                <member>AVANÇAR</member>
                 <member>BotãoStart</member>
                 <member>FigurinhaLucaoSeloSatisfação</member>
                 <member>PedirAjuda</member>
@@ -954,6 +989,7 @@
         <file name="Nepussivel.ogg" />
         <file name="SeTolo.ogg" />
         <file name="VacaiNao.ogg" />
+        <file name="Talarico.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="PubgRemix.ogg" />

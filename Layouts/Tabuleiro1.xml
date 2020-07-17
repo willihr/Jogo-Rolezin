@@ -163,6 +163,32 @@
                         <opacity>0.200000003</opacity>
                     </world>
                 </instance>
+                <instance type="AVANÇAR" uid="56">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <originalWidth>0</originalWidth>
+                        <originalHeight>0</originalHeight>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1166</x>
+                        <y>644</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -1423,7 +1449,7 @@
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseInOutBack</function>
                                 <target>130, 395</target>

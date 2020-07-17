@@ -19,5 +19,20 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="900505708079989">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="685402944352819" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">AVANÇAR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="507200007620074" type="Larissa_Player">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

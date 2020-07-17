@@ -1423,7 +1423,7 @@
                     <behavior-instances>
                         <behavior-instance type="LiteTween">
                             <properties>
-                                <active-on-start>Yes</active-on-start>
+                                <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseInOutBack</function>
                                 <target>1121, 117</target>
