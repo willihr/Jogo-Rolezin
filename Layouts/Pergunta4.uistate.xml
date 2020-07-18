@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>597.626</position-x>
-        <position-y>355.012</position-y>
-        <position-z>146.41</position-z>
-        <lookat-x>597.626</lookat-x>
-        <lookat-y>355.012</lookat-y>
+        <position-x>657.281</position-x>
+        <position-y>236.084</position-y>
+        <position-z>177.156</position-z>
+        <lookat-x>657.281</lookat-x>
+        <lookat-y>236.084</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -25,13 +25,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <active-layer name="Pergunta_4" />
     <layers>
-        <layer locked="0" name="Layer 0" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Rolezin" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="FundoPergunta" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Layer 1" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Respostas" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Ajudas" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Layer 0" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Respostas" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Ajudas" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Pergunta_4" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

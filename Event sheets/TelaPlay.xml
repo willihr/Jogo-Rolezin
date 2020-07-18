@@ -4,7 +4,7 @@
     <name>TelaPlay</name>
     <events>
         <variable constant="0" name="perguntaAtual" sid="847926140727225" static="0" type="number">0</variable>
-        <variable constant="0" name="direitoaDica" sid="483491192560709" static="0" type="number">0</variable>
+        <variable constant="0" name="direitoaDica" sid="483491192560709" static="0" type="number">-1</variable>
         <include>BotoesSelecionaveis</include>
         <event-block sid="547898131648077">
             <conditions>

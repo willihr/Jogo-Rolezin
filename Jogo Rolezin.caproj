@@ -32,7 +32,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
-    <first-layout>Intro1</first-layout>
+    <first-layout>PrePlay</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -282,7 +282,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="996760656425558" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoBaixo.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoBaixo2.png">
                         <image-point name="numeroCentro" x="0.51073" y="0.582011" />
                         <image-point name="botaoOk" x="0.628755" y="0.837743" />
                         <collision-poly>
@@ -295,7 +295,7 @@
                             <point x="0.0343348" y="0.499118" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoAlto.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500882" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\popupDadoAlto2.png">
                         <image-point name="numeroCentro" x="0.51073" y="0.582011" />
                         <image-point name="botaoOk" x="0.628755" y="0.837743" />
                         <collision-poly>
@@ -331,7 +331,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="696313577826046" speed="5">
-                    <frame duration="1" hotspotX="0.500858" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500858" hotspotY="0.5" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\larissaPlayer2.png">
+                        <collision-poly>
+                            <point x="0.300172" y="0.217122" />
+                            <point x="0.499142" y="0.0880893" />
+                            <point x="0.689537" y="0.224566" />
+                            <point x="0.826758" y="0.5" />
+                            <point x="0.763293" y="0.828784" />
+                            <point x="0.499142" y="1" />
+                            <point x="0.0531732" y="0.961538" />
+                            <point x="0.284734" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -363,7 +374,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="274694263693815" speed="5">
-                    <frame duration="1" hotspotX="0.499287" hotspotY="0.529412" />
+                    <frame duration="1" hotspotX="0.499289" hotspotY="0.529412" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -527,12 +538,6 @@
         <object-type name="Text" sid="743749017375214">
             <plugin id="Text" />
         </object-type>
-        <object-type name="TextoAlternativas" sid="339043563495644">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Text2" sid="924132979837992">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="Sprite" sid="397860230678939">
             <plugin id="Sprite" />
             <animation-folder>
@@ -692,7 +697,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308256709216577" speed="5">
-                    <frame duration="1" hotspotX="0.501992" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.730994" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -849,7 +854,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="802633642991379" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.495726" hotspotY="0.495726" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -878,6 +883,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="PrePlay" sid="182995028257208">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>
@@ -927,6 +935,7 @@
             <layout>Intro2.xml</layout>
             <layout>TelaPlay.xml</layout>
         </layout-folder>
+        <layout>PrePlay.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
@@ -957,6 +966,7 @@
             <event-sheet>TelaPlay.xml</event-sheet>
         </event-folder>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
+        <event-sheet>PrePlay.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
@@ -1003,7 +1013,7 @@
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
         </file-folder>
-        <file name="AnimacaoDado.mp4" />
         <file name="TelaStart.mp4" />
+        <file name="AnimacaoDado.mp4" />
     </files-folder>
 </c2project>

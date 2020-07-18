@@ -224,7 +224,7 @@
                         <width>346</width>
                         <height>61</height>
                         <depth>0</depth>
-                        <hotspotX>0.499286741</hotspotX>
+                        <hotspotX>0.499288768</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -308,141 +308,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TextoAlternativas" uid="38">
-                    <properties>
-                        <text>Alternativa A</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-45.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910</x>
-                        <y>264</y>
-                        <z>0</z>
-                        <width>280</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TextoAlternativas" uid="39">
-                    <properties>
-                        <text>Alternativa B</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-45.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910</x>
-                        <y>358</y>
-                        <z>0</z>
-                        <width>280</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TextoAlternativas" uid="40">
-                    <properties>
-                        <text>Alternativa C</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-45.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910</x>
-                        <y>452</y>
-                        <z>0</z>
-                        <width>280</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text2" uid="41">
-                    <properties>
-                        <text>Alternativa D</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-45.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910</x>
-                        <y>546</y>
-                        <z>0</z>
-                        <width>280</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Text2" uid="42">
-                    <properties>
-                        <text>Alternativa E</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-45.6,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>910</x>
-                        <y>640</y>
-                        <z>0</z>
-                        <width>280</width>
-                        <height>72</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -476,8 +341,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>716</x>
-                        <y>617</y>
+                        <x>775</x>
+                        <y>625</y>
                         <z>0</z>
                         <width>150.011383057</width>
                         <height>178.199798584</height>

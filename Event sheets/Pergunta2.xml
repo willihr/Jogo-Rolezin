@@ -47,7 +47,7 @@
             </conditions>
             <actions>
                 <action id="-16" name="Wait" sid="929528599233851" type="System">
-                    <param id="0" name="Seconds">10</param>
+                    <param id="0" name="Seconds">10-10</param>
                 </action>
                 <action behavior="LiteTween" id="10" name="Start" sid="434987522351511" type="VouFazeroKarai">
                     <param id="0" name="Start Mode">0</param>
@@ -58,13 +58,16 @@
                     <param id="1" name="Force use current">1</param>
                 </action>
                 <action id="-16" name="Wait" sid="457397052782156" type="System">
-                    <param id="0" name="Seconds">2</param>
+                    <param id="0" name="Seconds">2-2</param>
                 </action>
                 <action id="0" name="Play" sid="771098321644178" type="Audio">
                     <param id="0" name="Audio file">Fazerocarai</param>
                     <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">100</param>
+                    <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="10" name="Set master volume" sid="337666223069978" type="Audio">
+                    <param id="0" name="dB">0</param>
                 </action>
             </actions>
         </event-block>

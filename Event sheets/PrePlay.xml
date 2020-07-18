@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PrePlay</name>
+    <events>
+        <event-block sid="848379470519677">
+            <conditions>
+                <condition id="14" name="On tap" sid="220801821288680" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="803483042301768" type="System">
+                    <param id="0" name="Layout">Intro1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

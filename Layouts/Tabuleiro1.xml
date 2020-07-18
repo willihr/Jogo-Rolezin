@@ -163,32 +163,6 @@
                         <opacity>0.200000003</opacity>
                     </world>
                 </instance>
-                <instance type="AVANÇAR" uid="56">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <originalWidth>0</originalWidth>
-                        <originalHeight>0</originalHeight>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1166</x>
-                        <y>644</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -405,10 +379,10 @@
                 </instance>
                 <instance type="INICIO" uid="522">
                     <properties>
-                        <text>INICIO</text>
+                        <text>INíCIO</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Chiller,-32,700,1</font>
-                        <color>255,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -418,15 +392,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>43</x>
-                        <y>584</y>
+                        <x>0</x>
+                        <y>578</y>
                         <z>0</z>
                         <width>101</width>
                         <height>39</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
+                        <angle>-0.495547175</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1420,6 +1394,32 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="AVANÇAR" uid="56">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <originalWidth>0</originalWidth>
+                        <originalHeight>0</originalHeight>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1109</x>
+                        <y>568</y>
+                        <z>0</z>
+                        <width>138.996398926</width>
+                        <height>138.996398926</height>
+                        <depth>0</depth>
+                        <hotspotX>0.495726496</hotspotX>
+                        <hotspotY>0.495726496</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -1462,11 +1462,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>73</x>
-                        <y>625</y>
+                        <x>124</x>
+                        <y>621</y>
                         <z>0</z>
-                        <width>91.820892334</width>
-                        <height>126.94278717</height>
+                        <width>119.365219116</width>
+                        <height>165.02293396</height>
                         <depth>0</depth>
                         <hotspotX>0.500857651</hotspotX>
                         <hotspotY>0.5</hotspotY>

@@ -4,6 +4,7 @@
     <name>TabuleiroTodos</name>
     <events>
         <include>BotoesSelecionaveis</include>
+        <event-group description="" sid="688650971699034" title="AnimaçãoDeuses" />
         <event-block sid="690207675585632">
             <conditions>
                 <condition id="-18" name="On created" sid="509394997260660" type="DeusTalles1" />
@@ -33,7 +34,6 @@
         </event-block>
         <event-block sid="350585735198843">
             <conditions>
-                <condition id="-1" name="Every tick" sid="519275772204376" type="System" />
                 <condition id="-7" name="Compare instance variable" sid="276176556879539" type="DeusTalles1">
                     <param id="0" name="Instance variable">targetX</param>
                     <param id="1" name="Comparison">0</param>
@@ -98,7 +98,6 @@
         </event-block>
         <event-block sid="635725966420288">
             <conditions>
-                <condition id="-1" name="Every tick" sid="707955504482790" type="System" />
                 <condition id="-7" name="Compare instance variable" sid="799886876360610" type="Belquior1">
                     <param id="0" name="Instance variable">targetX</param>
                     <param id="1" name="Comparison">0</param>
@@ -131,6 +130,19 @@
                 <action id="-23" name="Move at angle" sid="846115921298552" type="Belquior1">
                     <param id="0" name="Angle">self.moveAngle</param>
                     <param id="1" name="Distance">self.wander*dt</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="575998379758121" title="AnimaçãoBotãoSeguir" />
+        <event-block sid="592397671207515">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="840060054025001" type="Mouse">
+                    <param id="0" name="Object">AVANÇAR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="286110505695345" type="AVANÇAR">
+                    <param id="0" name="Scale">0.5+sin(tickcount*2)*0.3+1</param>
                 </action>
             </actions>
         </event-block>
