@@ -13,6 +13,24 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
+        <layer name="Rolezin" sid="772189179341447">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
         <layer name="FundoPergunta" sid="671007820069158">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -74,24 +92,6 @@
                     </world>
                 </instance>
             </instances>
-            <effects />
-        </layer>
-        <layer name="Layer 1" sid="243845095815429">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances />
             <effects />
         </layer>
         <layer name="Respostas" sid="380998656349954">
@@ -156,7 +156,7 @@
                         <width>478</width>
                         <height>93.160003662</height>
                         <depth>0</depth>
-                        <hotspotX>0.499286741</hotspotX>
+                        <hotspotX>0.499288768</hotspotX>
                         <hotspotY>0.529411793</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -260,6 +260,42 @@
                     </world>
                 </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="Questão" sid="716201150166856">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="Memes" sid="175328034516037">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>

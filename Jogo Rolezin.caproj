@@ -562,19 +562,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Pergunta_1" sid="153417128484642">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="875085592016088">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525590761296094" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500921" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite8" sid="756173738571606">
             <plugin id="Sprite" />
             <animation-folder>
@@ -607,37 +594,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Pergunta_2" sid="275627921505347">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="533254716107139">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388161347301148" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite12" sid="908222681929519">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457888950297394" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Pergunta_3" sid="820170680332546">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="LiteTween" sid="284792982729242">
-                    <behavior id="lunarray_LiteTween" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="355990312749454" speed="5">
-                    <frame duration="1" hotspotX="0.500666" hotspotY="0.50087" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -886,6 +847,118 @@
         </object-type>
         <object-type name="PrePlay" sid="182995028257208">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Questão" sid="473979373576551">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="785556849929169">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="460171130901654" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500914" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Perguntas\Pergunta8.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AcertouGif" sid="333343864596676">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="28" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998487478987691" speed="30">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ErrouGif" sid="812338832381915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="50" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257280128230426" speed="30">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>

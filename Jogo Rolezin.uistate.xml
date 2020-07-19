@@ -10,8 +10,25 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">AnimaçãoDado</layout>
-        <event-sheet order="0">Pergunta1</event-sheet>
+        <layout order="0">AnimaçãoDado</layout>
+        <layout order="1">PerguntaTodos</layout>
+        <layout active="1" order="2">Pergunta1</layout>
+        <layout order="3">Pergunta2</layout>
+        <layout order="6">Pergunta3</layout>
+        <layout order="7">Pergunta4</layout>
+        <layout order="8">Pergunta5</layout>
+        <layout order="12">PerguntaExtra</layout>
+        <layout order="13">Pergunta6</layout>
+        <layout order="14">Pergunta7</layout>
+        <event-sheet order="4">Pergunta2</event-sheet>
+        <event-sheet order="5">PerguntaTodos</event-sheet>
+        <event-sheet order="9">BotoesSelecionaveis</event-sheet>
+        <event-sheet order="10">Pergunta1</event-sheet>
+        <event-sheet order="11">Pergunta3</event-sheet>
+        <event-sheet order="15">Pergunta4</event-sheet>
+        <event-sheet order="16">Pergunta5</event-sheet>
+        <event-sheet order="17">Pergunta6</event-sheet>
+        <event-sheet order="18">Pergunta7</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -79,14 +96,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
-        <folder expanded="1" path="animation-folder/Pergunta_1/" />
         <folder expanded="1" path="animation-folder/Sprite8/" />
         <folder expanded="1" path="animation-folder/Sprite9/" />
         <folder expanded="1" path="animation-folder/Sprite10/" />
         <folder expanded="1" path="animation-folder/Sprite11/" />
-        <folder expanded="1" path="animation-folder/Pergunta_2/" />
         <folder expanded="1" path="animation-folder/Sprite12/" />
-        <folder expanded="1" path="animation-folder/Pergunta_3/" />
         <folder expanded="1" path="animation-folder/Vagabundo/" />
         <folder expanded="1" path="animation-folder/Vagabundoefoda/" />
         <folder expanded="1" path="animation-folder/VouFazeroKarai/" />
@@ -108,5 +122,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/AVANÇAR/" />
         <folder expanded="1" path="animation-folder/Talarico/" />
         <folder expanded="1" path="animation-folder/Talarico2/" />
+        <folder expanded="1" path="animation-folder/Questão/" />
+        <folder expanded="1" path="animation-folder/AcertouGif/" />
+        <folder expanded="1" path="animation-folder/ErrouGif/" />
     </folders-expanded>
 </c2uistate>

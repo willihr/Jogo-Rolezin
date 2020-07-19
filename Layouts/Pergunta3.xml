@@ -117,24 +117,6 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 1" sid="260976224270994">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances />
-            <effects />
-        </layer>
         <layer name="Respostas" sid="764151320252419">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -303,7 +285,25 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Pergunta_3" sid="668549846315699">
+        <layer name="Questão" sid="975531081439781">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="PedroErrou" sid="668549846315699">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -319,41 +319,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Pergunta_3" uid="46">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="LiteTween">
-                            <properties>
-                                <active-on-start>No</active-on-start>
-                                <tweened-property>Position</tweened-property>
-                                <function>EaseInOutQuint</function>
-                                <target>397.296, 278.601</target>
-                                <target-mode>Absolute</target-mode>
-                                <duration>3</duration>
-                                <enforce-mode>Enforce</enforce-mode>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>399</x>
-                        <y>1070</y>
-                        <z>0</z>
-                        <width>676.59197998</width>
-                        <height>510.263000488</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500665784</hotspotX>
-                        <hotspotY>0.500869572</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="ManoTue" uid="51">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

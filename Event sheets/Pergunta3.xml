@@ -4,185 +4,154 @@
     <name>Pergunta3</name>
     <events>
         <include>PerguntaTodos</include>
-        <event-block sid="639719719179440">
+        <event-block sid="149648185764834">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="214738528873618" type="System" />
+                <condition id="-2" name="On start of layout" sid="344544477993085" type="System" />
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="706249429854657" type="System">
+                <action id="-9" name="Set value" sid="481776583951987" type="System">
                     <param id="0" name="Variable">perguntaAtual</param>
                     <param id="1" name="Value">3</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="772382523971586">
-            <conditions>
-                <condition id="3" name="On touched object" sid="570386022737166" type="Touch">
-                    <param id="0" name="Object">Resposta3</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="818235618614354" type="System">
-                    <param id="0" name="Layout">Tabuleiro4</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="170664693576446">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="277390041502798" type="System" />
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="850392410737744" type="System">
-                    <param id="0" name="Seconds">4</param>
-                </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="503121203189924" type="Pergunta_3">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="243847309295988">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="503763385118216" type="System" />
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="622489099664136" type="System">
-                    <param id="0" name="Seconds">10</param>
-                </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="665315366399678" type="ManoTue">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action behavior="LiteTween" id="10" name="Start" sid="389785046576117" type="Manotue2">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="140048135917184" type="System">
-                    <param id="0" name="Seconds">2</param>
-                </action>
-                <action id="0" name="Play" sid="789793330777270" type="Audio">
-                    <param id="0" name="Audio file">ManoTue</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">100</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="301835875536285">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="800782103726396" type="System" />
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="926890382777954" type="System">
-                    <param id="0" name="Seconds">15</param>
-                </action>
-                <action behavior="LiteTween" id="11" name="Reverse" sid="333043395641584" type="ManoTue">
-                    <param id="0" name="Reverse mode">0</param>
-                </action>
-                <action behavior="LiteTween" id="11" name="Reverse" sid="969717840209515" type="Manotue2">
-                    <param id="0" name="Reverse mode">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="518653902164576">
-            <conditions>
-                <condition id="3" name="On touched object" sid="495623545157970" type="Touch">
-                    <param id="0" name="Object">Resposta1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="558048406300770" type="ERROU">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action id="0" name="Play" sid="448408653684645" type="Audio">
-                    <param id="0" name="Audio file">SeTolo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="388247084901870" type="System">
-                    <param id="0" name="Seconds">5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="691982107205822" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="942842278832986">
-            <conditions>
-                <condition id="3" name="On touched object" sid="760549199062808" type="Touch">
-                    <param id="0" name="Object">Resposta2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="619459669179881" type="ERROU">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action id="0" name="Play" sid="109879473736585" type="Audio">
-                    <param id="0" name="Audio file">SeTolo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="529234111879217" type="System">
-                    <param id="0" name="Seconds">5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="782960396900798" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="675948959165082">
-            <conditions>
-                <condition id="3" name="On touched object" sid="336147106634407" type="Touch">
-                    <param id="0" name="Object">Resposta4</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="104011440623183" type="ERROU">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action id="0" name="Play" sid="604422816729219" type="Audio">
-                    <param id="0" name="Audio file">SeTolo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="440792246656762" type="System">
-                    <param id="0" name="Seconds">5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="948549217444349" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="373331982968545">
-            <conditions>
-                <condition id="3" name="On touched object" sid="377189448764338" type="Touch">
-                    <param id="0" name="Object">Resposta5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="351160263775213" type="ERROU">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
-                </action>
-                <action id="0" name="Play" sid="913906297644248" type="Audio">
-                    <param id="0" name="Audio file">SeTolo</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">-5</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-                <action id="-16" name="Wait" sid="476179446836757" type="System">
-                    <param id="0" name="Seconds">5</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="968604017661507" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="562171374810588" title="Dica3">
+            <sub-events>
+                <event-block sid="433274829367039">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="477318828245161" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="383604045138838" type="PedirAjuda" />
+                    </actions>
+                </event-block>
+                <event-block sid="554068824899565">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="387453427130750" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="663461795573643" type="Resposta1" />
+                        <action id="-9" name="Destroy" sid="709443389227615" type="Resposta3" />
+                        <action id="-9" name="Destroy" sid="863079603454853" type="PedirAjuda" />
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="416229890773999">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="376971392838990" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="903311644181548" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="992612061434987" type="ManoTue" />
+                        <action id="-9" name="Destroy" sid="368159623012839" type="Manotue2" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="256459472508469" title="Alternativas3">
+            <sub-events>
+                <event-block sid="708612083454843">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="588969271763332" type="Touch">
+                            <param id="0" name="Object">Resposta3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="151104985568246" type="System">
+                            <param id="0" name="Layout">Tabuleiro4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="996002339907545">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="908423114632650" type="Touch">
+                            <param id="0" name="Object">Resposta1</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="944712911595497" type="Touch">
+                            <param id="0" name="Object">Resposta2</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="902410615516650" type="Touch">
+                            <param id="0" name="Object">Resposta4</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="718143131335001" type="Touch">
+                            <param id="0" name="Object">Resposta5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="170474617070922" type="ERROU">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="866493127168162" type="Audio">
+                            <param id="0" name="Audio file">SeTolo</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="168266605222774" type="System">
+                            <param id="0" name="Seconds">10</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="277735019078612" type="System">
+                            <param id="0" name="Layout">Tabuleiro4</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="325961150143709" title="Meme3">
+            <sub-events>
+                <event-block sid="986332252898775">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="813971075699970" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="721253375561508" type="System">
+                            <param id="0" name="Seconds">10</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="328921275404819" type="ManoTue">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="966181540618120" type="Manotue2">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="379753686733353" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="0" name="Play" sid="845115991597342" type="Audio">
+                            <param id="0" name="Audio file">ManoTue</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="364241479753701" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="738089355125012" type="ManoTue">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="11" name="Reverse" sid="954324774324925" type="Manotue2">
+                            <param id="0" name="Reverse mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

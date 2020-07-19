@@ -4,20 +4,47 @@
     <name>PerguntaTodos</name>
     <events>
         <include>BotoesSelecionaveis</include>
+        <event-group description="" sid="236615145307421" title="Ajuda" />
         <event-block any="1" sid="683400351286282">
             <conditions>
                 <condition id="17" name="On tap object" sid="280048460335061" type="Touch">
                     <param id="0" name="Object">PedirAjuda</param>
                 </condition>
-                <condition id="6" name="On object clicked" sid="697543679468855" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">PedirAjuda</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="897842335408431" type="System">
                     <param id="0" name="Layout">AnimaçãoDado</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="576237035296183" title="Questão" />
+        <event-block sid="785125915585916">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="103218837729381" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="3" name="Set target" sid="240349493040644" type="Questão">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">self.X</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="465067925968728" type="Questão">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">self.Y</param>
+                </action>
+                <action id="-2" name="Set Y" sid="789574442271373" type="Questão">
+                    <param id="0" name="Y">-500</param>
+                </action>
+                <action id="-16" name="Wait" sid="481412131050184" type="System">
+                    <param id="0" name="Seconds">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="763032903822903" type="Questão">
+                    <param id="0" name="Frame number">perguntaAtual-1</param>
+                </action>
+                <action behavior="LiteTween" id="10" name="Start" sid="303732114679021" type="Questão">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">1</param>
                 </action>
             </actions>
         </event-block>
