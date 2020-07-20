@@ -38,8 +38,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="698244010979729" type="Resposta1" />
-                        <action id="-9" name="Destroy" sid="921840049006358" type="Resposta3" />
+                        <action id="-9" name="Destroy" sid="698244010979729" type="Resposta2" />
+                        <action id="-9" name="Destroy" sid="921840049006358" type="Resposta4" />
                         <action id="-9" name="Destroy" sid="503850778534626" type="PedirAjuda" />
                     </actions>
                 </event-block>
@@ -67,11 +67,22 @@
             <sub-events>
                 <event-block sid="325592801183645">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="920496148783487" type="Touch">
-                            <param id="0" name="Object">Resposta3</param>
+                        <condition id="3" name="On touched object" sid="894926182471324" type="Touch">
+                            <param id="0" name="Object">Resposta1</param>
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-15" name="Set visible" sid="723758838109499" type="AcertouGif">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="745254202627547" type="System">
+                            <param id="0" name="Layer">&quot;Respostas&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="447371509475572" type="PedirAjuda" />
+                        <action id="-16" name="Wait" sid="741989382706542" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="531170316919787" type="System">
                             <param id="0" name="Layout">Tabuleiro7</param>
                         </action>
@@ -79,11 +90,11 @@
                 </event-block>
                 <event-block any="1" sid="872116500176191">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="894926182471324" type="Touch">
-                            <param id="0" name="Object">Resposta1</param>
-                        </condition>
                         <condition id="3" name="On touched object" sid="961320012687203" type="Touch">
                             <param id="0" name="Object">Resposta2</param>
+                        </condition>
+                        <condition id="3" name="On touched object" sid="920496148783487" type="Touch">
+                            <param id="0" name="Object">Resposta3</param>
                         </condition>
                         <condition id="3" name="On touched object" sid="473531692844119" type="Touch">
                             <param id="0" name="Object">Resposta4</param>
@@ -93,23 +104,61 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action behavior="LiteTween" id="10" name="Start" sid="934688414905548" type="ERROU">
-                            <param id="0" name="Start Mode">0</param>
-                            <param id="1" name="Force use current">1</param>
+                        <action id="-15" name="Set visible" sid="199684668602527" type="ErrouGif">
+                            <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="0" name="Play" sid="508119874590486" type="Audio">
-                            <param id="0" name="Audio file">SeTolo</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        <action id="-4" name="Set layer visible" sid="295160886692637" type="System">
+                            <param id="0" name="Layer">&quot;Respostas&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
-                        <action id="-16" name="Wait" sid="913118379593248" type="System">
-                            <param id="0" name="Seconds">10</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="993276993932768" type="System">
-                            <param id="0" name="Layout">Tabuleiro7</param>
-                        </action>
+                        <action id="-9" name="Destroy" sid="136105107033884" type="PedirAjuda" />
                     </actions>
+                    <sub-events>
+                        <event-block sid="919748255745480">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="740730797779710" type="System">
+                                    <param id="0" name="Variable">memesOn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="858773625212359" type="ERROU">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="552447925560405" type="Audio">
+                                    <param id="0" name="Audio file">SeTolo</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="710309163975117" type="System">
+                                    <param id="0" name="Seconds">5</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="993276993932768" type="System">
+                                    <param id="0" name="Layout">Tabuleiro7</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="322236923616189">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="396272863328477" type="System">
+                                    <param id="0" name="Variable">memesOn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="883719016868125" type="System">
+                                    <param id="0" name="Seconds">5</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="244930917349263" type="System">
+                                    <param id="0" name="Layout">Tabuleiro7</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
@@ -118,6 +167,11 @@
                 <event-block sid="458353648060488">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="729851842400488" type="System" />
+                        <condition id="-14" name="Compare variable" sid="889379921503229" type="System">
+                            <param id="0" name="Variable">memesOn</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-16" name="Wait" sid="224973053204495" type="System">

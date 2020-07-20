@@ -12,14 +12,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">AnimaçãoDado</layout>
         <layout order="1">PerguntaTodos</layout>
-        <layout active="1" order="2">Pergunta1</layout>
+        <layout order="2">Pergunta1</layout>
         <layout order="3">Pergunta2</layout>
         <layout order="6">Pergunta3</layout>
         <layout order="7">Pergunta4</layout>
         <layout order="8">Pergunta5</layout>
-        <layout order="12">PerguntaExtra</layout>
+        <layout active="1" order="12">Pergunta8</layout>
         <layout order="13">Pergunta6</layout>
         <layout order="14">Pergunta7</layout>
+        <layout order="20">PrePlay</layout>
+        <layout order="24">Outro</layout>
         <event-sheet order="4">Pergunta2</event-sheet>
         <event-sheet order="5">PerguntaTodos</event-sheet>
         <event-sheet order="9">BotoesSelecionaveis</event-sheet>
@@ -29,6 +31,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="16">Pergunta5</event-sheet>
         <event-sheet order="17">Pergunta6</event-sheet>
         <event-sheet order="18">Pergunta7</event-sheet>
+        <event-sheet order="19">Pergunta8</event-sheet>
+        <event-sheet order="21">TelaPlay</event-sheet>
+        <event-sheet order="22">PrePlay</event-sheet>
+        <event-sheet order="23">Tabuleiro1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

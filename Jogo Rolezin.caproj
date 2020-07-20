@@ -991,7 +991,7 @@
             <layout>Pergunta5.xml</layout>
             <layout>Pergunta6.xml</layout>
             <layout>Pergunta7.xml</layout>
-            <layout>PerguntaExtra.xml</layout>
+            <layout>Pergunta8.xml</layout>
         </layout-folder>
         <layout-folder name="Tabuleiros">
             <layout>Tabuleiro1.xml</layout>
@@ -1009,6 +1009,7 @@
             <layout>TelaPlay.xml</layout>
         </layout-folder>
         <layout>PrePlay.xml</layout>
+        <layout>Outro.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
@@ -1032,6 +1033,7 @@
             <event-sheet>Pergunta7.xml</event-sheet>
             <event-sheet>AnimaçãoDado.xml</event-sheet>
             <event-sheet>PerguntaTodos.xml</event-sheet>
+            <event-sheet>Pergunta8.xml</event-sheet>
         </event-folder>
         <event-folder name="TelaDePlay">
             <event-sheet>Intro1.xml</event-sheet>
@@ -1040,6 +1042,7 @@
         </event-folder>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
         <event-sheet>PrePlay.xml</event-sheet>
+        <event-sheet>Outro.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
