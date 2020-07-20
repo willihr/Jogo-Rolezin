@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
         <plugin author="Scirra" id="video" version="1">Video</plugin>
     </used-plugins>
     <used-behaviors>
@@ -103,9 +104,6 @@
         </object-type>
         <object-type name="Audio" sid="957359193976661">
             <plugin id="Audio" />
-        </object-type>
-        <object-type name="TextBox" sid="766210116460919">
-            <plugin id="TextBox" />
         </object-type>
         <object-type name="BotãoStart" sid="670561243107232">
             <plugin id="Sprite" />
@@ -228,10 +226,6 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="TiledBackground3" sid="539559634059120">
-            <plugin id="TiledBg" />
-            <texture />
         </object-type>
         <object-type name="Sprite5" sid="402625598891752">
             <plugin id="Sprite" />
@@ -410,9 +404,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TextBox2" sid="705737259340167">
-            <plugin id="TextBox" />
-        </object-type>
         <object-type name="PedirAjuda" sid="598453463496273">
             <plugin id="Sprite" />
             <animation-folder>
@@ -531,12 +522,6 @@
                     <frame duration="1" hotspotX="0.500711" hotspotY="0.529412" />
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="TextBox3" sid="338976173329853">
-            <plugin id="TextBox" />
-        </object-type>
-        <object-type name="Text" sid="743749017375214">
-            <plugin id="Text" />
         </object-type>
         <object-type name="Sprite" sid="397860230678939">
             <plugin id="Sprite" />
@@ -960,6 +945,148 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ShadowLight" sid="337542834526769">
+            <plugin id="shadowlight" />
+        </object-type>
+        <object-type name="Sprite19" sid="543266401741703">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509261346689778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="720353437095324">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="489280428591195" speed="5">
+                    <frame duration="1" hotspotX="0.500406" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="365076060889983">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659107788653481" speed="5">
+                    <frame duration="1" hotspotX="0.501089" hotspotY="0.501779" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="309963109550412">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762634168182187" speed="5">
+                    <frame duration="1" hotspotX="0.501018" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="389768724563812">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381587785774989" speed="5">
+                    <frame duration="1" hotspotX="0.500888" hotspotY="0.501695" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24" sid="928120893712415">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770900442016227" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="591743294701780">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258698420443319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501348" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26" sid="673859857106968">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="139232442738624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="OK" sid="207475684997689">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126863534911161" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27" sid="732464196024513">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="627687555616030" speed="5">
+                    <frame duration="1" hotspotX="0.500575" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Nomes" sid="551910053833249">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Sprite28" sid="990657802237851">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="343181787851114" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29" sid="217284466368337">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554696238767153" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite30" sid="238229827029929">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357976822884125" speed="5">
+                    <frame duration="1" hotspotX="0.501538" hotspotY="0.501792" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31" sid="975355700267877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781814232096614" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="158451515789907">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="241929326292061" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="731957087933298">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="100019017061284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite34" sid="635072836371622">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829512611793835" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -967,6 +1094,7 @@
                 <member>AVANÇAR</member>
                 <member>BotãoStart</member>
                 <member>FigurinhaLucaoSeloSatisfação</member>
+                <member>OK</member>
                 <member>PedirAjuda</member>
                 <member>Resposta1</member>
                 <member>Resposta2</member>
@@ -1008,6 +1136,10 @@
             <layout>Intro2.xml</layout>
             <layout>TelaPlay.xml</layout>
         </layout-folder>
+        <layout-folder name="Nomes e Ranking">
+            <layout>Nomes.xml</layout>
+            <layout>Ranking.xml</layout>
+        </layout-folder>
         <layout>PrePlay.xml</layout>
         <layout>Outro.xml</layout>
     </layout-folder>
@@ -1025,7 +1157,6 @@
         </event-folder>
         <event-folder name="Perguntas">
             <event-sheet>Pergunta2.xml</event-sheet>
-            <event-sheet>Pergunta1.xml</event-sheet>
             <event-sheet>Pergunta3.xml</event-sheet>
             <event-sheet>Pergunta4.xml</event-sheet>
             <event-sheet>Pergunta5.xml</event-sheet>
@@ -1034,11 +1165,16 @@
             <event-sheet>AnimaçãoDado.xml</event-sheet>
             <event-sheet>PerguntaTodos.xml</event-sheet>
             <event-sheet>Pergunta8.xml</event-sheet>
+            <event-sheet>Pergunta1.xml</event-sheet>
         </event-folder>
         <event-folder name="TelaDePlay">
             <event-sheet>Intro1.xml</event-sheet>
             <event-sheet>Intro2.xml</event-sheet>
             <event-sheet>TelaPlay.xml</event-sheet>
+        </event-folder>
+        <event-folder name="Nomes e Ranking">
+            <event-sheet>Nomes.xml</event-sheet>
+            <event-sheet>Ranking.xml</event-sheet>
         </event-folder>
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
         <event-sheet>PrePlay.xml</event-sheet>
