@@ -57,8 +57,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="104425936407361" type="ToFazendoNada2" />
-                        <action id="-9" name="Destroy" sid="963510588097102" type="ToFazendoNada" />
                         <action id="-9" name="Set value" sid="161591853409473" type="System">
                             <param id="0" name="Variable">direitoaDica</param>
                             <param id="1" name="Value">-1</param>

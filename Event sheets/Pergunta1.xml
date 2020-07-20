@@ -57,8 +57,6 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="699877033555681" type="Vagabundo" />
-                        <action id="-9" name="Destroy" sid="905500580169696" type="Vagabundoefoda" />
                         <action id="-9" name="Set value" sid="856056232577448" type="System">
                             <param id="0" name="Variable">direitoaDica</param>
                             <param id="1" name="Value">-1</param>
