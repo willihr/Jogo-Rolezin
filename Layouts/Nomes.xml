@@ -153,11 +153,11 @@
                         <x>789.084594727</x>
                         <y>603.084594727</y>
                         <z>0</z>
-                        <width>172.41229248</width>
-                        <height>172.41229248</height>
+                        <width>165.515808105</width>
+                        <height>53.447811127</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.53125</hotspotX>
+                        <hotspotY>1.645161271</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -165,20 +165,20 @@
                 <instance type="Nomes" uid="44">
                     <properties>
                         <text></text>
-                        <placeholder>COLOQUE AQUI SEU NOME...</placeholder>
+                        <placeholder>DIGITE SEU NOME AQUI...</placeholder>
                         <tooltip></tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
                         <read-only>No</read-only>
                         <spell-check>No</spell-check>
                         <type>Text</type>
-                        <auto-font-size>No</auto-font-size>
+                        <auto-font-size>Yes</auto-font-size>
                         <id-optional></id-optional>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>600</x>
+                        <x>593</x>
                         <y>433</y>
                         <z>0</z>
                         <width>373</width>

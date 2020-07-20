@@ -1452,7 +1452,7 @@
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseInOutBack</function>
-                                <target>130, 395</target>
+                                <target>181, 387</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>5</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -1462,11 +1462,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>124</x>
-                        <y>621</y>
+                        <x>125</x>
+                        <y>623</y>
                         <z>0</z>
-                        <width>119.365219116</width>
-                        <height>165.02293396</height>
+                        <width>120</width>
+                        <height>165</height>
                         <depth>0</depth>
                         <hotspotX>0.500857651</hotspotX>
                         <hotspotY>0.5</hotspotY>

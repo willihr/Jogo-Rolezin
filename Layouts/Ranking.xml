@@ -428,8 +428,8 @@
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-333,700,1</font>
                         <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
@@ -437,11 +437,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>336</x>
-                        <y>318</y>
+                        <x>323</x>
+                        <y>276</y>
                         <z>0</z>
-                        <width>703</width>
-                        <height>472</height>
+                        <width>636</width>
+                        <height>488</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

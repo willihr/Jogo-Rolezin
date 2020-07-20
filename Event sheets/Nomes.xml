@@ -5,6 +5,21 @@
     <events>
         <variable comment="Nome das Pessoas" constant="0" name="Nome" sid="593617696657701" static="0" type="text"></variable>
         <include>BotoesSelecionaveis</include>
+        <event-block sid="560590693949373">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="138510981281471" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set CSS style" sid="268655483739865" type="Nomes">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;1.5em&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="541054834811198" type="Nomes">
+                    <param id="0" name="Property name">&quot;padding&quot;</param>
+                    <param id="1" name="Value">&quot;10px&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="613862673555772">
             <conditions>
                 <condition id="3" name="On touched object" sid="308023912044004" type="Touch">
@@ -15,6 +30,9 @@
                 <action id="-9" name="Set value" sid="744574775433072" type="System">
                     <param id="0" name="Variable">Nome</param>
                     <param id="1" name="Value">nomes.Text</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="523779717944702" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
                 </action>
             </actions>
         </event-block>
