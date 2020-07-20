@@ -25,13 +25,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="4">Pergunta2</event-sheet>
         <event-sheet order="5">PerguntaTodos</event-sheet>
         <event-sheet order="9">BotoesSelecionaveis</event-sheet>
-        <event-sheet active="1" order="10">Pergunta1</event-sheet>
+        <event-sheet order="10">Pergunta1</event-sheet>
         <event-sheet order="11">Pergunta3</event-sheet>
         <event-sheet order="15">Pergunta4</event-sheet>
         <event-sheet order="16">Pergunta5</event-sheet>
         <event-sheet order="17">Pergunta6</event-sheet>
         <event-sheet order="18">Pergunta7</event-sheet>
-        <event-sheet order="19">Pergunta8</event-sheet>
+        <event-sheet active="1" order="19">Pergunta8</event-sheet>
         <event-sheet order="21">TelaPlay</event-sheet>
         <event-sheet order="22">PrePlay</event-sheet>
         <event-sheet order="23">Tabuleiro1</event-sheet>
