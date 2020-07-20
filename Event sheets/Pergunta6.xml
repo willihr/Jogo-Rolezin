@@ -59,6 +59,10 @@
                     <actions>
                         <action id="-9" name="Destroy" sid="299374678251944" type="Nepussivel2" />
                         <action id="-9" name="Destroy" sid="272760446161911" type="NePussivel" />
+                        <action id="-9" name="Set value" sid="585244959412691" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

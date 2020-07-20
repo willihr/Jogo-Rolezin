@@ -59,6 +59,10 @@
                     <actions>
                         <action id="-9" name="Destroy" sid="906121747351165" type="ManoTue" />
                         <action id="-9" name="Destroy" sid="397516728556912" type="Manotue2" />
+                        <action id="-9" name="Set value" sid="340057070449049" type="System">
+                            <param id="0" name="Variable">direitoaDica</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
