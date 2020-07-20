@@ -51,26 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="Pontuação" sid="992067305563055">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Sprite29" uid="32">
+                <instance type="Sprite35" uid="136">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -80,19 +61,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>652.362304688</x>
-                        <y>596.637939453</y>
+                        <x>645</x>
+                        <y>136</y>
                         <z>0</z>
-                        <width>664.495300293</width>
-                        <height>664.495300293</height>
+                        <width>596</width>
+                        <height>250</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.699999988</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite30" uid="42">
+                <instance type="ImagensFundo" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -102,8 +83,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>177.493927002</x>
-                        <y>72.798461914</y>
+                        <x>1120</x>
+                        <y>206</y>
                         <z>0</z>
                         <width>144.524612427</width>
                         <height>124.068824768</height>
@@ -114,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite30" uid="45">
+                <instance type="ImagensFundo" uid="523">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -124,7 +105,29 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>294</x>
+                        <x>1240</x>
+                        <y>271</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="572">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1239</x>
                         <y>138</y>
                         <z>0</z>
                         <width>144.524612427</width>
@@ -136,7 +139,161 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite30" uid="46">
+                <instance type="ImagensFundo" uid="574">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1119</x>
+                        <y>336</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="575">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>164</x>
+                        <y>202</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="582">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>43</x>
+                        <y>269</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="587">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>42</x>
+                        <y>135</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="576">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>165</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="42">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>165.493927002</x>
+                        <y>66.798461914</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="45">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>287</x>
+                        <y>136</y>
+                        <z>0</z>
+                        <width>144.524612427</width>
+                        <height>124.068824768</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501538455</hotspotX>
+                        <hotspotY>0.501792133</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ImagensFundo" uid="46">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -158,7 +315,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite30" uid="66">
+                <instance type="ImagensFundo" uid="66">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -202,6 +359,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite29" uid="32">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>652.362304688</x>
+                        <y>596.637939453</y>
+                        <z>0</z>
+                        <width>664.495300293</width>
+                        <height>664.495300293</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.699999988</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Pontuação" sid="992067305563055">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
                 <instance type="Sprite33" uid="69">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -220,6 +418,33 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text" uid="137">
+                    <properties>
+                        <text>200</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-333,700,1</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>336</x>
+                        <y>318</y>
+                        <z>0</z>
+                        <width>703</width>
+                        <height>472</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

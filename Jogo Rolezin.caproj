@@ -1047,7 +1047,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite30" sid="238229827029929">
+        <object-type name="ImagensFundo" sid="238229827029929">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357976822884125" speed="5">
@@ -1086,6 +1086,17 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Sprite35" sid="118668293771607">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132521991574663" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="352678585752769">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>

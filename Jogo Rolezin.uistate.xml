@@ -10,10 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">PrePlay</layout>
+        <layout order="0">PrePlay</layout>
+        <layout order="1">Ranking</layout>
+        <layout active="1" order="2">Nomes</layout>
     </open-tabs>
     <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
         <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
         <family expanded="0" name="Selecionaveis" />
@@ -118,10 +123,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite27/" />
         <folder expanded="1" path="animation-folder/Sprite28/" />
         <folder expanded="1" path="animation-folder/Sprite29/" />
-        <folder expanded="1" path="animation-folder/Sprite30/" />
+        <folder expanded="1" path="animation-folder/ImagensFundo/" />
         <folder expanded="1" path="animation-folder/Sprite31/" />
         <folder expanded="1" path="animation-folder/Sprite32/" />
         <folder expanded="1" path="animation-folder/Sprite33/" />
         <folder expanded="1" path="animation-folder/Sprite34/" />
+        <folder expanded="1" path="animation-folder/Sprite35/" />
     </folders-expanded>
 </c2uistate>
