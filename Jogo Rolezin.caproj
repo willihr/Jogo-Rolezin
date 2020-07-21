@@ -1114,7 +1114,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite36" sid="119808953120651">
+        <object-type name="FUNDOBLACK" sid="119808953120651">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337888849542465" speed="5">
@@ -1154,6 +1154,63 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Teorico" sid="127420403744016">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803313082145918" speed="5">
+                    <frame duration="1" hotspotX="0.501818" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Teorico2" sid="616013758418622">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732555705208111" speed="0">
+                    <frame duration="1" hotspotX="0.500549" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501044" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Teorico3" sid="928777921922746">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602253691342349" speed="5">
+                    <frame duration="1" hotspotX="0.500599" hotspotY="0.500882" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ProximoTeorico" sid="689989689808645">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463017692284245" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Start" sid="255099678485058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385366728091490" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite36" sid="108439012759163">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="476412200437425" speed="5">
+                    <frame duration="1" hotspotX="0.500924" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="404867081592773">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="236949759203179">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1164,6 +1221,7 @@
                 <member>IFTM</member>
                 <member>OK</member>
                 <member>PedirAjuda</member>
+                <member>ProximoTeorico</member>
                 <member>Resposta1</member>
                 <member>Resposta2</member>
                 <member>Resposta3</member>
@@ -1214,6 +1272,7 @@
         </layout-folder>
         <layout>PrePlay.xml</layout>
         <layout>Outro.xml</layout>
+        <layout>Teorico.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
@@ -1251,6 +1310,7 @@
         <event-sheet>BotoesSelecionaveis.xml</event-sheet>
         <event-sheet>PrePlay.xml</event-sheet>
         <event-sheet>Outro.xml</event-sheet>
+        <event-sheet>Teorico.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">

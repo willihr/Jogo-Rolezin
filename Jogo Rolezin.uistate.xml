@@ -19,10 +19,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">PerguntaTodos</layout>
         <layout order="7">Ranking</layout>
         <layout order="8">Tabuleiro8</layout>
-        <layout order="10">PerguntaExtra</layout>
+        <layout active="1" order="10">PerguntaExtra</layout>
+        <layout order="11">Teorico</layout>
         <event-sheet order="9">Tabuleiro8</event-sheet>
-        <event-sheet order="11">PerguntaExtra</event-sheet>
-        <event-sheet active="1" order="12">Pergunta2</event-sheet>
+        <event-sheet order="12">Teorico</event-sheet>
+        <event-sheet order="13">PerguntaExtra</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="0">
+    <families-expanded root="1">
         <family expanded="0" name="Selecionaveis" />
     </families-expanded>
     <folders-expanded>
@@ -44,7 +45,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="0" path="event-folder/Tabuleiros/" />
         <folder expanded="1" path="event-folder/Perguntas/" />
         <folder expanded="0" path="event-folder/TelaDePlay/" />
-        <folder expanded="0" path="event-folder/Nomes e Ranking/" />
+        <folder expanded="1" path="event-folder/Nomes e Ranking/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
@@ -141,10 +142,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite35/" />
         <folder expanded="1" path="animation-folder/Sprite30/" />
         <folder expanded="1" path="animation-folder/IFTM/" />
-        <folder expanded="1" path="animation-folder/Sprite36/" />
+        <folder expanded="1" path="animation-folder/FUNDOBLACK/" />
         <folder expanded="1" path="animation-folder/RESPOSTAEXTRA1/" />
         <folder expanded="1" path="animation-folder/RESPOSTAEXTRA2/" />
         <folder expanded="1" path="animation-folder/RESPOSTAEXTRA3/" />
         <folder expanded="1" path="animation-folder/RESPOSTAEXTRA4/" />
+        <folder expanded="1" path="animation-folder/Teorico/" />
+        <folder expanded="1" path="animation-folder/Teorico2/" />
+        <folder expanded="1" path="animation-folder/Teorico3/" />
+        <folder expanded="1" path="animation-folder/ProximoTeorico/" />
+        <folder expanded="1" path="animation-folder/Start/" />
+        <folder expanded="1" path="animation-folder/Sprite36/" />
     </folders-expanded>
 </c2uistate>

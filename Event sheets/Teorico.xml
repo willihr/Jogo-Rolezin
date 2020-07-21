@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Teorico</name>
+    <events>
+        <include>BotoesSelecionaveis</include>
+        <event-block sid="103372602007605">
+            <conditions>
+                <condition id="3" name="On touched object" sid="291737517838742" type="Touch">
+                    <param id="0" name="Object">ProximoTeorico</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="599558417454788" type="Teorico2">
+                    <param id="0" name="Frame number">(Teorico2.AnimationFrame+1)%Teorico2.AnimationFrameCount</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="483816239632969">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="101307808383507" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="107535631979940" type="System">
+                    <param id="0" name="Seconds">90</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="692569702903051" type="Start">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="366367934871950">
+            <conditions>
+                <condition id="3" name="On touched object" sid="739982525201526" type="Touch">
+                    <param id="0" name="Object">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="996697909591268" type="System">
+                    <param id="0" name="Layout">Tabuleiro1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
