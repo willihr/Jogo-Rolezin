@@ -1098,6 +1098,62 @@
         <object-type name="Text" sid="352678585752769">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite30" sid="381478661483891">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="261351371956713" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="IFTM" sid="148743770324616">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213736327357001" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite36" sid="119808953120651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337888849542465" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RESPOSTAEXTRA1" sid="982474101439540">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142293198718849" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RESPOSTAEXTRA2" sid="360721014599135">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506358911366912" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RESPOSTAEXTRA3" sid="316218845411935">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182051993458944" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RESPOSTAEXTRA4" sid="971380123517372">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289051079398970" speed="5">
+                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1105,6 +1161,7 @@
                 <member>AVANÇAR</member>
                 <member>BotãoStart</member>
                 <member>FigurinhaLucaoSeloSatisfação</member>
+                <member>IFTM</member>
                 <member>OK</member>
                 <member>PedirAjuda</member>
                 <member>Resposta1</member>
@@ -1112,6 +1169,10 @@
                 <member>Resposta3</member>
                 <member>Resposta4</member>
                 <member>Resposta5</member>
+                <member>RESPOSTAEXTRA1</member>
+                <member>RESPOSTAEXTRA2</member>
+                <member>RESPOSTAEXTRA3</member>
+                <member>RESPOSTAEXTRA4</member>
             </members>
             <instance-variables>
                 <instance-variable name="originalWidth" sid="331038975663222" type="number" />
@@ -1130,7 +1191,7 @@
             <layout>Pergunta5.xml</layout>
             <layout>Pergunta6.xml</layout>
             <layout>Pergunta7.xml</layout>
-            <layout>Pergunta8.xml</layout>
+            <layout>PerguntaExtra.xml</layout>
         </layout-folder>
         <layout-folder name="Tabuleiros">
             <layout>Tabuleiro1.xml</layout>
@@ -1175,8 +1236,8 @@
             <event-sheet>Pergunta7.xml</event-sheet>
             <event-sheet>AnimaçãoDado.xml</event-sheet>
             <event-sheet>PerguntaTodos.xml</event-sheet>
-            <event-sheet>Pergunta8.xml</event-sheet>
             <event-sheet>Pergunta1.xml</event-sheet>
+            <event-sheet>PerguntaExtra.xml</event-sheet>
         </event-folder>
         <event-folder name="TelaDePlay">
             <event-sheet>Intro1.xml</event-sheet>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>PerguntaExtra</name>
+    <events>
+        <include>BotoesSelecionaveis</include>
+        <event-group description="" sid="787730360220850" title="ALTERNATIVA EXTRA" />
+        <event-block sid="324283615926902">
+            <conditions>
+                <condition id="3" name="On touched object" sid="669449478231423" type="Touch">
+                    <param id="0" name="Object">RESPOSTAEXTRA2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="253091733922594" type="AcertouGif">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="198247941228972" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="439797158605471" type="System">
+                    <param id="0" name="Layout">Ranking</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="189672078339828">
+            <conditions>
+                <condition id="3" name="On touched object" sid="186745990870831" type="Touch">
+                    <param id="0" name="Object">RESPOSTAEXTRA1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="136943009991241" type="ErrouGif">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="773634116095922" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="609422067315040" type="System">
+                    <param id="0" name="Layout">Ranking</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="344711695558759">
+            <conditions>
+                <condition id="3" name="On touched object" sid="683357936340440" type="Touch">
+                    <param id="0" name="Object">RESPOSTAEXTRA3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="637778031144625" type="ErrouGif">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="900554903696261" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="172782214471527" type="System">
+                    <param id="0" name="Layout">Ranking</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="938673273955064">
+            <conditions>
+                <condition id="3" name="On touched object" sid="754936425829814" type="Touch">
+                    <param id="0" name="Object">RESPOSTAEXTRA4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="425584089818532" type="ErrouGif">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="989627588876595" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="754567098865638" type="System">
+                    <param id="0" name="Layout">Ranking</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -11,9 +11,20 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="LiteTween" id="10" name="Start" sid="951144491693252" type="Larissa_Player">
-                    <param id="0" name="Start Mode">0</param>
-                    <param id="1" name="Force use current">1</param>
+                <action id="-2" name="Go to layout" sid="860438597183047" type="System">
+                    <param id="0" name="Layout">Ranking</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="226331952941669">
+            <conditions>
+                <condition id="3" name="On touched object" sid="510919797679494" type="Touch">
+                    <param id="0" name="Object">IFTM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="516477929009709" type="System">
+                    <param id="0" name="Layout">PerguntaExtra</param>
                 </action>
             </actions>
         </event-block>

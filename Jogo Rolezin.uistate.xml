@@ -11,34 +11,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">PrePlay</layout>
-        <layout order="1">Ranking</layout>
-        <layout order="2">Nomes</layout>
-        <layout order="8">Tabuleiro2</layout>
-        <layout order="9">Tabuleiro1</layout>
-        <layout order="10">Tabuleiro3</layout>
-        <layout order="11">Tabuleiro4</layout>
-        <layout order="12">Tabuleiro5</layout>
-        <layout order="13">Tabuleiro6</layout>
-        <layout order="14">Tabuleiro7</layout>
-        <layout order="15">Tabuleiro8</layout>
-        <layout order="22">Pergunta4</layout>
-        <layout order="23">Pergunta5</layout>
-        <layout active="1" order="24">Pergunta2</layout>
-        <layout order="25">Pergunta1</layout>
-        <layout order="26">PerguntaTodos</layout>
-        <event-sheet order="3">Intro2</event-sheet>
-        <event-sheet order="4">PrePlay</event-sheet>
-        <event-sheet order="5">TelaPlay</event-sheet>
-        <event-sheet order="6">Nomes</event-sheet>
-        <event-sheet order="7">Tabuleiro1</event-sheet>
-        <event-sheet order="16">Pergunta1</event-sheet>
-        <event-sheet order="17">Pergunta5</event-sheet>
-        <event-sheet order="18">Pergunta6</event-sheet>
-        <event-sheet order="19">Pergunta8</event-sheet>
-        <event-sheet order="20">Pergunta7</event-sheet>
-        <event-sheet order="21">Intro1</event-sheet>
-        <event-sheet order="27">Tabuleiro8</event-sheet>
-        <event-sheet order="28">Tabuleiro7</event-sheet>
+        <layout order="4">TelaPlay</layout>
+        <layout order="3">Nomes</layout>
+        <layout order="1">Intro1</layout>
+        <layout order="2">Intro2</layout>
+        <layout order="5">Tabuleiro1</layout>
+        <layout order="6">PerguntaTodos</layout>
+        <layout order="7">Ranking</layout>
+        <layout order="8">Tabuleiro8</layout>
+        <layout order="10">PerguntaExtra</layout>
+        <event-sheet order="9">Tabuleiro8</event-sheet>
+        <event-sheet order="11">PerguntaExtra</event-sheet>
+        <event-sheet active="1" order="12">Pergunta2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -52,13 +36,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="layout-folder/Perguntas/" />
-        <folder expanded="1" path="layout-folder/Tabuleiros/" />
-        <folder expanded="1" path="layout-folder/TelaDePlay/" />
-        <folder expanded="1" path="layout-folder/Nomes e Ranking/" />
+        <folder expanded="0" path="layout-folder/Perguntas/" />
+        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="0" path="layout-folder/TelaDePlay/" />
+        <folder expanded="0" path="layout-folder/Nomes e Ranking/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="event-folder/Tabuleiros/" />
-        <folder expanded="0" path="event-folder/Perguntas/" />
+        <folder expanded="1" path="event-folder/Perguntas/" />
         <folder expanded="0" path="event-folder/TelaDePlay/" />
         <folder expanded="0" path="event-folder/Nomes e Ranking/" />
         <folder expanded="0" path="file-folder/" />
@@ -155,5 +139,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite33/" />
         <folder expanded="1" path="animation-folder/Sprite34/" />
         <folder expanded="1" path="animation-folder/Sprite35/" />
+        <folder expanded="1" path="animation-folder/Sprite30/" />
+        <folder expanded="1" path="animation-folder/IFTM/" />
+        <folder expanded="1" path="animation-folder/Sprite36/" />
+        <folder expanded="1" path="animation-folder/RESPOSTAEXTRA1/" />
+        <folder expanded="1" path="animation-folder/RESPOSTAEXTRA2/" />
+        <folder expanded="1" path="animation-folder/RESPOSTAEXTRA3/" />
+        <folder expanded="1" path="animation-folder/RESPOSTAEXTRA4/" />
     </folders-expanded>
 </c2uistate>
