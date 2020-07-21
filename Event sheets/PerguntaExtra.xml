@@ -21,6 +21,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-10" name="Add to" sid="729650801315239" type="System">
+                    <param id="0" name="Variable">pontuacao</param>
+                    <param id="1" name="Value">40</param>
+                </action>
                 <action id="-15" name="Set visible" sid="253091733922594" type="AcertouGif">
                     <param id="0" name="Visibility">1</param>
                 </action>

@@ -74,6 +74,13 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-10" name="Add to" sid="189466411559500" type="System">
+                            <param id="0" name="Variable">pontuacao</param>
+                            <param id="1" name="Value">22</param>
+                        </action>
+                        <action id="0" name="Set text" sid="690617891928511" type="PontuacaoQuestao">
+                            <param id="0" name="Text">pontuacao</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="909519616653124" type="AcertouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>

@@ -23,6 +23,9 @@
                 <condition id="-2" name="On start of layout" sid="103218837729381" type="System" />
             </conditions>
             <actions>
+                <action id="0" name="Set text" sid="956413149535381" type="PontuacaoQuestao">
+                    <param id="0" name="Text">pontuacao</param>
+                </action>
                 <action behavior="LiteTween" id="3" name="Set target" sid="240349493040644" type="Questão">
                     <param id="0" name="Target is">0</param>
                     <param id="1" name="Relativity">0</param>

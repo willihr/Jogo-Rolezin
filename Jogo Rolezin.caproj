@@ -1219,6 +1219,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TextBox" sid="917047082010154">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="PontuacaoQuestao" sid="201174570865926">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="479025262672314">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
