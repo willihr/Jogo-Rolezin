@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Ranking</name>
-    <events />
+    <events>
+        <event-block sid="481776779421727">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="341736551501396" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="285174920539966" type="Pontuacao">
+                    <param id="0" name="Text">pontuacao</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

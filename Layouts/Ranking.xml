@@ -422,9 +422,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="137">
+                <instance type="Pontuacao" uid="137">
                     <properties>
-                        <text>200</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-333,700,1</font>
                         <color>0,0,0</color>

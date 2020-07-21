@@ -1095,7 +1095,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="352678585752769">
+        <object-type name="Pontuacao" sid="352678585752769">
             <plugin id="Text" />
         </object-type>
         <object-type name="Sprite30" sid="381478661483891">
@@ -1118,7 +1118,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="337888849542465" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.684783" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1126,7 +1126,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142293198718849" speed="5">
-                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500734" hotspotY="1.4" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1134,7 +1134,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506358911366912" speed="5">
-                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500734" hotspotY="0.533333" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1142,7 +1142,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182051993458944" speed="5">
-                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.494861" hotspotY="0.488889" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1150,7 +1150,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289051079398970" speed="5">
-                    <frame duration="1" hotspotX="0.500736" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.493392" hotspotY="0.488889" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1158,7 +1158,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803313082145918" speed="5">
-                    <frame duration="1" hotspotX="0.501818" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501805" hotspotY="0.681081" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1166,9 +1166,9 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732555705208111" speed="0">
-                    <frame duration="1" hotspotX="0.500549" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500586" hotspotY="0.5" original-source="D:\Windows 2020\Downloads\001.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico2.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.501044" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico3.png" />
+                    <frame duration="1" hotspotX="0.50059" hotspotY="0.500949" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico3.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Carlos\Desktop\TRABALHO MATEMATICA\Teorico4.png" />
                 </animation>
             </animation-folder>
@@ -1185,7 +1185,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463017692284245" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.472973" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1210,6 +1210,14 @@
         </object-type>
         <object-type name="Text3" sid="236949759203179">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite37" sid="542270693384323">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="260350569935544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -1236,6 +1244,19 @@
                 <instance-variable name="originalWidth" sid="331038975663222" type="number" />
                 <instance-variable name="originalHeight" sid="298529056608376" type="number" />
             </instance-variables>
+        </family>
+        <family name="Alternativas" plugin-id="Sprite" sid="835837522103210">
+            <members>
+                <member>Resposta1</member>
+                <member>Resposta2</member>
+                <member>Resposta3</member>
+                <member>Resposta4</member>
+                <member>Resposta5</member>
+                <member>RESPOSTAEXTRA1</member>
+                <member>RESPOSTAEXTRA2</member>
+                <member>RESPOSTAEXTRA3</member>
+                <member>RESPOSTAEXTRA4</member>
+            </members>
         </family>
     </families>
     <layout-folder>
@@ -1271,8 +1292,8 @@
             <layout>Ranking.xml</layout>
         </layout-folder>
         <layout>PrePlay.xml</layout>
-        <layout>Outro.xml</layout>
         <layout>Teorico.xml</layout>
+        <layout>Outro.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">

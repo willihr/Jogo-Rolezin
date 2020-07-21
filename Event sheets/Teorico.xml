@@ -10,11 +10,32 @@
                     <param id="0" name="Object">ProximoTeorico</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="5" name="Set frame" sid="599558417454788" type="Teorico2">
-                    <param id="0" name="Frame number">(Teorico2.AnimationFrame+1)%Teorico2.AnimationFrameCount</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="452983217690400">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="684191162010261" type="Teorico2">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Number">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="704744946655452" type="System">
+                            <param id="0" name="Layout">TelaPlay</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="714386189941612">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="953812883055664" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="599558417454788" type="Teorico2">
+                            <param id="0" name="Frame number">Teorico2.AnimationFrame+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="483816239632969">
             <conditions>
@@ -37,7 +58,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="996697909591268" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
+                    <param id="0" name="Layout">TelaPlay</param>
                 </action>
             </actions>
         </event-block>

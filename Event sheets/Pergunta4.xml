@@ -77,10 +77,6 @@
                         <action id="-15" name="Set visible" sid="670429578105744" type="AcertouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="960317222022425" type="System">
-                            <param id="0" name="Layer">&quot;Respostas&quot;</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
                         <action id="-9" name="Destroy" sid="944761717976047" type="PedirAjuda" />
                         <action id="-16" name="Wait" sid="251952277674465" type="System">
                             <param id="0" name="Seconds">5</param>
@@ -88,6 +84,7 @@
                         <action id="-2" name="Go to layout" sid="251779418728223" type="System">
                             <param id="0" name="Layout">Tabuleiro5</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="169851750238837" type="Alternativas" />
                     </actions>
                 </event-block>
                 <event-block any="1" sid="122850664947865">
@@ -109,11 +106,8 @@
                         <action id="-15" name="Set visible" sid="822787609871884" type="ErrouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-4" name="Set layer visible" sid="733837116735489" type="System">
-                            <param id="0" name="Layer">&quot;Respostas&quot;</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
                         <action id="-9" name="Destroy" sid="971948180062198" type="PedirAjuda" />
+                        <action id="-9" name="Destroy" sid="441620242213946" type="Alternativas" />
                     </actions>
                     <sub-events>
                         <event-block sid="515060365516270">
