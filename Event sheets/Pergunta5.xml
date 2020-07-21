@@ -77,6 +77,7 @@
                         <action id="-15" name="Set visible" sid="199124047136545" type="AcertouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="845196374173953" type="Alternativas" />
                         <action id="-9" name="Destroy" sid="149456585931306" type="PedirAjuda" />
                         <action id="-16" name="Wait" sid="760639498034004" type="System">
                             <param id="0" name="Seconds">5</param>
@@ -84,7 +85,6 @@
                         <action id="-2" name="Go to layout" sid="381878576965878" type="System">
                             <param id="0" name="Layout">Tabuleiro6</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="845196374173953" type="Alternativas" />
                     </actions>
                 </event-block>
                 <event-block any="1" sid="466247438317803">
@@ -106,8 +106,8 @@
                         <action id="-15" name="Set visible" sid="114539565862995" type="ErrouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="139792219351855" type="PedirAjuda" />
                         <action id="-9" name="Destroy" sid="802153862749975" type="Alternativas" />
+                        <action id="-9" name="Destroy" sid="139792219351855" type="PedirAjuda" />
                     </actions>
                     <sub-events>
                         <event-block sid="595333017943344">
@@ -187,7 +187,7 @@
                         <action id="0" name="Play" sid="417355039129460" type="Audio">
                             <param id="0" name="Audio file">Talarico</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-5</param>
+                            <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="833037838093670" type="System">

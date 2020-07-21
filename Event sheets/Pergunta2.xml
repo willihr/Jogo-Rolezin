@@ -77,6 +77,7 @@
                         <action id="-15" name="Set visible" sid="909519616653124" type="AcertouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-9" name="Destroy" sid="457747904221708" type="Alternativas" />
                         <action id="-9" name="Destroy" sid="252420583538281" type="PedirAjuda" />
                         <action id="-16" name="Wait" sid="992433779865532" type="System">
                             <param id="0" name="Seconds">5</param>
@@ -84,7 +85,6 @@
                         <action id="-2" name="Go to layout" sid="303810130469956" type="System">
                             <param id="0" name="Layout">Tabuleiro3</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="457747904221708" type="Alternativas" />
                     </actions>
                 </event-block>
                 <event-block any="1" sid="714549630139203">
@@ -106,8 +106,8 @@
                         <action id="-15" name="Set visible" sid="369819844724901" type="ErrouGif">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="749947372426063" type="PedirAjuda" />
                         <action id="-9" name="Destroy" sid="379657181325243" type="Alternativas" />
+                        <action id="-9" name="Destroy" sid="749947372426063" type="PedirAjuda" />
                     </actions>
                     <sub-events>
                         <event-block sid="705927163911055">
