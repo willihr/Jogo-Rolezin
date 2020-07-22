@@ -1236,6 +1236,17 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Creditos" sid="830536674224165">
+            <plugin id="video" />
+        </object-type>
+        <object-type name="CreditosNomes" sid="458346320249506">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764132854121259" speed="5">
+                    <frame duration="1" hotspotX="0.500858" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1243,6 +1254,7 @@
                 <member>AVANÇAR</member>
                 <member>BotãoStart</member>
                 <member>FigurinhaLucaoSeloSatisfação</member>
+                <member>Home</member>
                 <member>IFTM</member>
                 <member>OK</member>
                 <member>PedirAjuda</member>
@@ -1311,6 +1323,7 @@
         <layout>PrePlay.xml</layout>
         <layout>Teorico.xml</layout>
         <layout>Outro.xml</layout>
+        <layout>Creditos.xml</layout>
     </layout-folder>
     <event-folder>
         <event-folder name="Tabuleiros">
@@ -1349,6 +1362,7 @@
         <event-sheet>PrePlay.xml</event-sheet>
         <event-sheet>Outro.xml</event-sheet>
         <event-sheet>Teorico.xml</event-sheet>
+        <event-sheet>Creditos.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="3">
@@ -1397,5 +1411,6 @@
         </file-folder>
         <file name="TelaStart.mp4" />
         <file name="AnimacaoDado.mp4" />
+        <file name="CreditosRolezin5.0.mp4" />
     </files-folder>
 </c2project>

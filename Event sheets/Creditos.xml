@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Creditos</name>
+    <events>
+        <event-block sid="483212010284748">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="809771301277715" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="580904136973054" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="806618274128265" type="CreditosNomes">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Wait" sid="976971371443732" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="524250341394651" type="CreditosNomes">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="642463921372283" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="209442084605373" type="Creditos">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="6" name="Play" sid="148132100680324" type="Creditos" />
+            </actions>
+        </event-block>
+        <event-block sid="513699687378614">
+            <conditions>
+                <condition id="2" name="Has ended" sid="605492379434879" type="Creditos" />
+                <condition id="-4" name="Trigger once while true" sid="125129262927942" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="374816194057586" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="618820881658788" type="Creditos">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="347573213863584" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-3" name="Set position" sid="418878345666277" type="Home">
+                    <param id="0" name="X">795</param>
+                    <param id="1" name="Y">514</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="681227685601517">
+            <conditions>
+                <condition id="3" name="On touched object" sid="492033890346507" type="Touch">
+                    <param id="0" name="Object">Home</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="608790847480475" type="System">
+                    <param id="0" name="Layout">Teorico</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
