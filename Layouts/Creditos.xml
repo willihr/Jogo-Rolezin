@@ -56,7 +56,7 @@
                         <webm-source></webm-source>
                         <ogg-theora-source></ogg-theora-source>
                         <h264-source>CreditosRolezin5.0.mp4</h264-source>
-                        <autoplay>No</autoplay>
+                        <autoplay>Preload</autoplay>
                         <play-in-background>No</play-in-background>
                         <initial-visibility>Invisible</initial-visibility>
                     </properties>
@@ -81,6 +81,19 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="LiteTween">
+                            <properties>
+                                <active-on-start>No</active-on-start>
+                                <tweened-property>Opacity</tweened-property>
+                                <function>EaseOutQuart</function>
+                                <target>100</target>
+                                <target-mode>Absolute</target-mode>
+                                <duration>1</duration>
+                                <enforce-mode>Enforce</enforce-mode>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -93,7 +106,7 @@
                         <hotspotX>0.500857651</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.100000001</opacity>
+                        <opacity>0</opacity>
                     </world>
                 </instance>
                 <instance type="Home" uid="634">

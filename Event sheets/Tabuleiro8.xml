@@ -28,5 +28,29 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="504168242921731">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="669071221417203" type="Mouse">
+                    <param id="0" name="Object">AVANÇAR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="932417626166581" type="AVANÇAR">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="849082193421439">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="350612349294519" type="Mouse">
+                    <param id="0" name="Object">IFTM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="485534242136330" type="IFTM">
+                    <param id="0" name="Scale">0.4+sin(tickcount*4)*0.03</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

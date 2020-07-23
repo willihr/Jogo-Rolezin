@@ -1241,11 +1241,22 @@
         </object-type>
         <object-type name="CreditosNomes" sid="458346320249506">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="787076927340353">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764132854121259" speed="5">
                     <frame duration="1" hotspotX="0.500858" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Text4" sid="669463879744321">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ContagemCreditos" sid="248377718707684">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>
