@@ -1477,7 +1477,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="POPUP" sid="634087301731689">
+        <layer name="PopupSubliminar" sid="634087301731689">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

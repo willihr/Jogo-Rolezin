@@ -3,10 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PrePlay</name>
     <events>
-        <variable constant="0" name="pontuacao" sid="357069042165775" static="0" type="number">0</variable>
-        <variable constant="0" name="memesOn" sid="576571213854768" static="0" type="number">1</variable>
-        <variable constant="0" name="perguntaAtual" sid="919420990267568" static="0" type="number">0</variable>
-        <variable constant="0" name="direitoaDica" sid="899185384176067" static="0" type="number">-1</variable>
         <event-block sid="848379470519677">
             <conditions>
                 <condition id="14" name="On tap" sid="220801821288680" type="Touch" />
