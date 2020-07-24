@@ -10,6 +10,7 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -1290,6 +1291,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="AJAX" sid="413929142373912">
+            <plugin id="AJAX" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1428,6 +1432,7 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="AJAX" uid="638" />
     </global-instances>
     <sounds-folder>
         <file name="BallBounce.ogg" />

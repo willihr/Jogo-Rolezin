@@ -11,6 +11,10 @@
                 <action id="0" name="Set text" sid="285174920539966" type="Pontuacao">
                     <param id="0" name="Text">pontuacao</param>
                 </action>
+                <action id="0" name="Request URL" sid="984374453417088" type="AJAX">
+                    <param id="0" name="Tag">&quot;Ranking&quot;</param>
+                    <param id="1" name="URL">&quot;http://jogorolezin.ddns.net/input?name=&quot; &amp; nome &amp; &quot;&amp;score=&quot; &amp; pontuacao &amp; &quot;&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; int(left(nome, 1))</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="801235741266707">
