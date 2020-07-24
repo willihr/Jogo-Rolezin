@@ -18,7 +18,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="11">PrePlay</layout>
         <layout order="12">Pergunta7</layout>
         <layout order="13">PerguntaTodos</layout>
-        <layout active="1" order="14">Tabuleiro1</layout>
+        <layout order="14">Tabuleiro1</layout>
         <layout order="20">Tabuleiro2</layout>
         <layout order="22">Tabuleiro3</layout>
         <layout order="23">Tabuleiro4</layout>
@@ -31,7 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="38">AnimaçãoDado</layout>
         <event-sheet order="1">Ranking</event-sheet>
         <event-sheet order="3">Creditos</event-sheet>
-        <event-sheet order="5">Nomes</event-sheet>
+        <event-sheet active="1" order="5">Nomes</event-sheet>
         <event-sheet order="7">Intro1</event-sheet>
         <event-sheet order="8">Intro2</event-sheet>
         <event-sheet order="9">TelaPlay</event-sheet>
@@ -75,7 +75,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
         <folder expanded="1" path="animation-folder/FundoPreto/" />
         <folder expanded="1" path="animation-folder/LogoPubgRolezin/" />
