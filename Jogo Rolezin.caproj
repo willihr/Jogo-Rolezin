@@ -1274,7 +1274,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type global="1" name="JoguePubg" sid="289186634610635">
+        <object-type global="1" name="PopupPubg" sid="289186634610635">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850730621422930" speed="5">
@@ -1282,7 +1282,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite40" sid="109418381226737">
+        <object-type name="PopupMaria" sid="109418381226737">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453946597756975" speed="5">

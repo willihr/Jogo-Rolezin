@@ -32,5 +32,26 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="682994450830058">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="879533464589738" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="780747373053831" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-3" name="Set position" sid="327401307753082" type="PopupPubg">
+                    <param id="0" name="X">640</param>
+                    <param id="1" name="Y">360</param>
+                </action>
+                <action id="-16" name="Wait" sid="433257405285000" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="398798241620672" type="PopupPubg">
+                    <param id="0" name="X">640</param>
+                    <param id="1" name="Y">-400</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

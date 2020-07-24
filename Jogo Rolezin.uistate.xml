@@ -18,13 +18,33 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="11">PrePlay</layout>
         <layout order="12">Pergunta7</layout>
         <layout order="13">PerguntaTodos</layout>
-        <layout active="1" order="14">Tabuleiro1</layout>
+        <layout order="14">Tabuleiro1</layout>
+        <layout order="20">Tabuleiro2</layout>
+        <layout order="22">Tabuleiro3</layout>
+        <layout order="23">Tabuleiro4</layout>
+        <layout order="24">Tabuleiro5</layout>
+        <layout order="25">Tabuleiro6</layout>
+        <layout order="26">Tabuleiro7</layout>
+        <layout order="27">Tabuleiro8</layout>
         <event-sheet order="1">Ranking</event-sheet>
         <event-sheet order="3">Creditos</event-sheet>
         <event-sheet order="5">Nomes</event-sheet>
         <event-sheet order="7">Intro1</event-sheet>
         <event-sheet order="8">Intro2</event-sheet>
         <event-sheet order="9">TelaPlay</event-sheet>
+        <event-sheet order="15">PerguntaTodos</event-sheet>
+        <event-sheet order="16">Pergunta1</event-sheet>
+        <event-sheet order="17">Pergunta2</event-sheet>
+        <event-sheet order="18">Pergunta3</event-sheet>
+        <event-sheet active="1" order="19">Tabuleiro2</event-sheet>
+        <event-sheet order="21">Tabuleiro3</event-sheet>
+        <event-sheet order="28">Tabuleiro1</event-sheet>
+        <event-sheet order="29">Tabuleiro5</event-sheet>
+        <event-sheet order="30">Pergunta5</event-sheet>
+        <event-sheet order="31">Tabuleiro6</event-sheet>
+        <event-sheet order="32">Tabuleiro7</event-sheet>
+        <event-sheet order="33">Tabuleiro4</event-sheet>
+        <event-sheet order="34">Tabuleiro8</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,13 +59,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Perguntas/" />
-        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="1" path="layout-folder/Perguntas/" />
+        <folder expanded="1" path="layout-folder/Tabuleiros/" />
         <folder expanded="0" path="layout-folder/TelaDePlay/" />
         <folder expanded="0" path="layout-folder/Nomes e Ranking/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Tabuleiros/" />
-        <folder expanded="0" path="event-folder/Perguntas/" />
+        <folder expanded="1" path="event-folder/Tabuleiros/" />
+        <folder expanded="1" path="event-folder/Perguntas/" />
         <folder expanded="0" path="event-folder/TelaDePlay/" />
         <folder expanded="0" path="event-folder/Nomes e Ranking/" />
         <folder expanded="1" path="file-folder/" />
@@ -160,7 +180,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/CreditosNomes/" />
         <folder expanded="1" path="animation-folder/Sprite38/" />
         <folder expanded="1" path="animation-folder/Sprite39/" />
-        <folder expanded="1" path="animation-folder/JoguePubg/" />
-        <folder expanded="1" path="animation-folder/Sprite40/" />
+        <folder expanded="1" path="animation-folder/PopupPubg/" />
+        <folder expanded="1" path="animation-folder/PopupMaria/" />
     </folders-expanded>
 </c2uistate>

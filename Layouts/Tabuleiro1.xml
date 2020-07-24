@@ -1488,12 +1488,12 @@
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
-            <global>0</global>
+            <global>1</global>
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="JoguePubg" uid="637">
+                <instance type="PopupPubg" uid="637">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1503,8 +1503,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>660</x>
-                        <y>1103</y>
+                        <x>640</x>
+                        <y>-400</y>
                         <z>0</z>
                         <width>886.24206543</width>
                         <height>708.993652344</height>
@@ -1515,7 +1515,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite40" uid="636">
+                <instance type="PopupMaria" uid="636">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1525,8 +1525,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>667</x>
-                        <y>-439</y>
+                        <x>640</x>
+                        <y>-400</y>
                         <z>0</z>
                         <width>886.242004395</width>
                         <height>708.994018555</height>
