@@ -40,7 +40,7 @@
                     <param id="1" name="URL">&quot;https://safe-lowlands-46325.herokuapp.com/init?name=&quot; &amp; nome &amp; &quot;&amp;score=0&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; len(nome) * 3</param>
                 </action>
                 <action id="-2" name="Go to layout" sid="523779717944702" type="System">
-                    <param id="0" name="Layout">Tabuleiro1</param>
+                    <param id="0" name="Layout">Teorico</param>
                 </action>
             </actions>
         </event-block>
