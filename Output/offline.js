@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595555814,
+	"version": 1595694410,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -130,9 +130,9 @@
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
+		"rolezincreditos7.0.mp4",
 		"telastart.mp4",
 		"animacaodado.mp4",
-		"creditosrolezin5.0.mp4",
 		"penumbra.png"
 	]
 }
