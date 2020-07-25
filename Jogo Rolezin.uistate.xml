@@ -48,8 +48,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="32">Tabuleiro7</event-sheet>
         <event-sheet order="33">Tabuleiro4</event-sheet>
         <event-sheet order="34">Tabuleiro8</event-sheet>
-        <event-sheet order="35">PrePlay</event-sheet>
-        <event-sheet active="1" order="39">Teorico</event-sheet>
+        <event-sheet active="1" order="35">PrePlay</event-sheet>
+        <event-sheet order="39">Teorico</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
