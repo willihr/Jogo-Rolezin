@@ -24,6 +24,7 @@
                 <condition id="3" name="On touched object" sid="685402944352819" type="Touch">
                     <param id="0" name="Object">AVANÇAR</param>
                 </condition>
+                <condition behavior="LiteTween" id="0" inverted="1" name="Is active" sid="756715336948843" type="Larissa_Player" />
             </conditions>
             <actions>
                 <action behavior="LiteTween" id="10" name="Start" sid="507200007620074" type="Larissa_Player">
