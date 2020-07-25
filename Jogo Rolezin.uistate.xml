@@ -15,7 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Outro</layout>
         <layout order="6">Nomes</layout>
         <layout order="10">Teorico</layout>
-        <layout active="1" order="11">PrePlay</layout>
+        <layout order="11">PrePlay</layout>
         <layout order="12">Pergunta7</layout>
         <layout order="13">PerguntaTodos</layout>
         <layout order="14">Tabuleiro1</layout>
@@ -29,7 +29,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="36">Pergunta1</layout>
         <layout order="37">TelaPlay</layout>
         <layout order="38">AnimaçãoDado</layout>
-        <event-sheet order="1">Ranking</event-sheet>
+        <layout order="46">Pergunta3</layout>
+        <layout order="47">Pergunta2</layout>
+        <event-sheet active="1" order="1">Ranking</event-sheet>
         <event-sheet order="3">Creditos</event-sheet>
         <event-sheet order="5">Nomes</event-sheet>
         <event-sheet order="7">Intro1</event-sheet>
