@@ -1298,6 +1298,32 @@
         <object-type name="Browser" sid="190785920159206">
             <plugin id="Browser" />
         </object-type>
+        <object-type name="Maycon" sid="390754085344639">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="638331454777919">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="971854091440103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Maycon2" sid="124000607902082">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="332766304601588">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516563246615959" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1457,6 +1483,7 @@
         <file name="SeTaéDoido-Pdisousa.ogg" />
         <file name="SoIsso - Teodoro.ogg" />
         <file name="PessoalPraSala-Fran.ogg" />
+        <file name="Maycon.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="PubgRemix.ogg" />
