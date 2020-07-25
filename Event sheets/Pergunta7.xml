@@ -198,7 +198,7 @@
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="-16" name="Wait" sid="911972917160124" type="System">
-                            <param id="0" name="Seconds">3</param>
+                            <param id="0" name="Seconds">4</param>
                         </action>
                         <action behavior="LiteTween" id="11" name="Reverse" sid="856296921832183" type="ToFazendoNada2">
                             <param id="0" name="Reverse mode">0</param>

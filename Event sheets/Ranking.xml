@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Ranking</name>
     <events>
+        <include>BotoesSelecionaveis</include>
         <event-block sid="481776779421727">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="341736551501396" type="System" />

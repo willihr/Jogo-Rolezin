@@ -46,5 +46,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="425171789507370">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="688264492938022" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="688520331926307" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

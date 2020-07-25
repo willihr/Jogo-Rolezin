@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595697215,
+	"version": 1595699732,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -123,6 +123,7 @@
 		"media/setolo.ogg",
 		"media/vacainao.ogg",
 		"media/talarico.ogg",
+		"media/click.ogg",
 		"media/pubgremix.ogg",
 		"icon-16.png",
 		"icon-32.png",

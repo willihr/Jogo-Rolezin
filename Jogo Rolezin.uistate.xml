@@ -15,7 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">Outro</layout>
         <layout order="6">Nomes</layout>
         <layout order="10">Teorico</layout>
-        <layout order="11">PrePlay</layout>
+        <layout active="1" order="11">PrePlay</layout>
         <layout order="12">Pergunta7</layout>
         <layout order="13">PerguntaTodos</layout>
         <layout order="14">Tabuleiro1</layout>
@@ -34,7 +34,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="5">Nomes</event-sheet>
         <event-sheet order="7">Intro1</event-sheet>
         <event-sheet order="8">Intro2</event-sheet>
-        <event-sheet active="1" order="9">TelaPlay</event-sheet>
+        <event-sheet order="9">TelaPlay</event-sheet>
         <event-sheet order="15">PerguntaTodos</event-sheet>
         <event-sheet order="16">Pergunta1</event-sheet>
         <event-sheet order="17">Pergunta2</event-sheet>
@@ -50,6 +50,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="34">Tabuleiro8</event-sheet>
         <event-sheet order="35">PrePlay</event-sheet>
         <event-sheet order="39">Teorico</event-sheet>
+        <event-sheet order="40">Pergunta7</event-sheet>
+        <event-sheet order="41">BotoesSelecionaveis</event-sheet>
+        <event-sheet order="42">TabuleiroTodos</event-sheet>
+        <event-sheet order="43">Pergunta6</event-sheet>
+        <event-sheet order="44">AnimaçãoDado</event-sheet>
+        <event-sheet order="45">Outro</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -74,7 +80,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="event-folder/TelaDePlay/" />
         <folder expanded="1" path="event-folder/Nomes e Ranking/" />
         <folder expanded="1" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="0" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
