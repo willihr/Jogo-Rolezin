@@ -45,12 +45,40 @@
                     <param id="0" name="X">640</param>
                     <param id="1" name="Y">360</param>
                 </action>
+                <action id="0" name="Play" sid="461626335335190" type="Audio">
+                    <param id="0" name="Audio file">NegocioÉaPrincipal - Diogo</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-16" name="Wait" sid="777471030075355" type="System">
-                    <param id="0" name="Seconds">1</param>
+                    <param id="0" name="Seconds">4</param>
                 </action>
                 <action id="-3" name="Set position" sid="916623972132452" type="PopupMaria">
                     <param id="0" name="X">640</param>
                     <param id="1" name="Y">-400</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="380084906208955">
+            <conditions>
+                <condition id="0" name="On ended" sid="423083934589602" type="Audio">
+                    <param id="0" name="Tag">&quot;NegocioÉaPrincipal&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="787237849971924" type="AVANÇAR">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="351193505510754">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="411122389365213" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="382859724610702" type="AVANÇAR">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
