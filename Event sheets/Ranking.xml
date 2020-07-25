@@ -13,7 +13,7 @@
                 </action>
                 <action id="0" name="Request URL" sid="984374453417088" type="AJAX">
                     <param id="0" name="Tag">&quot;Ranking&quot;</param>
-                    <param id="1" name="URL">&quot;http://jogorolezin.ddns.net/input?name=&quot; &amp; nome &amp; &quot;&amp;score=&quot; &amp; pontuacao &amp; &quot;&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; int(left(nome, 1))</param>
+                    <param id="1" name="URL">&quot;http://localhost:3000/input?name=&quot; &amp; nome &amp; &quot;&amp;score=&quot; &amp; pontuacao &amp; &quot;&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; len(nome) * 3</param>
                 </action>
             </actions>
         </event-block>

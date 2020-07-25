@@ -55,7 +55,7 @@
                     <properties>
                         <webm-source></webm-source>
                         <ogg-theora-source></ogg-theora-source>
-                        <h264-source>CreditosRolezin5.0.mp4</h264-source>
+                        <h264-source>RolezinCreditos7.0.mp4</h264-source>
                         <autoplay>Preload</autoplay>
                         <play-in-background>No</play-in-background>
                         <initial-visibility>Invisible</initial-visibility>

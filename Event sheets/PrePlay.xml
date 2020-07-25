@@ -13,5 +13,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="223275104713312">
+            <conditions>
+                <condition id="0" name="On any touch start" sid="372585582263186" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="10" name="Request fullscreen" sid="340455757846456" type="Browser">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

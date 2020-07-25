@@ -3,8 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>TelaPlay</name>
     <events>
-        <variable constant="0" name="pontuacao" sid="422068034231509" static="0" type="number">0</variable>
         <variable constant="0" name="memesOn" sid="397686286845123" static="0" type="number">1</variable>
+        <variable constant="0" name="pontuacao" sid="422068034231509" static="0" type="number">0</variable>
         <variable constant="0" name="perguntaAtual" sid="273854629105259" static="0" type="number">0</variable>
         <variable constant="0" name="direitoaDica" sid="319505577860376" static="0" type="number">-1</variable>
         <include>BotoesSelecionaveis</include>
@@ -13,6 +13,18 @@
                 <condition id="-2" name="On start of layout" sid="602305815390555" type="System" />
             </conditions>
             <actions>
+                <action id="-9" name="Set value" sid="658180530502544" type="System">
+                    <param id="0" name="Variable">pontuacao</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="605485112251718" type="System">
+                    <param id="0" name="Variable">perguntaAtual</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="661817086120065" type="System">
+                    <param id="0" name="Variable">direitoaDica</param>
+                    <param id="1" name="Value">-1</param>
+                </action>
                 <action id="2" name="Set looping" sid="829870586750256" type="TelaStart">
                     <param id="0" name="Mode">1</param>
                 </action>
