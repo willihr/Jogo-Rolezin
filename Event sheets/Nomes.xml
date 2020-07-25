@@ -12,11 +12,11 @@
             <actions>
                 <action id="7" name="Set CSS style" sid="268655483739865" type="Nomes">
                     <param id="0" name="Property name">&quot;font-size&quot;</param>
-                    <param id="1" name="Value">&quot;2vmin&quot;</param>
+                    <param id="1" name="Value">&quot;1.5vmin&quot;</param>
                 </action>
                 <action id="7" name="Set CSS style" sid="541054834811198" type="Nomes">
                     <param id="0" name="Property name">&quot;padding&quot;</param>
-                    <param id="1" name="Value">&quot;1px&quot;</param>
+                    <param id="1" name="Value">&quot;0px&quot;</param>
                 </action>
                 <action id="7" name="Set CSS style" sid="751797392552110" type="Nomes">
                     <param id="0" name="Property name">&quot;text-align&quot;</param>
