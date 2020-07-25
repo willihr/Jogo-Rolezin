@@ -31,9 +31,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="38">AnimaçãoDado</layout>
         <layout order="46">Pergunta3</layout>
         <layout order="47">Pergunta2</layout>
-        <event-sheet active="1" order="1">Ranking</event-sheet>
+        <event-sheet order="1">Ranking</event-sheet>
         <event-sheet order="3">Creditos</event-sheet>
-        <event-sheet order="5">Nomes</event-sheet>
+        <event-sheet active="1" order="5">Nomes</event-sheet>
         <event-sheet order="7">Intro1</event-sheet>
         <event-sheet order="8">Intro2</event-sheet>
         <event-sheet order="9">TelaPlay</event-sheet>
