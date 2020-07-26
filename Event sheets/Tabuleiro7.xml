@@ -60,25 +60,21 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="380084906208955">
-            <conditions>
-                <condition id="0" name="On ended" sid="423083934589602" type="Audio">
-                    <param id="0" name="Tag">&quot;NegocioÉaPrincipal&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="787237849971924" type="AVANÇAR">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="351193505510754">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="411122389365213" type="System" />
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="382859724610702" type="AVANÇAR">
-                    <param id="0" name="Visibility">0</param>
+                <action id="-3" name="Set position" sid="557667762797997" type="AVANÇAR">
+                    <param id="0" name="X">1396</param>
+                    <param id="1" name="Y">708</param>
+                </action>
+                <action id="-16" name="Wait" sid="119617282281248" type="System">
+                    <param id="0" name="Seconds">9</param>
+                </action>
+                <action id="-3" name="Set position" sid="337492873904835" type="AVANÇAR">
+                    <param id="0" name="X">1109</param>
+                    <param id="1" name="Y">568</param>
                 </action>
             </actions>
         </event-block>

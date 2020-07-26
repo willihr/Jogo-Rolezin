@@ -45,12 +45,36 @@
                     <param id="0" name="X">640</param>
                     <param id="1" name="Y">360</param>
                 </action>
+                <action id="0" name="Play" sid="298391561543595" type="Audio">
+                    <param id="0" name="Audio file">PubgGalera - Lucao 4x</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-16" name="Wait" sid="433257405285000" type="System">
-                    <param id="0" name="Seconds">1</param>
+                    <param id="0" name="Seconds">4</param>
                 </action>
                 <action id="-3" name="Set position" sid="398798241620672" type="PopupPubg">
                     <param id="0" name="X">640</param>
                     <param id="1" name="Y">-400</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="591801830124962">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="565478703504616" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="290888440145499" type="AVANÇAR">
+                    <param id="0" name="X">1396</param>
+                    <param id="1" name="Y">708</param>
+                </action>
+                <action id="-16" name="Wait" sid="426691716227455" type="System">
+                    <param id="0" name="Seconds">9</param>
+                </action>
+                <action id="-3" name="Set position" sid="698770418531531" type="AVANÇAR">
+                    <param id="0" name="X">1109</param>
+                    <param id="1" name="Y">568</param>
                 </action>
             </actions>
         </event-block>
