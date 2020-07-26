@@ -15,7 +15,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">Pergunta1</layout>
         <layout order="14">Tabuleiro7</layout>
         <layout order="15">Tabuleiro1</layout>
-        <layout order="16">Tabuleiro6</layout>
+        <layout active="1" order="16">Tabuleiro6</layout>
         <event-sheet order="1">PerguntaTodos</event-sheet>
         <event-sheet order="4">Pergunta1</event-sheet>
         <event-sheet order="5">Pergunta2</event-sheet>
@@ -25,7 +25,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="9">Tabuleiro4</event-sheet>
         <event-sheet order="10">Tabuleiro5</event-sheet>
         <event-sheet order="11">Tabuleiro6</event-sheet>
-        <event-sheet active="1" order="12">Tabuleiro7</event-sheet>
+        <event-sheet order="12">Tabuleiro7</event-sheet>
         <event-sheet order="13">Tabuleiro8</event-sheet>
     </open-tabs>
     <properties>

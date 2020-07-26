@@ -39,7 +39,7 @@
             </conditions>
             <actions>
                 <action id="-16" name="Wait" sid="780747373053831" type="System">
-                    <param id="0" name="Seconds">5</param>
+                    <param id="0" name="Seconds">3</param>
                 </action>
                 <action id="-3" name="Set position" sid="327401307753082" type="PopupPubg">
                     <param id="0" name="X">640</param>
