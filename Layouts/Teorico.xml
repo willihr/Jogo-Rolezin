@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>642.429260254</x>
-                        <y>481.928405762</y>
+                        <x>642.536071777</x>
+                        <y>501.560791016</y>
                         <z>0</z>
-                        <width>1658.992553711</width>
-                        <height>939.365234375</height>
+                        <width>1789.412963867</width>
+                        <height>1013.21270752</height>
                         <depth>0</depth>
                         <hotspotX>0.501805067</hotspotX>
                         <hotspotY>0.681081057</hotspotY>
@@ -66,7 +66,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>653</x>
-                        <y>653</y>
+                        <y>670</y>
                         <z>0</z>
                         <width>188.639038086</width>
                         <height>88.34992981</height>
@@ -99,7 +99,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite40" uid="462">
+                <instance type="TeoriaTexto" uid="462">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -110,10 +110,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>657</x>
-                        <y>322</y>
+                        <y>330</y>
                         <z>0</z>
-                        <width>942.085327148</width>
-                        <height>529.860656738</height>
+                        <width>1022.918945313</width>
+                        <height>575.32421875</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50047034</hotspotY>
