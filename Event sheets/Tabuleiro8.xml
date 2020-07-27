@@ -48,7 +48,7 @@
             </conditions>
             <actions>
                 <action id="9" name="Set scale" sid="485534242136330" type="IFTM">
-                    <param id="0" name="Scale">0.4+sin(tickcount*4)*0.03</param>
+                    <param id="0" name="Scale">0.5+sin(tickcount*4)*0.03</param>
                 </action>
             </actions>
         </event-block>

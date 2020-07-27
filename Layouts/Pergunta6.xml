@@ -372,7 +372,7 @@
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseInOutQuint</function>
-                                <target>702.19, 370.055</target>
+                                <target>1181, 299</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>3</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -382,8 +382,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1584</x>
-                        <y>385</y>
+                        <x>1619</x>
+                        <y>320</y>
                         <z>0</z>
                         <width>158.975891113</width>
                         <height>194.62071228</height>
@@ -407,7 +407,7 @@
                                 <active-on-start>No</active-on-start>
                                 <tweened-property>Position</tweened-property>
                                 <function>EaseInOutQuint</function>
-                                <target>648, 482</target>
+                                <target>1127, 411</target>
                                 <target-mode>Absolute</target-mode>
                                 <duration>3</duration>
                                 <enforce-mode>Enforce</enforce-mode>
@@ -417,8 +417,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1530</x>
-                        <y>497</y>
+                        <x>1565</x>
+                        <y>432</y>
                         <z>0</z>
                         <width>170.023910522</width>
                         <height>192.467056274</height>
