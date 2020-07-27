@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595864498,
+	"version": 1595866061,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -116,6 +116,9 @@
 		"images/popupmaria-sheet0.png",
 		"images/maycon-sheet0.png",
 		"images/maycon2-sheet0.png",
+		"images/sprite40-sheet0.png",
+		"images/sprite40-sheet1.png",
+		"images/sprite40-sheet2.png",
 		"media/vagabundoefoda.ogg",
 		"media/fazerocarai.ogg",
 		"media/manotue.ogg",
