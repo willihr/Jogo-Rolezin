@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595866061,
+	"version": 1595889187,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -116,9 +116,9 @@
 		"images/popupmaria-sheet0.png",
 		"images/maycon-sheet0.png",
 		"images/maycon2-sheet0.png",
-		"images/sprite40-sheet0.png",
-		"images/sprite40-sheet1.png",
-		"images/sprite40-sheet2.png",
+		"images/teoriatexto-sheet0.png",
+		"images/teoriatexto-sheet1.png",
+		"images/teoriatexto-sheet2.png",
 		"media/vagabundoefoda.ogg",
 		"media/fazerocarai.ogg",
 		"media/manotue.ogg",
@@ -138,16 +138,17 @@
 		"media/maycon.ogg",
 		"media/pubggalera - lucao.ogg",
 		"media/pubggalera - lucao 4x.ogg",
-		"media/pubgremix.ogg",
+		"media/mc-leléto-chacoalhando-_mp3cut.net_.ogg",
+		"media/trilharemix.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
-		"rolezincreditos7.0.mp4",
 		"telastart.mp4",
 		"animacaodado.mp4",
+		"rolezincreditos7.0.mp4",
 		"penumbra.png"
 	]
 }
