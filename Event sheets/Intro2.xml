@@ -8,9 +8,6 @@
                 <condition id="-2" name="On start of layout" sid="393425278835157" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Preload" sid="839598306475779" type="Audio">
-                    <param id="0" name="Audio file">BallBounce</param>
-                </action>
                 <action id="-3" name="Set position" sid="238033167892400" type="FigurinhaLucaoSeloSatisfação">
                     <param id="0" name="X">Self.X</param>
                     <param id="1" name="Y">Self.Y-1000</param>

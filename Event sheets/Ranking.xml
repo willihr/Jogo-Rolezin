@@ -14,7 +14,7 @@
                 </action>
                 <action id="0" name="Request URL" sid="984374453417088" type="AJAX">
                     <param id="0" name="Tag">&quot;Ranking&quot;</param>
-                    <param id="1" name="URL">&quot;https://safe-lowlands-46325.herokuapp.com/input?name=&quot; &amp; nome &amp; &quot;&amp;score=&quot; &amp; pontuacao &amp; &quot;&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; len(nome) * 3</param>
+                    <param id="1" name="URL">&quot;https://safe-lowlands-46325.herokuapp.com/input?name=&quot; &amp; nome &amp; &quot;&amp;score=&quot; &amp; pontuacao &amp; &quot;&amp;elapsed=&quot; &amp; int(time-startTime) &amp; &quot;&amp;antihackerfdp=&quot; &amp; str(pontuacao*69+69) &amp; len(nome) * 3</param>
                 </action>
             </actions>
         </event-block>

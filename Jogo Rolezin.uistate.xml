@@ -15,7 +15,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">Pergunta1</layout>
         <layout order="14">Tabuleiro7</layout>
         <layout order="15">Tabuleiro1</layout>
-        <layout active="1" order="16">Tabuleiro6</layout>
+        <layout order="16">Tabuleiro6</layout>
+        <layout order="17">Pergunta6</layout>
+        <layout order="22">Tabuleiro2</layout>
+        <layout order="23">PrePlay</layout>
+        <layout order="24">Nomes</layout>
         <event-sheet order="1">PerguntaTodos</event-sheet>
         <event-sheet order="4">Pergunta1</event-sheet>
         <event-sheet order="5">Pergunta2</event-sheet>
@@ -27,6 +31,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="11">Tabuleiro6</event-sheet>
         <event-sheet order="12">Tabuleiro7</event-sheet>
         <event-sheet order="13">Tabuleiro8</event-sheet>
+        <event-sheet order="18">Intro1</event-sheet>
+        <event-sheet order="19">TelaPlay</event-sheet>
+        <event-sheet order="20">Creditos</event-sheet>
+        <event-sheet order="21">Intro2</event-sheet>
+        <event-sheet order="25">Nomes</event-sheet>
+        <event-sheet order="26">TabuleiroTodos</event-sheet>
+        <event-sheet order="27">BotoesSelecionaveis</event-sheet>
+        <event-sheet order="28">PrePlay</event-sheet>
+        <event-sheet active="1" order="29">Ranking</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
