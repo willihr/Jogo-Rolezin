@@ -66,6 +66,25 @@
                     <param id="0" name="Frame number">direitoaDica</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="269986718438425">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="227752280296250" type="System">
+                            <param id="0" name="First value">random(2)</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="897423345116615" type="Audio">
+                            <param id="0" name="Audio file">PessoalPraSala-Fran</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
