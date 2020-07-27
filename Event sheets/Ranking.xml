@@ -23,7 +23,7 @@
                         <condition id="-14" name="Compare variable" sid="170362337068432" type="System">
                             <param id="0" name="Variable">pontuacao</param>
                             <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">236</param>
+                            <param id="2" name="Value">231</param>
                         </condition>
                     </conditions>
                     <actions>
