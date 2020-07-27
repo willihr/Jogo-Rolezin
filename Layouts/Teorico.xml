@@ -39,36 +39,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>642.323608398</x>
-                        <y>492.5</y>
+                        <x>642.429260254</x>
+                        <y>481.928405762</y>
                         <z>0</z>
-                        <width>1287.294555664</width>
-                        <height>728.900024414</height>
+                        <width>1658.992553711</width>
+                        <height>939.365234375</height>
                         <depth>0</depth>
                         <hotspotX>0.501805067</hotspotX>
                         <hotspotY>0.681081057</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Teorico2" uid="462">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>658.248413086</x>
-                        <y>368.685089111</y>
-                        <z>0</z>
-                        <width>672.754333496</width>
-                        <height>383.148986816</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500586152</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -119,6 +97,28 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>0</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite40" uid="462">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>657</x>
+                        <y>322</y>
+                        <z>0</z>
+                        <width>942.085327148</width>
+                        <height>529.860656738</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50047034</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

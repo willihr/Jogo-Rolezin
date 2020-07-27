@@ -1324,6 +1324,16 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite40" sid="324291781428544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567005837801592" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50047" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Teoria\teoria1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50047" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Teoria\teoria2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50047" original-source="D:\Windows 2020\Documents\IFTM\Matemática\App do Rolezin\Teoria\teoria3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
