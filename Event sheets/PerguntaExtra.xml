@@ -74,7 +74,7 @@
             </conditions>
             <actions>
                 <action id="-10" name="Add to" sid="370308073629354" type="System">
-                    <param id="0" name="Variable">direitoaDica</param>
+                    <param id="0" name="Variable">pontuacao</param>
                     <param id="1" name="Value">-50</param>
                 </action>
                 <action id="-15" name="Set visible" sid="524300292743637" type="ErrouGif">
