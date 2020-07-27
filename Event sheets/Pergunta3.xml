@@ -86,13 +86,49 @@
                         </action>
                         <action id="-9" name="Destroy" sid="515645362328859" type="Alternativas" />
                         <action id="-9" name="Destroy" sid="344006617785417" type="PedirAjuda" />
-                        <action id="-16" name="Wait" sid="572016449368713" type="System">
-                            <param id="0" name="Seconds">5</param>
-                        </action>
-                        <action id="-2" name="Go to layout" sid="151104985568246" type="System">
-                            <param id="0" name="Layout">Tabuleiro4</param>
-                        </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="671501176033804">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="904980501923011" type="System">
+                                    <param id="0" name="Variable">memesOn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="186728185256934" type="Audio">
+                                    <param id="0" name="Audio file">SeTaDoido.VozFina-Pdisousa</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="866414780989918" type="System">
+                                    <param id="0" name="Seconds">5</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="725726391353863" type="System">
+                                    <param id="0" name="Layout">Tabuleiro4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="994761597479647">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="238290330011494" type="System">
+                                    <param id="0" name="Variable">memesOn</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="848042128322000" type="System">
+                                    <param id="0" name="Seconds">5</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="330245994900758" type="System">
+                                    <param id="0" name="Layout">Tabuleiro4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block any="1" sid="996002339907545">
                     <conditions>
