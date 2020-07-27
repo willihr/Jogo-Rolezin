@@ -1498,7 +1498,7 @@
         <file name="MC-Leléto-Chacoalhando-_mp3cut.net_.ogg" />
     </sounds-folder>
     <music-folder>
-        <file name="PubgRemix.ogg" />
+        <file name="TrilhaRemix.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">
@@ -1508,9 +1508,9 @@
             <file name="icon-128.png" />
             <file name="icon-256.png" />
             <file name="loading-logo.png" />
-            <file name="RolezinCreditos7.0.mp4" />
         </file-folder>
         <file name="TelaStart.mp4" />
         <file name="AnimacaoDado.mp4" />
+        <file name="RolezinCreditos7.0.mp4" />
     </files-folder>
 </c2project>

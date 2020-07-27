@@ -29,7 +29,7 @@
                     <param id="0" name="Reverse mode">0</param>
                 </action>
                 <action id="-16" name="Wait" sid="642463921372283" type="System">
-                    <param id="0" name="Seconds">4</param>
+                    <param id="0" name="Seconds">3.5</param>
                 </action>
                 <action id="-15" name="Set visible" sid="209442084605373" type="Creditos">
                     <param id="0" name="Visibility">1</param>

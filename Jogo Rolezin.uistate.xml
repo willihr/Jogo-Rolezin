@@ -10,24 +10,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">AnimaçãoDado</layout>
-        <layout order="5">Ranking</layout>
-        <layout order="6">Teorico</layout>
-        <layout order="7">Intro2</layout>
-        <layout order="9">Creditos</layout>
-        <layout active="1" order="15">Tabuleiro7</layout>
-        <layout order="16">PerguntaExtra</layout>
-        <layout order="17">Tabuleiro8</layout>
-        <event-sheet order="0">PerguntaExtra</event-sheet>
-        <event-sheet order="2">AnimaçãoDado</event-sheet>
-        <event-sheet order="3">Pergunta2</event-sheet>
-        <event-sheet order="4">Ranking</event-sheet>
-        <event-sheet order="8">Teorico</event-sheet>
-        <event-sheet order="10">Creditos</event-sheet>
-        <event-sheet order="11">Tabuleiro8</event-sheet>
-        <event-sheet order="12">Tabuleiro7</event-sheet>
-        <event-sheet order="13">Tabuleiro6</event-sheet>
-        <event-sheet order="14">Nomes</event-sheet>
+        <layout order="0">Creditos</layout>
+        <layout order="2">Ranking</layout>
+        <layout order="4">Tabuleiro6</layout>
+        <layout order="9">Tabuleiro8</layout>
+        <layout order="10">Pergunta2</layout>
+        <layout order="12">PerguntaExtra</layout>
+        <layout order="15">AnimaçãoDado</layout>
+        <event-sheet order="1">Creditos</event-sheet>
+        <event-sheet order="3">Ranking</event-sheet>
+        <event-sheet order="5">Tabuleiro6</event-sheet>
+        <event-sheet order="6">Tabuleiro7</event-sheet>
+        <event-sheet order="7">Tabuleiro5</event-sheet>
+        <event-sheet order="8">Tabuleiro8</event-sheet>
+        <event-sheet order="11">PerguntaExtra</event-sheet>
+        <event-sheet order="13">Pergunta7</event-sheet>
+        <event-sheet order="14">Pergunta6</event-sheet>
+        <event-sheet active="1" order="16">TelaPlay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -42,18 +41,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Perguntas/" />
+        <folder expanded="1" path="layout-folder/Perguntas/" />
         <folder expanded="1" path="layout-folder/Tabuleiros/" />
         <folder expanded="0" path="layout-folder/TelaDePlay/" />
-        <folder expanded="0" path="layout-folder/Nomes e Ranking/" />
+        <folder expanded="1" path="layout-folder/Nomes e Ranking/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Tabuleiros/" />
+        <folder expanded="1" path="event-folder/Tabuleiros/" />
         <folder expanded="1" path="event-folder/Perguntas/" />
-        <folder expanded="0" path="event-folder/TelaDePlay/" />
-        <folder expanded="0" path="event-folder/Nomes e Ranking/" />
+        <folder expanded="1" path="event-folder/TelaDePlay/" />
+        <folder expanded="1" path="event-folder/Nomes e Ranking/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
-        <folder expanded="0" path="music-folder/" />
+        <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/FigurinhaLucaoSeloSatisfação/" />
         <folder expanded="1" path="animation-folder/FundoPreto/" />
