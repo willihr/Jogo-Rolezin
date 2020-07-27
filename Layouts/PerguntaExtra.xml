@@ -242,7 +242,7 @@
             <instances>
                 <instance type="Text2" uid="623">
                     <properties>
-                        <text>ROLEZIN</text>
+                        <text>ROLEZYN</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-64,700,1</font>
                         <color>0,0,0</color>
@@ -296,7 +296,7 @@
                 </instance>
                 <instance type="Text2" uid="625">
                     <properties>
-                        <text>ROLEZIN</text>
+                        <text>ROLEZÃO </text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-64,700,1</font>
                         <color>0,0,0</color>
@@ -312,7 +312,7 @@
                         <x>796</x>
                         <y>586</y>
                         <z>0</z>
-                        <width>341</width>
+                        <width>384</width>
                         <height>92</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -323,9 +323,9 @@
                 </instance>
                 <instance type="Text3" uid="626">
                     <properties>
-                        <text>Todas as Anteriores</text>
+                        <text>ROLEZIM</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-48,700,1</font>
+                        <font>Arial,-64,700,1</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -336,11 +336,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>93</x>
-                        <y>589</y>
+                        <x>150</x>
+                        <y>585</y>
                         <z>0</z>
-                        <width>480</width>
-                        <height>71</height>
+                        <width>512</width>
+                        <height>109</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
