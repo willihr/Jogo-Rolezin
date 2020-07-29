@@ -20,6 +20,8 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="982615900170912" type="Alternativas" />
+                <action id="-9" name="Destroy" sid="138485870011692" type="Rolezim" />
+                <action id="-9" name="Destroy" sid="741191722598443" type="Rolezyn" />
                 <action id="0" name="Play" sid="427285565193461" type="Audio">
                     <param id="0" name="Audio file">AoSeTaDoido - Diogo</param>
                     <param id="2" name="Loop">0</param>
@@ -34,7 +36,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="160847598775303">
+        <event-block any="1" sid="160847598775303">
             <conditions>
                 <condition id="3" name="On touched object" sid="961270073979992" type="Touch">
                     <param id="0" name="Object">RESPOSTAEXTRA1</param>
@@ -52,6 +54,8 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="775647467331749" type="Alternativas" />
+                <action id="-9" name="Destroy" sid="779780064541092" type="Rolezim" />
+                <action id="-9" name="Destroy" sid="274871697328578" type="Rolezyn" />
                 <action id="0" name="Play" sid="822833758463826" type="Audio">
                     <param id="0" name="Audio file">AoSeTaDoido - Diogo</param>
                     <param id="2" name="Loop">0</param>
@@ -81,6 +85,8 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action id="-9" name="Destroy" sid="812215467726457" type="Alternativas" />
+                <action id="-9" name="Destroy" sid="511941413656030" type="Rolezim" />
+                <action id="-9" name="Destroy" sid="107667225311003" type="Rolezyn" />
                 <action id="0" name="Play" sid="701995540974892" type="Audio">
                     <param id="0" name="Audio file">VacaiNao</param>
                     <param id="2" name="Loop">0</param>
