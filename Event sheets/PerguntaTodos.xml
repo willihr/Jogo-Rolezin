@@ -60,6 +60,10 @@
                 <condition id="-2" name="On start of layout" sid="103218837729381" type="System" />
             </conditions>
             <actions>
+                <action id="-7" name="Set size" sid="631306587371009" type="Resposta3">
+                    <param id="0" name="Width">self.originalWidth</param>
+                    <param id="1" name="Height">self.originalHeight</param>
+                </action>
                 <action id="0" name="Set text" sid="956413149535381" type="PontuacaoQuestao">
                     <param id="0" name="Text">pontuacao</param>
                 </action>
