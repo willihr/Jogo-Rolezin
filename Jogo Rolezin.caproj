@@ -1207,10 +1207,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text2" sid="404867081592773">
+        <object-type name="Rolezyn" sid="404867081592773">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Text3" sid="236949759203179">
+        <object-type name="Rolezim" sid="236949759203179">
             <plugin id="Text" />
         </object-type>
         <object-type name="Sprite37" sid="542270693384323">
