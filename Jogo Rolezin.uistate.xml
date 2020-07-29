@@ -12,11 +12,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Creditos</layout>
         <layout order="2">Ranking</layout>
-        <layout order="6">PerguntaExtra</layout>
+        <layout order="4">Tabuleiro6</layout>
+        <layout order="9">Tabuleiro8</layout>
+        <layout order="10">Pergunta2</layout>
+        <layout order="12">PerguntaExtra</layout>
+        <layout order="15">AnimaçãoDado</layout>
         <event-sheet order="1">Creditos</event-sheet>
         <event-sheet order="3">Ranking</event-sheet>
-        <event-sheet order="4">PerguntaTodos</event-sheet>
-        <event-sheet active="1" order="5">PerguntaExtra</event-sheet>
+        <event-sheet order="5">Tabuleiro6</event-sheet>
+        <event-sheet order="6">Tabuleiro7</event-sheet>
+        <event-sheet order="7">Tabuleiro5</event-sheet>
+        <event-sheet order="8">Tabuleiro8</event-sheet>
+        <event-sheet order="11">PerguntaExtra</event-sheet>
+        <event-sheet order="13">Pergunta7</event-sheet>
+        <event-sheet order="14">Pergunta6</event-sheet>
+        <event-sheet active="1" order="16">TelaPlay</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,15 +41,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Perguntas/" />
-        <folder expanded="0" path="layout-folder/Tabuleiros/" />
+        <folder expanded="1" path="layout-folder/Perguntas/" />
+        <folder expanded="1" path="layout-folder/Tabuleiros/" />
         <folder expanded="0" path="layout-folder/TelaDePlay/" />
-        <folder expanded="0" path="layout-folder/Nomes e Ranking/" />
+        <folder expanded="1" path="layout-folder/Nomes e Ranking/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="event-folder/Tabuleiros/" />
-        <folder expanded="0" path="event-folder/Perguntas/" />
-        <folder expanded="0" path="event-folder/TelaDePlay/" />
-        <folder expanded="0" path="event-folder/Nomes e Ranking/" />
+        <folder expanded="1" path="event-folder/Tabuleiros/" />
+        <folder expanded="1" path="event-folder/Perguntas/" />
+        <folder expanded="1" path="event-folder/TelaDePlay/" />
+        <folder expanded="1" path="event-folder/Nomes e Ranking/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
