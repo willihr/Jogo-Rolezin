@@ -58,7 +58,7 @@
                 </instance>
                 <instance type="Text2" uid="642">
                     <properties>
-                        <text>V0.26</text>
+                        <text>V0.27</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
