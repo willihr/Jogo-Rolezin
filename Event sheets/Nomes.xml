@@ -30,6 +30,11 @@
                 <condition id="3" name="On touched object" sid="308023912044004" type="Touch">
                     <param id="0" name="Object">OK</param>
                 </condition>
+                <condition id="-8" name="Compare two values" sid="577952062268633" type="System">
+                    <param id="0" name="First value">len(Nomes.Text)</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="744574775433072" type="System">
