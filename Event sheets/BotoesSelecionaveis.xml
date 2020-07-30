@@ -30,6 +30,9 @@
                     <param id="0" name="Width">self.originalWidth*1.1</param>
                     <param id="1" name="Height">self.originalHeight*1.1</param>
                 </action>
+                <action id="0" name="Set cursor style" sid="863816448036401" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="714607303756509">
@@ -43,6 +46,9 @@
                 <action id="-7" name="Set size" sid="146835022450348" type="Selecionaveis">
                     <param id="0" name="Width">self.originalWidth</param>
                     <param id="1" name="Height">self.originalHeight</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="449201480780419" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
                 </action>
             </actions>
         </event-block>

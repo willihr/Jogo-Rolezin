@@ -31,7 +31,7 @@
             <instances>
                 <instance type="PrePlay" uid="67">
                     <properties>
-                        <text>Toque aqui para habilitar o áudio</text>
+                        <text>Toque aqui para iniciar</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-96,400,0</font>
                         <color>255,255,255</color>
@@ -52,6 +52,33 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text2" uid="642">
+                    <properties>
+                        <text>V1.85</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8</x>
+                        <y>679</y>
+                        <z>0</z>
+                        <width>65</width>
+                        <height>33</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -13,6 +13,7 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="984758591656657" type="PedirAjuda" />
+                <action id="-9" name="Destroy" sid="472510696855989" type="Alternativas" />
                 <action id="-10" name="Add to" sid="679838170194046" type="System">
                     <param id="0" name="Variable">pontuacao</param>
                     <param id="1" name="Value">-5</param>

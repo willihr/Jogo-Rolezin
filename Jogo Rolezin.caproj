@@ -1334,6 +1334,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text2" sid="118776136017883">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
