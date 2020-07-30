@@ -150,7 +150,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>789.084594727</x>
+                        <x>790.084594727</x>
                         <y>603.084594727</y>
                         <z>0</z>
                         <width>165.515808105</width>
@@ -172,7 +172,7 @@
                         <read-only>No</read-only>
                         <spell-check>No</spell-check>
                         <type>Text</type>
-                        <auto-font-size>Yes</auto-font-size>
+                        <auto-font-size>No</auto-font-size>
                         <id-optional></id-optional>
                     </properties>
                     <blend-mode>0</blend-mode>
