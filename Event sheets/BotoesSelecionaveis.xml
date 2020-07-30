@@ -23,6 +23,9 @@
                 <condition id="7" name="Cursor is over object" sid="618274258610129" type="Mouse">
                     <param id="0" name="Object">Selecionaveis</param>
                 </condition>
+                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="528374125824793" type="Resposta3">
+                    <param id="0" name="Instance variable">disableHover</param>
+                </condition>
                 <condition id="-4" name="Trigger once while true" sid="818787986592544" type="System" />
             </conditions>
             <actions>

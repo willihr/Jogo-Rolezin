@@ -61,10 +61,6 @@
                 <condition id="-2" name="On start of layout" sid="103218837729381" type="System" />
             </conditions>
             <actions>
-                <action id="-7" name="Set size" sid="631306587371009" type="Resposta3">
-                    <param id="0" name="Width">self.originalWidth</param>
-                    <param id="1" name="Height">self.originalHeight</param>
-                </action>
                 <action id="0" name="Set text" sid="956413149535381" type="PontuacaoQuestao">
                     <param id="0" name="Text">pontuacao</param>
                 </action>
@@ -92,6 +88,22 @@
                     <param id="1" name="Force use current">1</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="868473175080557">
+                    <conditions>
+                        <condition id="-5" name="Compare width" sid="576833541972793" type="Resposta3">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Width">self.originalWidth</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="220205159825712" type="Resposta3">
+                            <param id="0" name="Instance variable">disableHover</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

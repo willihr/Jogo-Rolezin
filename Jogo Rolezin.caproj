@@ -376,6 +376,9 @@
         </object-type>
         <object-type name="Resposta3" sid="631243700781566">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="disableHover" sid="509642716921703" type="boolean" />
+            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316956529822563" speed="5">
                     <frame duration="1" hotspotX="0.500711" hotspotY="0.5" />
