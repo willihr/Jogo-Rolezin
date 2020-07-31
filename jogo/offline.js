@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1596204401,
+	"version": 1596206834,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -119,6 +119,7 @@
 		"images/teoriatexto-sheet0.png",
 		"images/teoriatexto-sheet1.png",
 		"images/teoriatexto-sheet2.png",
+		"images/volume-sheet0.png",
 		"media/vagabundoefoda.ogg",
 		"media/fazerocarai.ogg",
 		"media/manotue.ogg",
