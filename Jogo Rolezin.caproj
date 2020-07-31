@@ -2,7 +2,7 @@
 <c2project>
     <name>Jogo Rolezin</name>
     <description>Jogo do Rolezin feito pelo Rolezin</description>
-    <version>1.0.0.0</version>
+    <version>1.28</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
@@ -1334,7 +1334,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text2" sid="118776136017883">
+        <object-type name="Versão" sid="118776136017883">
             <plugin id="Text" />
         </object-type>
     </object-folder>

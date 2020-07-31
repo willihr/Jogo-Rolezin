@@ -56,9 +56,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text2" uid="642">
+                <instance type="Versão" uid="642">
                     <properties>
-                        <text>V0.27</text>
+                        <text>V</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
                         <color>255,255,255</color>
@@ -71,8 +71,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8</x>
-                        <y>679</y>
+                        <x>19</x>
+                        <y>672</y>
                         <z>0</z>
                         <width>65</width>
                         <height>33</height>

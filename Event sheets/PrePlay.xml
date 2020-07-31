@@ -3,6 +3,16 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>PrePlay</name>
     <events>
+        <event-block sid="376021493276330">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="603801019942359" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="874196606555332" type="Versão">
+                    <param id="0" name="Text">&quot;V&quot; &amp; projectversion</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="848379470519677">
             <conditions>
                 <condition id="14" name="On tap" sid="220801821288680" type="Touch" />
