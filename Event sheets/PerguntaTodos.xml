@@ -7,7 +7,7 @@
         <event-group description="" sid="236615145307421" title="Ajuda" />
         <event-block any="1" sid="683400351286282">
             <conditions>
-                <condition id="17" name="On tap object" sid="280048460335061" type="Touch">
+                <condition id="3" name="On touched object" sid="280048460335061" type="Touch">
                     <param id="0" name="Object">PedirAjuda</param>
                 </condition>
             </conditions>
@@ -92,6 +92,71 @@
                     <param id="1" name="Force use current">1</param>
                 </action>
             </actions>
+        </event-block>
+        <event-group description="" sid="505183805901310" title="Volume" />
+        <event-block sid="293034201059590">
+            <conditions>
+                <condition id="3" name="On touched object" sid="659179715604330" type="Touch">
+                    <param id="0" name="Object">Volume</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="832431171462300" type="System">
+                    <param id="0" name="Variable">volume</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="847574893279723">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="286612268602170" type="System">
+                            <param id="0" name="Variable">volume</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="413803280435398" type="Audio">
+                            <param id="0" name="Tag">&quot;TrilhaRemix&quot;</param>
+                            <param id="1" name="dB">-50</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="890742776698307">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="519528860418967" type="System">
+                            <param id="0" name="Variable">volume</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="937529155021071" type="Audio">
+                            <param id="0" name="Tag">&quot;TrilhaRemix&quot;</param>
+                            <param id="1" name="dB">-15</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="615121398742334">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="133071972220961" type="System">
+                            <param id="0" name="Variable">volume</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="582207615204958" type="Audio">
+                            <param id="0" name="Tag">&quot;TrilhaRemix&quot;</param>
+                            <param id="1" name="dB">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="163123174853663" type="System">
+                            <param id="0" name="Variable">volume</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

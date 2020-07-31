@@ -2,7 +2,7 @@
 <c2project>
     <name>Jogo Rolezin</name>
     <description>Jogo do Rolezin feito pelo Rolezin</description>
-    <version>1.28</version>
+    <version>1.29</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
@@ -1337,6 +1337,25 @@
         <object-type name="Versão" sid="118776136017883">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Volume" sid="634303032502295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="656546808149574" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Willian\Downloads\circle+music+sound+speaker+volume+icon-1320196704838854001.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Selecionaveis" plugin-id="Sprite" sid="461717423073882">
@@ -1358,6 +1377,7 @@
                 <member>RESPOSTAEXTRA2</member>
                 <member>RESPOSTAEXTRA3</member>
                 <member>RESPOSTAEXTRA4</member>
+                <member>Volume</member>
             </members>
             <instance-variables>
                 <instance-variable name="originalWidth" sid="331038975663222" type="number" />

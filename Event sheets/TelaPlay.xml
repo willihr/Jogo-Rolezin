@@ -7,6 +7,7 @@
         <variable constant="0" name="pontuacao" sid="422068034231509" static="0" type="number">0</variable>
         <variable constant="0" name="perguntaAtual" sid="273854629105259" static="0" type="number">0</variable>
         <variable constant="0" name="direitoaDica" sid="319505577860376" static="0" type="number">-1</variable>
+        <variable constant="0" name="volume" sid="257671277519212" static="0" type="number">1</variable>
         <include>BotoesSelecionaveis</include>
         <event-block sid="547898131648077">
             <conditions>
@@ -32,7 +33,7 @@
                     <param id="0" name="Audio file">TrilhaRemix</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">-15</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;TrilhaRemix&quot;</param>
                 </action>
             </actions>
         </event-block>
