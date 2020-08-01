@@ -18,39 +18,47 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="601598802173747">
+        <event-block sid="592545048517284">
             <conditions>
-                <condition id="7" name="Cursor is over object" sid="618274258610129" type="Mouse">
-                    <param id="0" name="Object">Selecionaveis</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="818787986592544" type="System" />
+                <condition id="-20" inverted="1" name="Is on mobile device" sid="762829744292725" type="System" />
             </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="143989165560242" type="Selecionaveis">
-                    <param id="0" name="Width">self.originalWidth*1.1</param>
-                    <param id="1" name="Height">self.originalHeight*1.1</param>
-                </action>
-                <action id="0" name="Set cursor style" sid="863816448036401" type="Mouse">
-                    <param id="0" name="Cursor style">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="714607303756509">
-            <conditions>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="131347609965740" type="Mouse">
-                    <param id="0" name="Object">Selecionaveis</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="587898199276699" type="System" />
-            </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="146835022450348" type="Selecionaveis">
-                    <param id="0" name="Width">self.originalWidth</param>
-                    <param id="1" name="Height">self.originalHeight</param>
-                </action>
-                <action id="0" name="Set cursor style" sid="449201480780419" type="Mouse">
-                    <param id="0" name="Cursor style">0</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="601598802173747">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="618274258610129" type="Mouse">
+                            <param id="0" name="Object">Selecionaveis</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="818787986592544" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="143989165560242" type="Selecionaveis">
+                            <param id="0" name="Width">self.originalWidth*1.1</param>
+                            <param id="1" name="Height">self.originalHeight*1.1</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="863816448036401" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="714607303756509">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="131347609965740" type="Mouse">
+                            <param id="0" name="Object">Selecionaveis</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="587898199276699" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="146835022450348" type="Selecionaveis">
+                            <param id="0" name="Width">self.originalWidth</param>
+                            <param id="1" name="Height">self.originalHeight</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="449201480780419" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="425171789507370">
             <conditions>

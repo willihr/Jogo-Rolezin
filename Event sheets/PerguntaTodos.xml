@@ -61,10 +61,6 @@
                 <condition id="-2" name="On start of layout" sid="103218837729381" type="System" />
             </conditions>
             <actions>
-                <action id="-7" name="Set size" sid="631306587371009" type="Resposta3">
-                    <param id="0" name="Width">self.originalWidth</param>
-                    <param id="1" name="Height">self.originalHeight</param>
-                </action>
                 <action id="0" name="Set text" sid="956413149535381" type="PontuacaoQuestao">
                     <param id="0" name="Text">pontuacao</param>
                 </action>
@@ -101,6 +97,14 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="22" name="Set paused" sid="145829238540603" type="Audio">
+                    <param id="0" name="Tag">&quot;TrilhaRemix&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="22" name="Set paused" sid="713786978080818" type="Audio">
+                    <param id="0" name="Tag">&quot;TrilhaRemix&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
                 <action id="-10" name="Add to" sid="832431171462300" type="System">
                     <param id="0" name="Variable">volume</param>
                     <param id="1" name="Value">1</param>
